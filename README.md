@@ -22,6 +22,6 @@ L'édition s'appui sur trois témoins divers :
 ## Structure du repository
 
 Ce dossier contient un ensemble de 4 fichiers :
--Le fichier xml de l'édition
--La documentation ODD au format XML et HTML
--Le schéma RELAX RNG présent au sein du dossier `out/`
+- Le fichier xml de l'édition
+- La documentation ODD au format XML et HTML
+- Le schéma RELAX RNG présent au sein du dossier `out/`
