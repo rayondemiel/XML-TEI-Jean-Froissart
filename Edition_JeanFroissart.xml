@@ -881,6 +881,9 @@
           </person>
           <listPerson type="region" xml:id="Flamands">
             <head>Région Flamande</head>
+            <personGrp xml:id="flamand">
+              <name>Habitants de Flandres</name>
+            </personGrp>
             <listPerson type="citadins" xml:id="secteur">
               <head>Gentilé</head>
               <personGrp xml:id="brugeois">
@@ -1436,14 +1439,14 @@
             <rdg wit="#Pa" type="orthographic">de</rdg>
           </app>
           <app>
-            <lem wit="#NY"><persName ref="#Papauté">pappe,</persName></lem>
-            <rdg wit="#Cou" type="orthographic"><persName ref="#Papauté">pape,</persName></rdg>
+            <lem wit="#NY"><persName ref="#JeanXXII">pappe,</persName></lem>
+            <rdg wit="#Cou" type="orthographic"><persName ref="#JeanXXII">pape,</persName></rdg>
             <rdg wit="#Pa"/>
           </app>
           nostre Saint Pere
           <app>
             <lem wit="#Cou #NY"/>
-            <rdg wit="#Pa">le <persName ref="#Papauté">pape</persName></rdg>
+            <rdg wit="#Pa">le <persName ref="#JeanXXII">pape</persName></rdg>
           </app>
           , qui
           <app>
@@ -1861,7 +1864,7 @@
           </app>
           ordonner
           <app>
-            <lem wit="#Cou #NY">, et donnassent le <persName ref="#France">royaume</persName> a</lem>
+            <lem wit="#Cou #NY">, et donnassent le <placeName ref="#France">royaume</placeName> a</lem>
             <rdg wit="#Pa" type="substantive">et le donassent acellui</rdg>
           </app>
           <app>
@@ -2325,7 +2328,8 @@
               <rdg wit="#Pa">guerroier</rdg>
             </rdgGrp>
           </app>
-          les <persName ref="#Flamands">Flamens</persName>,qui
+          les <persName ref="#flamand">Flamens</persName>
+          ,qui
           <app>
             <lem wit="#NY">la</lem>
             <rdgGrp type="substantive">
@@ -2474,8 +2478,8 @@
           <app>
             <lem wit="#NY"/>
             <rdgGrp type="substantive">
-              <rdg wit="#Cou">XVI M hommes <persName ref="#Flamands">flamens,</persName></rdg>
-              <rdg wit="#Pa">XM <persName ref="#Flamands">Flamens</persName></rdg>
+              <rdg wit="#Cou">XVI M hommes <persName ref="#flamand">flamens,</persName></rdg>
+              <rdg wit="#Pa">XM <persName ref="#flamand">Flamens</persName></rdg>
             </rdgGrp>
           </app>
           <app>
@@ -2529,8 +2533,8 @@
           <app>
             <lem wit="#NY"/>
             <rdgGrp type="substantive">
-              <rdg wit="#Cou">li dessus dit <persName ref="#Flamands">Flamenc</persName> fait</rdg>
-              <rdg wit="#Pa">les diz <persName ref="#Flamands">Flamens</persName> faite</rdg>
+              <rdg wit="#Cou">li dessus dit <persName ref="#flamand">Flamenc</persName> fait</rdg>
+              <rdg wit="#Pa">les diz <persName ref="#flamand">Flamens</persName> faite</rdg>
             </rdgGrp>
           </app>
           <app>
@@ -2541,7 +2545,7 @@
             <lem wit="#NY"/>
             <rdgGrp type="substantive">
               <rdg wit="#Cou">le ville de <placeName ref="#Cassel">Cassel</placeName>,</rdg>
-              <rdg wit="#Pa"><persName ref="#Cassel">Cassel</persName></rdg>
+              <rdg wit="#Pa"><placeName ref="#Cassel">Cassel</placeName></rdg>
             </rdgGrp>
           </app>
           <app>
@@ -2565,7 +2569,7 @@
           </app>
           <app>
             <lem wit="#Cou #NY"/>
-            <rdg wit="#Pa" type="substantive">Et vous diray comment <pb n="29r"/>ces <persName ref="#Flamands">Flamens</persName> furent desconfiz par leur oultraige.</rdg>
+            <rdg wit="#Pa" type="substantive">Et vous diray comment <pb n="29r"/>ces <persName ref="#flamand">Flamens</persName> furent desconfiz par leur oultraige.</rdg>
           </app>
         </p>
         <figure facs="enluminure" corresp="#NY">
@@ -2577,11 +2581,11 @@
         <head type="titre">
           <app>
             <lem wit="#NY #Cou"/>
-            <rdg wit="#Pa" type="substantive">Comment les <persName ref="#Flamands">Flamens</persName> furent desconfis par nuit en trois diverses batailles. XXXVI.</rdg>
+            <rdg wit="#Pa" type="substantive">Comment les <persName ref="#flamand">Flamens</persName> furent desconfis par nuit en trois diverses batailles. XXXVI.</rdg>
           </app>
           <app>
             <lem wit="#NY #Pa"/>
-            <rdg wit="#Cou" type="substantive">Cy parle de la <placeName ref="#Cassel">bataille de <choice><orig>Casse</orig><reg>Cassel</reg></choice> en Flandre</placeName>. Et vous diray comment <persName ref="#Flamands">chil de Flandres</persName> furent desconfit et tout par leur oultrage. </rdg>
+            <rdg wit="#Cou" type="substantive">Cy parle de la <placeName ref="#Cassel">bataille de <choice><orig>Casse</orig><reg>Cassel</reg></choice> en Flandre</placeName>. Et vous diray comment <persName ref="#flamand">chil de Flandres</persName> furent desconfit et tout par leur oultrage. </rdg>
           </app>
         </head>
         <p n="2">
@@ -2969,7 +2973,7 @@
             <rdg wit="#Cou" type="orthographic">XVI mille</rdg>
             <rdg wit="#Pa"/>
           </app>
-          <persName ref="#Flamands">Flamens</persName>
+          <persName ref="#flamand">Flamens</persName>
           <app>
             <lem wit="#Cou #NY"/>
             <rdg wit="#Pa" type="substantive">il</rdg>
@@ -3037,7 +3041,7 @@
             <lem wit="#Pa #NY">de XVM</lem>
             <rdg wit="#Cou" type="orthographic">des XV mille</rdg>
           </app>
-          <persName ref="#Flamands">Flamens</persName> qui
+          <persName ref="#flamand">Flamens</persName> qui
           <app>
             <lem wit="#Cou #NY">mors y</lem>
             <rdg wit="#Pa" type="substantive">la furent</rdg>
@@ -3163,13 +3167,13 @@
             <lem wit="#Cou #NY">Adont</lem>
             <rdg wit="#Pa" type="substantive"><lb/> <hi rend="initial">L</hi>ors</rdg>
           </app>
-          aprés <placeName ref="Cassel">ceste desconfiture</placeName>
+          aprés <placeName ref="#Cassel">ceste desconfiture</placeName>
           <app>
             <lem wit="#Pa #NY">vindrent les</lem>
             <rdg wit="#Cou" type="orthographic">vinrent li</rdg>
           </app>
           <app>
-            <lem wit="#NY"><persName ref="#Flamands">Flamens</persName></lem>
+            <lem wit="#NY"><persName ref="#flamand">Flamens</persName></lem>
             <rdg wit="#Cou #Pa" type="substantive"><persName ref="#ArméeFr"></persName>François</rdg>
           </app>
           a <placeName ref="#Cassel">Cassel</placeName> et y
@@ -3370,7 +3374,7 @@
             <rdg wit="#Pa"/>
           </app>
           <app>
-            <lem wit="#Cou #NY">les <persName ref="#Flamands">Flamens</persName></lem>
+            <lem wit="#Cou #NY">les <persName ref="#flamand">Flamens</persName></lem>
             <rdg wit="#Pa"/>
           </app>
           et

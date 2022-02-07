@@ -1225,6 +1225,16 @@
                            </valItem>
                         </valList>
                      </attDef>
+                     <attDef ident="next" mode="change">
+                        <datatype>
+                           <dataRef key="teidata.pointer"/>
+                        </datatype>
+                     </attDef>
+                     <attDef ident="prev" mode="change">
+                        <datatype>
+                           <dataRef key="teidata.pointer"/>
+                        </datatype>
+                     </attDef>
                   </attList>
                </elementSpec>
                <elementSpec ident="surname" mode="change">
@@ -1274,7 +1284,7 @@
                   <desc xml:lang="fr">En fonction d'une génération ou d'une dynastie, indiqué par l'usage de chiffres romains</desc>
                   <constraintSpec ident="genName" scheme="schematron">
                      <constraint>
-                        <s:rule context="tei:genName/text()">
+                        <s:rule context="tei:genName">
                            <s:assert test="matches(.,'(I|V|X){1,6}')">Le contenu doit être écrit en chiffres romains (I, V, X).</s:assert> <!-- bug -->
                         </s:rule>
                      </constraint>
@@ -1350,6 +1360,14 @@
                <elementSpec ident="placeName" mode="change"> <!-- modification -->
                   <gloss>Nom de lieu</gloss>
                   <desc xml:lang="fr">Indique la présence d'un lieu dans le <gi>body</gi> et référencé dans l'index. Au sein du <gi>teiHeader</gi>, cette élement indique sa dénomination contemporaine ou au sein de l'édition</desc>
+                  <constraintSpec scheme="schematron" ident="refVal">
+                     <constraint>
+                        <s:rule context="tei:placeName[@ref and ancestor::tei:body]">
+                           <s:let name="ref" value="@ref"/>
+                           <s:assert test="//tei:place[@xml:id = substring-after($ref, '#')] and starts-with($ref, '#')"> La valeur de @ref n'a pas été déclaré |<s:value-of select="$ref"/>| </s:assert>
+                        </s:rule>
+                     </constraint>
+                  </constraintSpec>
                   <attList>
                      <attDef ident="when" mode="delete"/>
                      <attDef ident="notBefore" mode="delete"/>
@@ -1373,6 +1391,16 @@
                            <valItem ident="contemporary-name"/>
                            <valItem ident="text-name"/>
                         </valList>
+                     </attDef>
+                     <attDef ident="next" mode="change">
+                        <datatype>
+                           <dataRef key="teidata.pointer"/>
+                        </datatype>
+                     </attDef>
+                     <attDef ident="prev" mode="change">
+                        <datatype>
+                           <dataRef key="teidata.pointer"/>
+                        </datatype>
                      </attDef>
                   </attList>
                </elementSpec>
@@ -1611,6 +1639,10 @@
                         </s:rule>
                         <s:rule context="tei:person/persName[@type][2]">
                            <s:assert test="matches(@type,'text-name')">La valeur de type doit être obligatoirement être "text-name" permettant de recenser les différentes appellations de la personne évoquée.</s:assert>
+                        </s:rule>
+                        <s:rule context="tei:persName[@ref and ancestor::tei:body]">
+                           <s:let name="ref" value="@ref"/>
+                           <s:assert test="//tei:person[@xml:id = substring-after($ref, '#')] and starts-with($ref, '#') or //tei:personGrp[@xml:id = substring-after($ref, '#')] and starts-with($ref, '#')" > la valeur @ref n'a pas été déclaré |<s:value-of select="$ref"/>|</s:assert>
                         </s:rule>
                      </constraint>
                   </constraintSpec>
@@ -2258,8 +2290,8 @@
                <elementSpec ident="p" mode="change"> <!-- modification -->
                   <constraintSpec ident="nVal" scheme="schematron">
                      <constraint>
-                        <s:rule context="tei:div/p[@n]">
-                           <s:assert test="number(@n) = number(preceding-sibling::tei:div/p[1]/@n) + 1"> La valeur doit être "contemporary-name" afin de renseigner la dénomination actuelle.</s:assert> <!-- bug -->
+                        <s:rule context="tei:p[@n and ancestor::tei:div]">
+                           <s:assert test="number(@n) = number(preceding-sibling::tei:p[1]/@n) + 1 or count(preceding-sibling::tei:p[1]/@n) = 0">La valeur de @n est erronée</s:assert>
                         </s:rule>
                      </constraint>
                   </constraintSpec>
@@ -2511,8 +2543,16 @@
                      <attDef ident="unit" mode="delete"/>
                      <attDef ident="quantity" mode="delete"/>
                      <attDef ident="type" mode="delete"/>
-                     <attDef ident="next" mode="change"/>
-                     <attDef ident="prev" mode="change"/>
+                     <attDef ident="next" mode="change">
+                        <datatype>
+                           <dataRef key="teidata.pointer"/>
+                        </datatype>
+                     </attDef>
+                     <attDef ident="prev" mode="change">
+                        <datatype>
+                           <dataRef key="teidata.pointer"/>
+                        </datatype>
+                     </attDef>
                    </attList>
                </elementSpec>
                <elementSpec ident="abbr" mode="delete"/>
