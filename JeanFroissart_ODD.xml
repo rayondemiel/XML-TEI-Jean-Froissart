@@ -1274,8 +1274,8 @@
                   <desc xml:lang="fr">En fonction d'une génération ou d'une dynastie, indiqué par l'usage de chiffres romains</desc>
                   <constraintSpec ident="genName" scheme="schematron">
                      <constraint>
-                        <s:rule context="tei:genName">
-                           <s:assert test="matches(text(),'(I|V|X){1,4}')">Le contenu doit être écrit en chiffres romains (I, V, X).</s:assert>
+                        <s:rule context="tei:genName/text()">
+                           <s:assert test="matches(.,'(I|V|X){1,6}')">Le contenu doit être écrit en chiffres romains (I, V, X).</s:assert> <!-- bug -->
                         </s:rule>
                      </constraint>
                   </constraintSpec>
@@ -2259,7 +2259,7 @@
                   <constraintSpec ident="nVal" scheme="schematron">
                      <constraint>
                         <s:rule context="tei:div/p[@n]">
-                           <s:assert test="number(@n) = number(preceding-sibling::tei:div/p[1]/@n) + 1"> La valeur doit être "contemporary-name" afin de renseigner la dénomination actuelle.</s:assert>
+                           <s:assert test="number(@n) = number(preceding-sibling::tei:div/p[1]/@n) + 1"> La valeur doit être "contemporary-name" afin de renseigner la dénomination actuelle.</s:assert> <!-- bug -->
                         </s:rule>
                      </constraint>
                   </constraintSpec>
