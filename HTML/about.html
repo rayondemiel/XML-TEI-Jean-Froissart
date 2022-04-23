@@ -7,12 +7,16 @@
       <link rel="icon" type="image/png" href="img/brand.png">
       <link href="https://fonts.googleapis.com/css2?family=MedievalSharp" rel="stylesheet">
       <style>
-                    p.h1{
-                    font-family: 'MedievalSharp', cursive;
+                    .h1{
+                    text-align: center;
                     }
                     .h1, .h2, .h3, .h4, .h5{
-                    text-align: center;
-                    margin-bottom: 10px;
+                    margin: 10px;
+                    }
+                    div.button{
+                        display: flex;
+                        justify-content: center;
+                        margin : 10px;
                     }
                 </style>
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"><script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script><title>Chroniques | A propos</title>
@@ -24,13 +28,35 @@
                      Base de données
                      </a><div class="dropdown-menu" aria-labelledby="navbarDropdown"><a class="dropdown-item" href="{url_for('index_militant')}">Index des militants écologistes</a><a class="dropdown-item" href="{url_for('index_objContest')}">Index des projets contestés</a><div class="dropdown-divider"></div><a class="dropdown-item" href="{url_for('index_organisation')}">Index des Organisations</a></div>
                </li>
-               <li class="nav-item"><a class="nav-link" href="{url_for('carte')}">Carte</a></li>
+               <li class="nav-item"><a class="nav-link" href="./manifeste.html">notices</a></li>
                <li class="nav-item"><a class="nav-link" href="./about.html">À propos</a></li>
             </ul>
          </div>
       </nav>
-      <div>
+      <div class="container">
          <p class="h1">A propos de l'édition</p>
+         <figure><a href="https://gallica.bnf.fr/ark:/12148/btv1b8438607b/f292.item"><img class="rounded mx-auto d-block" src="./img/charlesVI.jpg" style="width: 50%; height: 70%"></a><figcaption style="text-align:center; margin-top: 1em;  font-size: 12px"> Folie de Charles VI : traversant la forêt du Mans lors d'une expédition contre Pierre
+               de Craon, le roi, brandissant une épée, prend les membres de sa suite pour des ennemis
+               et les attaque, XVe,  fol. 153v (BNF, Français 2646)  </figcaption>
+         </figure>
+         <hr>
+         <p class="h4">Source</p>
+         <p>La mise en place de cette édition numérique s'appuie sur l'édition critique <a href="https://www.dhi.ac.uk/onlinefroissart/" target="_blank">The Online Froissart</a>
+            édité par Ainsworth, Peter( dir.) et Croenen, Godfried (dir.) et publié par l'University
+            of Sheffield et l'University of Liverpool en 2013. Le projet Froissart en ligne vise
+            à fournir aux chercheurs une 
+            ressource complète pour l'étude des <i><span style="color: #EF0107;">C</span>hroniques</i> en s'appuyant sur plus de 150 manuscrits. Selon la description de la dernière version,
+            4 364 000 mots ont été transcrits à partir de 15 162 pages manuscrites.
+            Une description codicologique détaillée est proposée pour onze manuscrits, et les
+            projets visent à en créer une pour chacun des 113 témoins dont la périnisation des
+            données est permise car à la mise l'encodage
+            TEI.
+            </p>
+         <p class="h4">Méthodologie</p>
+         <p>L'encodage a été réalisé selon la méthode de "parallel-segmentation". L'apparat critique a été constitué comme sélectif, excluant la ponctuation, et
+            comme positif en faisant figurer systématiquement l'ensemble des témoins.
+            Il a été déterminé grâce à l'application <a href="https://github.com/itsee-birmingham/standalone_collation_editor" target="_blank">Collatex</a> et de l'algorithme Dekker</p>
+         <div class="button"><a type="button" class="btn btn-outline-info" href="../Edition_JeanFroissart.xml" target="_blank">XML-TEI</a><a type="button" class="btn btn-outline-secondary" href="../docs/JeanFroissart_ODD.html" target="_blank">ODD</a></div>
       </div><br><br><br><footer class="text-center text-dark fixed-bottom footer-transparent">
          <div class="text-center p-1" style="background-color: #4169E1;">
             <p class="text-light">© MIT Licence | Humeau Maxime - 2022 : <a class="text-light" href="https://github.com/rayondemiel" target="_blank">Github</a></p>
