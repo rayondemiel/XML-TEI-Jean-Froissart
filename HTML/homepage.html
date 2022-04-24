@@ -7,35 +7,45 @@
       <link rel="icon" type="image/png" href="img/brand.png">
       <link href="https://fonts.googleapis.com/css2?family=MedievalSharp" rel="stylesheet">
       <style>
-                    .h1{
-                    text-align: center;
-                    }
-                    .h1, .h2, .h3, .h4, .h5{
-                    margin: 10px;
-                    }
-                    div.button{
-                        display: flex;
-                        justify-content: center;
-                        margin : 10px;
-                    }
-                </style>
+            .h1 {
+                text-align: center;
+            }
+            .h1,
+            .h2,
+            .h3,
+            .h4,
+            .h5 {
+                margin: 10px;
+            }
+            div.button {
+                display: flex;
+                justify-content: center;
+                margin: 10px;
+            }
+            span.subtitle {
+                margin: 1em;
+                margin-right: 3em;
+                background-color: #F0EFF0;
+            }
+        </style>
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"><script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script><title>Chroniques | Accueil</title>
       <style>
-                        p.h1{
-                        font-family: 'MedievalSharp', cursive;
+                        p.h1 {
+                            font-family: 'MedievalSharp', cursive;
                         }
-                        .h1, .h3{
-                        text-align: center;
-                        margin-bottom: 10px;
-                        }
-                    </style>
+                        .h1,
+                        .h3 {
+                            text-align: center;
+                            margin-bottom: 10px;
+                        }</style>
    </head>
    <body>
       <nav class="navbar navbar-expand-lg navbar-dark sticky-top" style="background-color: #4169E1;"><a class="navbar-brand" href="./homepage.html" style="margin-left: 1em;"><img class="d-inline-block" src="./img/brand.png" width="60" height="60" alt="">Accueil</a><div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-               <li class="nav-item dropdown nav-item"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                     Base de données
-                     </a><div class="dropdown-menu" aria-labelledby="navbarDropdown"><a class="dropdown-item" href="{url_for('index_militant')}">Index des militants écologistes</a><a class="dropdown-item" href="{url_for('index_objContest')}">Index des projets contestés</a><div class="dropdown-divider"></div><a class="dropdown-item" href="{url_for('index_organisation')}">Index des Organisations</a></div>
+               <li class="nav-item dropdown nav-item"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Base de données </a><div class="dropdown-menu" aria-labelledby="navbarDropdown"><a class="dropdown-item" href="{url_for('index_militant')}">Index des
+                        militants écologistes</a><a class="dropdown-item" href="{url_for('index_objContest')}">Index
+                        des projets contestés</a><div class="dropdown-divider"></div><a class="dropdown-item" href="{url_for('index_organisation')}">Index
+                        des Organisations</a></div>
                </li>
                <li class="nav-item"><a class="nav-link" href="./manifeste.html">notices</a></li>
                <li class="nav-item"><a class="nav-link" href="./about.html">À propos</a></li>
@@ -44,19 +54,23 @@
       </nav>
       <div class="container">
          <div style="padding-top: 20px;">
-            <p class="h1">Projet d'édition numérique des
-               <i><span style="color: #EF0107;">C</span>hroniques</i> de Jean Froissart</p>
-            <figure><a href="https://gallica.bnf.fr/ark:/12148/btv1b84386043/f476.item"><img class="rounded mx-auto d-block" src="./img/jacquerie.jpg" style="width: 38rem; height: auto"></a><figcaption style="text-align:center; margin-top: 1em;  font-size: 12px"> Tandis qu'ils tentent de prendre la forteresse du marché de Meaux où est retranchée
-                  la famille du dauphin Charles, les jacques et leurs alliés parisiens sont surpris
-                  par une charge de chevalerie de Gaston Phébus et Jean de Grailli (9 juin 1358). Jean
-                  Froissart, <i><span style="color: #EF0107;">C</span>hroniques</i>, Flandre, Bruges, XVe s., folio 226, verso (BNF, ms. Français 2643).</figcaption>
+            <p class="h1">Projet d'édition numérique des <i><span style="color: #EF0107;">C</span>hroniques</i> de Jean
+               Froissart</p>
+            <figure><a href="https://gallica.bnf.fr/ark:/12148/btv1b84386043/f476.item"><img class="rounded mx-auto d-block" src="./img/jacquerie.jpg" style="width: 38rem; height: auto"></a><figcaption style="text-align:center; margin-top: 1em;  font-size: 12px">
+                  Tandis qu'ils tentent de prendre la forteresse du marché de
+                  Meaux où est retranchée la famille du dauphin Charles, les
+                  jacques et leurs alliés parisiens sont surpris par une charge de
+                  chevalerie de Gaston Phébus et Jean de Grailli (9 juin 1358).
+                  Jean Froissart, <i><span style="color: #EF0107;">C</span>hroniques</i>, Flandre, Bruges, XVe s., folio 226,
+                  verso (BNF, ms. Français 2643).</figcaption>
             </figure>
             <hr>
             <div style="text-align: left;">
                <p class="h3">Préambule</p>
-               <p>
-                  Ce travail d'édition scientifique a été produit dans le cadre du Master 2 <i>Technologies numériques appliquées à l'histoire</i> dispensé à l'Ecole nationale des Chartes. L'encodage XML-TEI a été réalisé par Humeau, Maxime (Ecole nationale des chartes) sous la direction de Albouy, Ségolène (Observatoire de Paris | PSL).
-                  Cette édition amène une lecture critique des Chroniques de Jean Froissart à partir
+               <p> Ce travail d'édition scientifique a été produit dans le cadre du
+                  Master 2 <i>Technologies numériques appliquées à l'histoire</i>
+                  dispensé à l'Ecole nationale des Chartes. L'encodage XML-TEI a
+                  été réalisé par Humeau, Maxime (Ecole nationale des chartes) sous la direction de Albouy, Ségolène (Observatoire de Paris | PSL). Cette édition amène une lecture critique des Chroniques de Jean Froissart à partir
                   de trois témoins reprennant le tome 1 et 2.
                   <ul class="text-sm-start">
                      <li>Chroniques, MS M.804, Morgan Library</li>
@@ -65,17 +79,21 @@
                         de France</li>
                   </ul>
                </p>
-               <p>Ce récit en prose de la fin du XIVe siècle contistue une source précieuse et inédite
-                  sur la guerre de Cent Ans (1337-1453) et les crises politiques au sein des monarchies
-                  occidentales durant le Bas Moyen-Age. Les <i><span style="color: #EF0107;">C</span>hroniques</i> s'ouvrent sur les événements qui ont précédé la déposition d'Édouard II en 1326 et
-                  couvrent la période allant jusqu'à 1400, en rapportant principalement les confictualités
-                  entre les royaumes britannique et français sous fond de crise de la féodalité.
-                  L'extrait traite de l'année 1328 où se déroule la succession du roi de France suite
-                  à la mort de Charles IV le Bel, qui dans le cadre de la loi revient à Philippe de
-                  Valois. Ce changement de maison royal intervient dans le cadre de la guerre de Cent
-                  Ans et d'une révolte des milices flamandes contre le comte de Flandre Louis de Nevers.
-                  La bataille de Cassel dont la victoire des armées du roi permet le rétablissement
-                  de l'autorité seigneuriale.</p>
+               <p>Ce récit en prose de la fin du XIVe siècle contistue une source
+                  précieuse et inédite sur la guerre de Cent Ans (1337-1453) et
+                  les crises politiques au sein des monarchies occidentales durant
+                  le Bas Moyen-Age. Les <i><span style="color: #EF0107;">C</span>hroniques</i> s'ouvrent sur les événements qui ont
+                  précédé la déposition d'Édouard II en 1326 et couvrent la
+                  période allant jusqu'à 1400, en rapportant principalement les
+                  confictualités entre les royaumes britannique et français sous
+                  fond de crise de la féodalité. L'extrait traite de l'année 1328
+                  où se déroule la succession du roi de France suite à la mort de
+                  Charles IV le Bel, qui dans le cadre de la loi revient à
+                  Philippe de Valois. Ce changement de maison royal intervient
+                  dans le cadre de la guerre de Cent Ans et d'une révolte des
+                  milices flamandes contre le comte de Flandre Louis de Nevers. La
+                  bataille de Cassel dont la victoire des armées du roi permet le
+                  rétablissement de l'autorité seigneuriale.</p>
                <p>Bonne visite !</p>
             </div>
          </div>

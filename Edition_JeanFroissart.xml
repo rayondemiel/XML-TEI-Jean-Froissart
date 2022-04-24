@@ -167,7 +167,7 @@
                 <note>Reprend les tomes 1 et 2 des chroniques de Jean Froissart</note>
               </head>
               <msContents>
-                <summary>
+                <summary>Raconte les événements survenus en Europe de 1325 à 1400 et plus particulièrement de la Guerre de cent ans. Les chroniques se divisent en 4 tomes.
                 </summary>
                 <textLang mainLang="frm">Language batard entre le dialecte burgond et picard</textLang>
                 <msItemStruct>
@@ -204,15 +204,13 @@
                   </layoutDesc>
                 </objectDesc>
                 <handDesc cert="low">
-                  <handNote scope="major">Le manuscrit est écrit par Guillaume de Bailly</handNote>
-                  <handNote>Il a été aidé par ses assitants</handNote>
+                  <handNote>Le manuscrit est écrit par Guillaume de Bailly. Il a été aidé par ses assitants</handNote>
                 </handDesc>
                 <scriptDesc>
-                  <scriptNote>Écrit dans une écriture bâtarde légère, fluide et arrondie par plusieurs scribes et comparable à<bibl corresp="MSBes">Besancon MS 864-865</bibl>et<bibl corresp="FrParis">Paris Fr 1134, le Receuil de moralités des philosphes</bibl>, également écrit pour Pierre de Fontenayen 1393 et portant son bras dans les initiales. Une table des matières précède le texte du livre II, dont chaque chapitre a un titre et un numéro rubriqués.</scriptNote>
+                  <scriptNote>Écrit dans une écriture bâtarde légère, fluide et arrondie par plusieurs scribes et comparable à <bibl corresp="MSBes">Besancon MS 864-865</bibl> et <bibl corresp="FrParis">Paris Fr 1134, le Receuil de moralités des philosphes</bibl>, également écrit pour Pierre de Fontenayen 1393 et portant son bras dans les initiales. Une table des matières précède le texte du livre II, dont chaque chapitre a un titre et un numéro rubriqués.</scriptNote>
                 </scriptDesc>
                 <decoDesc>
-                  <decoNote>La femme de Guillaume de Bailly a aider à la décoration notamment pour l'empalement</decoNote>
-                  <decoNote>Si le matériel comparatif supplémentaire (livre de Moranville) montre que le livre 1 est par miniaturiste du deuxième livre du Froissart de Besançon, le livre I a été enluminé par Guillaume de Bailly. Bailly est une commune du diocèse de Troyes. D'après le Serapeum XII p.268, Guillaume de Bailly a prospéré en 1390. Le Francq prétend que ce manuscrit est celui que Froissart a chargé Guillaume de Bailly d'illustrer pour Richard II d'Angleterre. Il a cependant été saisi par Louis, duc d'Anjou en 1381.</decoNote>
+                  <decoNote>La femme de Guillaume de Bailly a aider à la décoration notamment pour l'empalement. Si le matériel comparatif supplémentaire (livre de Moranville) montre que le livre 1 est par miniaturiste du deuxième livre du Froissart de Besançon, le livre I a été enluminé par Guillaume de Bailly. Bailly est une commune du diocèse de Troyes. D'après le Serapeum XII p.268, Guillaume de Bailly a prospéré en 1390. Le Francq prétend que ce manuscrit est celui que Froissart a chargé Guillaume de Bailly d'illustrer pour Richard II d'Angleterre. Il a cependant été saisi par Louis, duc d'Anjou en 1381.</decoNote>
                   <decoNote type="miniatures">Les miniatures des f.16, 25, 44v, 72, 111v et 117 sont particulièrement caractéristiques de l'œuvre de Bailly. Son style est marqué par les contours plats du visage, la peau blanche, les mains plutôt bien articulées et les pieds suspendus comme ceux d'un danseur. Un style similaire prévalait en Angleterre, cf. le frontispice du Siège de Troie de Lydgate à la J. Rylands Library (cf. leur catalogue d'exposition de 1939, p1.12) et la bordure du Missel de Sherborne. Les fonds de miniatures pour le paysage avec des ciels d'un bleu vif et de l'herbe poussant de petites touffes de jaune. Il utilise des tons plus sombres et des contours noirs durs. La forme de l'initiale I des f.107v et 150v est utilisée dans M512, le Lectionnaire de Reims du XIVe siècle. Plusieurs des initiales ainsi que la bordure du premier plomb sont décorées des armes de son épouse Marie de Broyes : Azur, à trois broies d'or. Une caractéristique importante de la décoration sont les bannières peintes dans les marges dans les batailles, les forces adverses, françaises et anglaises sont respectivement à gauche et à droite du spectateur.</decoNote>
                 </decoDesc>
                 <bindingDesc>
