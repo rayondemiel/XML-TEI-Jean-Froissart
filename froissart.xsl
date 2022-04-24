@@ -21,11 +21,18 @@
     <xsl:variable name="manifeste">
         <xsl:value-of select="concat($witfile, 'HTML/manifeste', '.html')"/>
     </xsl:variable>
+    <xsl:variable name="index">
+        <xsl:value-of select="concat($witfile, 'HTML/index', '.html')"/>
+    </xsl:variable>
 
     <!--  -->
     <xsl:variable name="title">
         <xsl:value-of select="//fileDesc/titleStmt/title"/>
     </xsl:variable>
+
+    <!--###############################
+    ############# HTML #############
+    ###############################-->
 
     <xsl:template match="/">
 
@@ -174,6 +181,8 @@
                 </body>
             </html>
         </xsl:result-document>
+
+        <!-- HTML notices bibliographiques des témoins -->
         <xsl:result-document href="{$manifeste}" method="html" indent="yes">
             <html>
                 <head>
@@ -184,12 +193,50 @@
                 </head>
                 <body>
                     <xsl:call-template name="navbar"/>
-                    <xsl:apply-templates select="witness"/>
+                    <div class="container">
+                        <ul class="nav nav-tabs" id="myTab" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" data-toggle="tab" href="#Cou" role="tab"
+                                    aria-controls="home" aria-selected="true">Cod. 329</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#NY" role="tab"
+                                    aria-controls="profile" aria-selected="false">MS M.804</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#Pa" role="tab"
+                                    aria-controls="contact" aria-selected="false">Français 2663</a>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="myTabContent">
+                            <xsl:apply-templates select="//witness"/>
+                        </div>
+                    </div>
+                    <xsl:call-template name="footer"/>
+                </body>
+            </html>
+        </xsl:result-document>
+        <!-- HTML des différents index -->
+        <xsl:result-document href="{$index}" method="html" indent="yes">
+            <html>
+                <head>
+                    <xsl:call-template name="metadata"/>
+                    <title>
+                        <xsl:value-of select="concat($title, ' | Index des Lieux')"/>
+                    </title>
+                </head>
+                <body>
+                    <xsl:call-template name="navbar"/>
+                    <div type="container">
+                        <h1 class="text-center"> Index des lieux </h1>
+                    </div>
                     <xsl:call-template name="footer"/>
                 </body>
             </html>
         </xsl:result-document>
     </xsl:template>
+
+
 
 
     <!-- Templates structures HTML -->
@@ -221,8 +268,7 @@
                 margin: 1em;
                 margin-right: 3em;
                 background-color: #F0EFF0;
-            }
-        </style>
+            }</style>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
             rel="stylesheet"
             integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
@@ -257,7 +303,7 @@
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./manifeste.html">notices</a>
+                        <a class="nav-link" href="./manifeste.html">Notices</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="./about.html">À propos</a>
@@ -280,230 +326,441 @@
         </footer>
     </xsl:template>
 
+    <!--###############################
+    ########## TEI-HEADER ###########
+    ###############################-->
+
     <!-- Template notice (teiHeader) manuscrit (css s'appuie sur l'édition numérique de Segolene Albouy - lien github: https://github.com/Segolene-Albouy/Segolene-Albouy.github.io -->
     <xsl:template match="witness">
-        <xsl:for-each select=".">
-           <xsl:variable name="id" select="./@xml:id"/>
-           <div id="{$id}" class="container">
-               <h1 class="p-3">
-                   <xsl:text>Manuscrit </xsl:text>
-                   <em> (<xsl:value-of select="//witness[@xml:id = $id]/descendant::msIdentifier/idno"
-                       />) </em>
-               </h1>
-               <div class="row">
-                   <!-- Informations générales du manuscrit -->
-                   <div class="card col-md-3 col-sm-5 p-3">
-                       <div id="general" class="text-center">
-                           <h4>
-                               <xsl:value-of
-                                   select="//witness[@xml:id = $id]/descendant::msIdentifier/institution"
-                               />
-                           </h4>
-                           <xsl:apply-templates
-                               select="//witness[@xml:id = $id]/descendant::msIdentifier"/>
-                       </div>
-                       <hr/>
-                       <div id="id" class="p-1">
-                           <h5>Identifiants</h5>
-                           <p>
-                               <b>Cote : <xsl:value-of
-                                       select="//witness[@xml:id = $id]/descendant::msIdentifier/idno"
-                                   /></b>
-                           </p>
-                           <xsl:if test="//witness[@xml:id = $id]/descendant::altIdentifier">
-                               <xsl:apply-templates
-                                   select="//witness[@xml:id = $id]/descendant::altIdentifier"/>
-                           </xsl:if>
-                           <p>
-                               <xsl:variable name="lien">
-                                   <xsl:value-of select="//witness[@xml:id = $id]/msDesc/@facs"/>
-                               </xsl:variable>
-                               <a href="{$lien}" target="_blank">Lien</a>
-                           </p>
-                       </div>
-                       <hr/>
-                       <div id="summary" class="p-1">
-                           <h5>Sommaire</h5>
-                           <div class="container">
-                               <xsl:value-of select="//witness[@xml:id = $id]/descendant::summary"/>
-                           </div>
-                       </div>
-                   </div>
-   
-                   <!-- Informations spécifiques aux vies de saints -->
-                   <div class="container col-md-8 col-sm-7">
-                       <h3>
-                           <xsl:value-of select="//witness[@xml:id = $id]/descendant::msName"/>
-                       </h3>
-                       <div class="container">
-                           <p>
-                               <xsl:value-of select="//witness[@xml:id = $id]/descendant::textLang"/>
-                               <xsl:text> - </xsl:text>
-                               <b>
-                                   <xsl:value-of
-                                       select="//witness[@xml:id = $id]/descendant::head/origDate"/>
-                               </b>
-                               <br/>
-                           </p>
-                           <hr/>
-                           <div id="extrait" class="p-1">
-                               <h5>Extrait</h5>
-                               <div class="container">
-                                   <xsl:apply-templates
-                                       select="//witness[@xml:id = $id]/descendant::msItemStruct"/>
-                               </div>
-                           </div>
-                           <hr/>
-                           <div id="resp" class="p-1">
-                               <h5>Intervenants</h5>
-                               <div class="container">
-                                   <xsl:apply-templates
-                                       select="//witness[@xml:id = $id]/descendant::author"/>
-                               </div>
-                           </div>
-                           <hr/>
-                           <div id="colophon" class="p-1">
-                               <h5>Colophon</h5>
-                               <div class="container">
-                                   <em>
-                                       <xsl:value-of
-                                           select="//witness[@xml:id = $id]/descendant::colophon"/>
-                                   </em>
-                               </div>
-                           </div>
-                           <hr/>
-                           <div id="physDesc" class="p-1">
-                               <h3>Description matérielle</h3>
-                               <div class="container">
-                                   <b>Support</b>
-                                   <xsl:value-of
-                                       select="concat(' : ', //witness[@xml:id = $id]/descendant::support)"/>
-                                   <br/>
-                                   <b>Dimension</b>
-                                   <xsl:value-of
-                                       select="concat(' : largeur : ', //witness[@xml:id = $id]/descendant::extent/width, //witness[@xml:id = $id]/descendant::extent/width/@unit, ' ; longueur : ', //witness[@xml:id = $id]/descendant::extent/height,//witness[@xml:id = $id]/descendant::extent/height/@unit)"/>
-                                   <br/>
-                                   <b>Foliotation</b>
-                                   <xsl:value-of
-                                       select="concat(' : ', //witness[@xml:id = $id]/descendant::physDesc//foliation)"/>
-                                   <br/>
-                                   <b>Mise en page</b>
-                                   <p><xsl:apply-templates select="//witness[@xml:id = $id]/descendant::layoutDesc"/></p>
-                                   <br/>
-                                   <xsl:value-of
-                                       select="//witness[@xml:id = $id]/descendant::physDesc//layout"/>
-                                   <hr/>
-                                   <b>Description des mains</b>
-                                   <xsl:value-of
-                                       select="concat(' : ', //witness[@xml:id = $id]//handNote)"/>
-                                   <xsl:if test="//witness[@xml:id = $id]/descendant::handNote//list">
-                                       <xsl:apply-templates
-                                           select="//witness[@xml:id = $id]/descendant::handNote//list/item"
-                                       />
-                                   </xsl:if>
-                                   <hr/>
-                                   <b>Description de l'écriture</b>
-                                   <xsl:value-of
-                                       select="concat(' : ', //witness[@xml:id = $id]/descendant::scriptNote)"/>
-                                   <hr/>
-                                   <b>Description de l'ornement :</b>
-                                   <xsl:apply-templates
-                                       select="//witness[@xml:id = $id]/descendant::decoDesc"/>
-                                   <hr/>
-                                   <b>Description de l'ornement :</b>
-                                   <br/>
-                                   <xsl:apply-templates
-                                       select="//witness[@xml:id = $id]/descendant::bindingDesc//p"/>
-                                   <hr/>
-                                   <b>Historique :</b>
-                                   <br/>
-                                   <xsl:apply-templates
-                                       select="//witness[@xml:id = $id]/descendant::history"/>
-                               </div>
-                           </div>
-                       </div>
-                   </div>
-               </div>
-           </div>
+        <xsl:variable name="id" select="./@xml:id"/>
+        <!-- Choix pour la version active de la navtab -->
+        <xsl:choose>
+            <xsl:when test=".[@xml:id = 'Cou']">
+                <div class="tab-pane fade show active" id="Cou" role="tabpanel">
+                    <h1 class="p-3">
+                        <xsl:text>Manuscrit </xsl:text>
+                        <em> (<xsl:value-of
+                                select="//witness[@xml:id = $id]/descendant::msIdentifier/idno"/>)
+                        </em>
+                    </h1>
+                    <div class="row">
+                        <!-- Informations générales du manuscrit -->
+                        <div class="card col-md-3 col-sm-5 p-3">
+                            <div id="general" class="text-center">
+                                <h4>
+                                    <xsl:value-of
+                                        select="//witness[@xml:id = $id]/descendant::msIdentifier/institution"
+                                    />
+                                </h4>
+                                <xsl:apply-templates
+                                    select="//witness[@xml:id = $id]/descendant::msIdentifier"/>
+                            </div>
+                            <hr/>
+                            <div id="id" class="p-1">
+                                <h5>Identifiants</h5>
+                                <p>
+                                    <b>Cote : <xsl:value-of
+                                            select="//witness[@xml:id = $id]/descendant::msIdentifier/idno"
+                                        /></b>
+                                </p>
+                                <xsl:if test="//witness[@xml:id = $id]/descendant::altIdentifier">
+                                    <xsl:apply-templates
+                                        select="//witness[@xml:id = $id]/descendant::altIdentifier"
+                                    />
+                                </xsl:if>
+                                <p>
+                                    <xsl:variable name="lien">
+                                        <xsl:value-of select="//witness[@xml:id = $id]/msDesc/@facs"
+                                        />
+                                    </xsl:variable>
+                                    <a href="{$lien}" target="_blank">Lien</a>
+                                </p>
+                            </div>
+                            <hr/>
+                            <div id="summary" class="p-1">
+                                <h5>Sommaire</h5>
+                                <div class="container">
+                                    <xsl:value-of
+                                        select="//witness[@xml:id = $id]/descendant::summary"/>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Bloc description détaillé manuscrit -->
+                        <div class="container col-md-8 col-sm-7">
+                            <h3>
+                                <xsl:value-of select="//witness[@xml:id = $id]/descendant::msName"/>
+                            </h3>
+                            <div class="container">
+                                <p>
+                                    <xsl:value-of
+                                        select="//witness[@xml:id = $id]/descendant::textLang"/>
+                                    <xsl:text> - </xsl:text>
+                                    <b>
+                                        <xsl:value-of
+                                            select="//witness[@xml:id = $id]/descendant::head/origDate"
+                                        />
+                                    </b>
+                                    <br/>
+                                </p>
+                                <hr/>
+                                <div id="extrait" class="p-1">
+                                    <h5>Extrait</h5>
+                                    <div class="container">
+                                        <xsl:apply-templates
+                                            select="//witness[@xml:id = $id]/descendant::msItemStruct"
+                                        />
+                                    </div>
+                                </div>
+                                <hr/>
+                                <div id="resp" class="p-1">
+                                    <h5>Intervenants</h5>
+                                    <div class="container">
+                                        <xsl:apply-templates
+                                            select="//witness[@xml:id = $id]/descendant::author"/>
+                                    </div>
+                                </div>
+                                <hr/>
+                                <div id="physDesc" class="p-1">
+                                    <h3>Description matérielle</h3>
+                                    <div class="container">
+                                        <b>Support</b>
+                                        <xsl:value-of
+                                            select="concat(' : ', //witness[@xml:id = $id]/descendant::support)"/>
+                                        <br/>
+                                        <b>Dimension</b>
+                                        <xsl:value-of
+                                            select="concat(' : largeur : ', //witness[@xml:id = $id]/descendant::extent/width, //witness[@xml:id = $id]/descendant::extent/width/@unit, ' ; longueur : ', //witness[@xml:id = $id]/descendant::extent/height, //witness[@xml:id = $id]/descendant::extent/height/@unit)"/>
+                                        <br/>
+                                        <b>Foliotation</b>
+                                        <xsl:value-of
+                                            select="concat(' : ', //witness[@xml:id = $id]/descendant::physDesc//foliation)"/>
+                                        <br/>
+                                        <b>Mise en page</b>
+                                        <p>
+                                            <xsl:apply-templates
+                                                select="//witness[@xml:id = $id]/descendant::layoutDesc"
+                                            />
+                                        </p>
+                                        <br/>
+                                        <xsl:value-of
+                                            select="//witness[@xml:id = $id]/descendant::physDesc//layout"/>
+                                        <hr/>
+                                        <b>Description des mains</b>
+                                        <xsl:value-of
+                                            select="concat(' : ', //witness[@xml:id = $id]//handNote)"/>
+                                        <xsl:if
+                                            test="//witness[@xml:id = $id]/descendant::handNote//list">
+                                            <xsl:apply-templates
+                                                select="//witness[@xml:id = $id]/descendant::handNote//list/item"
+                                            />
+                                        </xsl:if>
+                                        <hr/>
+                                        <b>Description de l'écriture</b>
+                                        <xsl:value-of
+                                            select="concat(' : ', //witness[@xml:id = $id]/descendant::scriptNote)"/>
+                                        <hr/>
+                                        <b>Description de l'ornement :</b>
+                                        <xsl:apply-templates
+                                            select="//witness[@xml:id = $id]/descendant::decoDesc"/>
+                                        <hr/>
+                                        <b>Description des reliures :</b>
+                                        <br/>
+                                        <xsl:apply-templates
+                                            select="//witness[@xml:id = $id]/descendant::bindingDesc//p"/>
+                                        <hr/>
+                                        <b>Historique :</b>
+                                        <br/>
+                                        <xsl:apply-templates
+                                            select="//witness[@xml:id = $id]/descendant::history"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </xsl:when>
+            <xsl:otherwise>
+                <div class="tab-pane fade" id="{$id}" role="tabpanel" aria-labelledby="témoin">
+                    <h1 class="p-3">
+                        <xsl:text>Manuscrit </xsl:text>
+                        <em> (<xsl:value-of
+                                select="//witness[@xml:id = $id]/descendant::msIdentifier/idno"/>)
+                        </em>
+                    </h1>
+                    <div class="row">
+                        <!-- Informations générales du manuscrit -->
+                        <div class="card col-md-3 col-sm-5 p-3">
+                            <div id="general" class="text-center">
+                                <h4>
+                                    <xsl:value-of
+                                        select="//witness[@xml:id = $id]/descendant::msIdentifier/institution"
+                                    />
+                                </h4>
+                                <xsl:apply-templates
+                                    select="//witness[@xml:id = $id]/descendant::msIdentifier"/>
+                            </div>
+                            <hr/>
+                            <div id="id" class="p-1">
+                                <h5>Identifiants</h5>
+                                <p>
+                                    <b>Cote : <xsl:value-of
+                                            select="//witness[@xml:id = $id]/descendant::msIdentifier/idno"
+                                        /></b>
+                                </p>
+                                <xsl:if test="//witness[@xml:id = $id]/descendant::altIdentifier">
+                                    <xsl:apply-templates
+                                        select="//witness[@xml:id = $id]/descendant::altIdentifier"
+                                    />
+                                </xsl:if>
+                                <p>
+                                    <xsl:variable name="lien">
+                                        <xsl:value-of select="//witness[@xml:id = $id]/msDesc/@facs"
+                                        />
+                                    </xsl:variable>
+                                    <a href="{$lien}" target="_blank">Lien</a>
+                                </p>
+                            </div>
+                            <hr/>
+                            <div id="summary" class="p-1">
+                                <h5>Sommaire</h5>
+                                <div class="container">
+                                    <xsl:value-of
+                                        select="//witness[@xml:id = $id]/descendant::summary"/>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Bloc description détaillé manuscrit -->
+                        <div class="container col-md-8 col-sm-7">
+                            <h3>
+                                <xsl:value-of select="//witness[@xml:id = $id]/descendant::msName"/>
+                            </h3>
+                            <div class="container">
+                                <p>
+                                    <xsl:value-of
+                                        select="//witness[@xml:id = $id]/descendant::textLang"/>
+                                    <xsl:text> - </xsl:text>
+                                    <b>
+                                        <xsl:value-of
+                                            select="//witness[@xml:id = $id]/descendant::head/origDate"
+                                        />
+                                    </b>
+                                    <br/>
+                                </p>
+                                <hr/>
+                                <div id="extrait" class="p-1">
+                                    <h5>Extrait</h5>
+                                    <div class="container">
+                                        <xsl:apply-templates
+                                            select="//witness[@xml:id = $id]/descendant::msItemStruct"
+                                        />
+                                    </div>
+                                </div>
+                                <hr/>
+                                <div id="resp" class="p-1">
+                                    <h5>Intervenants</h5>
+                                    <div class="container">
+                                        <xsl:apply-templates
+                                            select="//witness[@xml:id = $id]/descendant::author"/>
+                                    </div>
+                                </div>
+                                <hr/>
+                                <div id="physDesc" class="p-1">
+                                    <h3>Description matérielle</h3>
+                                    <div class="container">
+                                        <b>Support</b>
+                                        <xsl:value-of
+                                            select="concat(' : ', //witness[@xml:id = $id]/descendant::support)"/>
+                                        <br/>
+                                        <b>Dimension</b>
+                                        <xsl:value-of
+                                            select="concat(' : largeur : ', //witness[@xml:id = $id]/descendant::extent/width, //witness[@xml:id = $id]/descendant::extent/width/@unit, ' ; longueur : ', //witness[@xml:id = $id]/descendant::extent/height, //witness[@xml:id = $id]/descendant::extent/height/@unit)"/>
+                                        <br/>
+                                        <b>Foliotation</b>
+                                        <xsl:value-of
+                                            select="concat(' : ', //witness[@xml:id = $id]/descendant::physDesc//foliation)"/>
+                                        <br/>
+                                        <b>Mise en page</b>
+                                        <p>
+                                            <xsl:apply-templates
+                                                select="//witness[@xml:id = $id]/descendant::layoutDesc"
+                                            />
+                                        </p>
+                                        <br/>
+                                        <xsl:value-of
+                                            select="//witness[@xml:id = $id]/descendant::physDesc//layout"/>
+                                        <hr/>
+                                        <b>Description des mains</b>
+                                        <xsl:value-of
+                                            select="concat(' : ', //witness[@xml:id = $id]//handNote)"/>
+                                        <xsl:if
+                                            test="//witness[@xml:id = $id]/descendant::handNote//list">
+                                            <xsl:apply-templates
+                                                select="//witness[@xml:id = $id]/descendant::handNote//list/item"
+                                            />
+                                        </xsl:if>
+                                        <hr/>
+                                        <b>Description de l'écriture</b>
+                                        <xsl:value-of
+                                            select="concat(' : ', //witness[@xml:id = $id]/descendant::scriptNote)"/>
+                                        <hr/>
+                                        <b>Description de l'ornement :</b>
+                                        <xsl:apply-templates
+                                            select="//witness[@xml:id = $id]/descendant::decoDesc"/>
+                                        <hr/>
+                                        <b>Description de l'ornement :</b>
+                                        <br/>
+                                        <xsl:apply-templates
+                                            select="//witness[@xml:id = $id]/descendant::bindingDesc//p"/>
+                                        <hr/>
+                                        <b>Historique :</b>
+                                        <br/>
+                                        <xsl:apply-templates
+                                            select="//witness[@xml:id = $id]/descendant::history"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>
+
+    <xsl:template match="author">
+        <xsl:value-of select="concat(./surname, ', ', ./forename)"/>
+    </xsl:template>
+
+    <xsl:template match="msIdentifier">
+        <p>
+            <dl>
+                <dt>Departement</dt>
+                <dd>
+                    <xsl:value-of select="./repository"/>
+                </dd>
+                <dt>Collection</dt>
+                <dd>
+                    <xsl:value-of select="./collection"/>
+                </dd>
+                <dt>Localisation</dt>
+                <dd>
+                    <xsl:value-of select="concat(./country, ', ', ./settlement)"/>
+                </dd>
+            </dl>
+        </p>
+    </xsl:template>
+
+    <xsl:template match="altIdentifier">
+        <p> Ancien(s) identifiant(s) : <ul>
+                <xsl:for-each select="idno">
+                    <li><xsl:value-of select="idno"/></li>
+                </xsl:for-each>
+            </ul>
+        </p>
+    </xsl:template>
+
+    <xsl:template match="msItemStruct">
+        <p>"<i style="color: #EF0107;"><xsl:value-of select="./title"/></i>" - <xsl:value-of
+                select="./locus"/>
+            <dl>
+                <dt>Incipit</dt><dd><i>"<xsl:value-of select="./incipit"/>"</i></dd>
+                <dt>Explicit</dt><dd><i>"<xsl:value-of select="./explicit"/>"</i></dd>
+            </dl>
+        </p>
+    </xsl:template>
+
+    <xsl:template match="layoutDesc">
+        <xsl:choose>
+            <xsl:when test="count(./descendant::layout) = 2">
+                <ul>
+                    <li>
+                        <xsl:value-of
+                            select="concat('colonnes : ', ./descendant::layout[1]/@columns, ' - lignes : ', ./descendant::layout[1]/@writtenLines)"
+                        />
+                    </li>
+                    <li>
+                        <xsl:value-of
+                            select="concat('colonnes : ', ./descendant::layout[2]/@columns, ' - lignes : ', ./descendant::layout[2]/@writtenLines)"
+                        />
+                    </li>
+                </ul>
+            </xsl:when>
+            <xsl:otherwise>
+                <p>
+                    <xsl:value-of
+                        select="concat('colonnes : ', ./descendant::layout/@columns, ' - lignes : ', ./descendant::layout/@writtenLines)"
+                    />
+                </p>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>
+
+    <xsl:template match="decoDesc">
+        <p>
+            <xsl:value-of select="./decoNote[not(@*)]"/>
+        </p>
+        <xsl:if test="./decoNote/@type">
+            <p>
+                <span class="subtitle">
+                    <xsl:value-of select="./decoNote/@type"/>
+                </span>
+                <xsl:value-of select="./decoNote[@type]"/>
+            </p>
+        </xsl:if>
+    </xsl:template>
+
+    <xsl:template match="history">
+        <p>
+            <xsl:value-of select="concat(./origin, ' ', ./provenance/p)"/>
+            <xsl:apply-templates select=".//stamp"/>
+        </p>
+    </xsl:template>
+
+    <xsl:template match="stamp">
+        <xsl:variable name="id" select="./@xml:id"/>
+        <p>
+            <span class="subtitle">
+                <xsl:value-of select="./@xml:id"/>
+            </span>
+            <xsl:value-of select=".[@xml:id = $id]"/>
+            <dl style="margin-left : 3em;" class="row">
+                <div class="col">
+                    <dt>Folio</dt>
+                    <dd>
+                        <xsl:value-of select=".[@xml:id = $id]/descendant::bibl"/>
+                    </dd>
+                </div>
+                <div class="col">
+                    <dt>Type</dt>
+                    <dd>
+                        <xsl:value-of select=".[@xml:id = $id]/dim/@type"/>
+                    </dd>
+                </div>
+                <div class="col">
+                    <dt>Taille</dt>
+                    <dd>
+                        <xsl:value-of select=".[@xml:id = $id]/dim/@n"/>
+                    </dd>
+                </div>
+            </dl>
+        </p>
+    </xsl:template>
+
+    <!--###############################
+    ############# INDEX #############
+    ###############################-->
+
+    <xsl:template match="listPlace">
+        <xsl:for-each select="//listPlace/Place">
+            <xsl:sort select="./placeName/name[1]" order="ascending"/>
+            <div class="entity_block" id="./@xml:id">
+                <h4 class="block_title">
+                    <xsl:value-of select="./placeName[@type = 'contemporary-name']"/>
+                </h4>
+                <p class="text-muted"/>
+            </div>
         </xsl:for-each>
-       </xsl:template>
-   
-       <xsl:template match="author">
-           <xsl:value-of select="concat(./surname, ', ', ./forename)"/>
-       </xsl:template>
-   
-       <xsl:template match="msIdentifier">
-           <p>
-               <dl>
-                   <dt>Departement</dt>
-                   <dd>
-                       <xsl:value-of select="./repository"/>
-                   </dd>
-                   <dt>Collection</dt>
-                   <dd>
-                       <xsl:value-of select="./collection"/>
-                   </dd>
-                   <dt>Localisation</dt>
-                   <dd>
-                       <xsl:value-of select="concat(./country, ', ', ./settlement)"/>
-                   </dd>
-               </dl>
-           </p>
-       </xsl:template>
-   
-       <xsl:template match="altIdentifier">
-           <p> Ancien(s) identifiant(s) : <ul>
-                   <xsl:for-each select=".//idno">
-                       <li><xsl:value-of select="./idno"/></li>
-                   </xsl:for-each>
-               </ul>
-           </p>
-       </xsl:template>
-   
-       <xsl:template match="msItemStruct">
-           <p>"<i style="color: #EF0107;"><xsl:value-of select="./title"/></i>" - <xsl:value-of
-                   select="./locus"/>
-               <dl>
-                   <dt>Incipit</dt><dd><i>"<xsl:value-of select="./incipit"/>"</i></dd>
-                   <dt>Explicit</dt><dd><i>"<xsl:value-of select="./explicit"/>"</i></dd>
-               </dl>
-           </p>
-       </xsl:template>
-        
-       <xsl:template match="layoutDesc">
-           <xsl:choose>
-               <xsl:when test="count(./descendant::layout)=2">
-                   <ul>
-                       <li><xsl:value-of select="concat('colonnes : ', ./descendant::layout[1]/@columns,' - lignes : ', ./descendant::layout[1]/@writtenLines)"/></li>
-                       <li><xsl:value-of select="concat('colonnes : ', ./descendant::layout[2]/@columns,' - lignes : ', ./descendant::layout[2]/@writtenLines)"/></li>
-                   </ul>
-               </xsl:when>
-               <xsl:otherwise>
-                   <p><xsl:value-of select="concat('colonnes : ', ./descendant::layout/@columns,' - lignes : ', ./descendant::layout/@writtenLines)"/></p>
-               </xsl:otherwise>
-           </xsl:choose>
-       </xsl:template>
-       
-       <xsl:template match="decoDesc">
-           <p><xsl:value-of select="./decoNote[not(@*)]"/></p>
-           <xsl:if test="./decoNote/@type">
-               <p><span class="subtitle"><xsl:value-of select="./decoNote/@type"/></span><xsl:value-of select="./decoNote[@type]"/></p> 
-           </xsl:if>
-       </xsl:template>
-       
-       <xsl:template match="history">
-           <p>
-               <xsl:value-of select="concat(./origin, ' ', ./provenance/p)"/>
-               <xsl:if test="./descendant::stamp">
-                   <p><span class="subtitle"><xsl:value-of select="./acquisition/stamp/@xml:id"/></span><xsl:value-of select="./acquisition/stamp"/>
-                       <dl>
-                           <dt>Folio</dt><dd><xsl:value-of select="./acquisition/stamp/descendant::bibl"/></dd>
-                           <dt>Type</dt><dd><xsl:value-of select="./acquisition/stamp/dim/@type"/></dd>
-                           <dt>Taille</dt><dd><xsl:value-of select="./acquisition/stamp/dim/@n"/></dd>
-                       </dl>
-                   </p>
-               </xsl:if>
-           </p>
-       </xsl:template>
+    </xsl:template>
 
 </xsl:stylesheet>
