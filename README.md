@@ -1,8 +1,15 @@
-# Edition critique des *Chroniques* de Jean Froissart
+[![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-nc-nd/4.0/)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-no-red.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
+[![made-with-python](https://img.shields.io/badge/Made%20with-xslt-1f425f.svg)](https://www.w3.org/TR/xslt-30/)
+
+
+# :scroll: Edition critique des *Chroniques* de Jean Froissart
 
 Ce projet d'édition numérique de l'oeuvre du chroniqueur français Jean Froissart est le résultat des travaux menés dans le cadre du cours de XML-TEI dispensé 
 par [Ségolène Albouy](https://github.com/Segolene-Albouy) à l'Ecole des nationales des chartes. L'édition prend pour appui sur la publication web du [OnlineFroissart](https://www.dhi.ac.uk/onlinefroissart/index.jsp) 
 mené par Peter Ainsworth et Godfried Croenen. 
+
+La transformation a été effectué via XSLT dans le cadre du cours "Techniques et chaîne de publication électronique" dispensé par [Ariane Pinche](https://github.com/ArianePinche)
 
 ---
 ## Résumé
@@ -22,6 +29,8 @@ L'édition s'appui sur trois témoins divers :
 ## Structure du repository
 
 Ce dossier contient un ensemble de 4 fichiers :
-- Le fichier xml de l'édition
-- La documentation ODD au format XML et HTML
+- Le fichier xml de l'édition : `Edition_JeanFroissart.xml`
+- La documentation ODD au format XML et HTML au sein du dossier `docs/`
 - Le schéma RELAX RNG présent au sein du dossier `out/`
+- La transformation a été effectué via `froissart.xsl`
+- Les fichiers html sont présents au sein du dossier `HTML`
