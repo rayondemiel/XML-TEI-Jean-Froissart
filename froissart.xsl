@@ -1316,16 +1316,37 @@
                     </xsl:otherwise>
                 </xsl:choose>
             </xsl:when>
+            <!--affiche les autres noms-->
             <xsl:otherwise>
                 <span>
-                    <xsl:value-of select="node()[contains(@wit, $idwit)]"/>
+                    <xsl:value-of select="node()"/>
                 </span>
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
     <!-- notice placename -->
     <xsl:template match="body/descendant::placeName">
-        
+        <xsl:choose>
+            <xsl:when test="@ref">
+                <xsl:variable name="id" select="replace(@ref, '#', '')"/>
+                <xsl:variable name="note" select="concat(//place[@xml:id=$id]/placeName[@type='contemporary-name'], ' | role : ', //place[@xml:id=$id]/@type)"/>
+                <xsl:choose>
+                    <xsl:when test="choice">
+                        <del><xsl:value-of select="choice/orig"/></del>
+                        <a href="./index.html" title="{$note}"><xsl:value-of select="choice/reg"/></a>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <a href="./index.html" title="{$note}"><xsl:value-of select="."/></a>
+                    </xsl:otherwise>
+                </xsl:choose>
+            </xsl:when>
+            <!--affiche les autres noms-->
+            <xsl:otherwise>
+                <span>
+                    <xsl:value-of select="node()"/>
+                </span>
+            </xsl:otherwise>
+        </xsl:choose>
     </xsl:template>
 
     <!-- Colorisation des Lettrines -->
