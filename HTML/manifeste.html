@@ -1,0 +1,399 @@
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta name="description" content="Projet d'édition numérique du roman-feuilleton les Fils de famille d'Eugène Sue (1856)">
+      <meta name="keywords" content="edition, tei, xslt, chroniques, Jean, Froissart">
+      <meta name="author" content="Humeau, Maxime">
+      <link rel="icon" type="image/png" href="img/brand.png">
+      <link href="https://fonts.googleapis.com/css2?family=MedievalSharp" rel="stylesheet">
+      <style>
+            .h1 {
+                text-align: center;
+            }
+            .h1,
+            .h2,
+            .h3,
+            .h4,
+            .h5 {
+                margin: 2em;
+            }
+            div.button {
+                display: flex;
+                justify-content: center;
+                margin: 10px;
+            }
+            span.subtitle {
+                margin: 1em;
+                margin-right: 3em;
+                background-color: #F0EFF0;
+                color: #000000;
+            }
+            div.entity_block {
+                margin-top: 1em;
+                border: 1px solid blue;
+                padding: 1em;
+                border-radius: 10px;
+            }
+            span.colonne {
+                text-align: center;
+            }
+            p.titre {
+                color: #EF0107;
+            }</style>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"><script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script><title>Chroniques | manifeste</title>
+   </head>
+   <body>
+      <nav class="navbar navbar-expand-lg navbar-dark sticky-top" style="background-color: #4169E1;"><a class="navbar-brand" href="./homepage.html" style="margin-left: 1em;"><img class="d-inline-block" src="./img/brand.png" width="60" height="60" alt="">Accueil</a><div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+               <li class="nav-item dropdown nav-item"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Editions</a><div class="dropdown-menu" aria-labelledby="navbarDropdown"><a class="dropdown-item" href="./ms_ny.html">MS M.804</a><a class="dropdown-item" href="./ms_pa.html">Français 2663</a><a class="dropdown-item" href="./ms_cou.html">Cod. 329</a></div>
+               </li>
+               <li class="nav-item"><a class="nav-link" href="./index.html">Index</a></li>
+               <li class="nav-item"><a class="nav-link" href="./manifeste.html">Notices</a></li>
+               <li class="nav-item"><a class="nav-link" href="./about.html">À propos</a></li>
+            </ul>
+         </div>
+      </nav>
+      <div class="container">
+         <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#Cou" role="tab">Cod. 329</a></li>
+            <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#NY" role="tab">MS
+                  M.804</a></li>
+            <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#Pa" role="tab">Français
+                  2663</a></li>
+         </ul>
+         <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="Cou" role="tabpanel">
+               <h1 class="p-3">Manuscrit <em> (Cod. 329)
+                     </em></h1>
+               <div class="row">
+                  <div class="card col-md-3 col-sm-5 p-3">
+                     <div id="general" class="text-center">
+                        <h4>Bibliothèque centrale de Courtrai</h4>
+                        <p>
+                           <dl>
+                              <dt>Departement</dt>
+                              <dd></dd>
+                              <dt>Collection</dt>
+                              <dd></dd>
+                              <dt>Localisation</dt>
+                              <dd>Belgique, Courtrai</dd>
+                           </dl>
+                        </p>
+                     </div>
+                     <hr>
+                     <div id="id" class="p-1">
+                        <h5>Identifiants</h5>
+                        <p><b>Cote : Cod. 329</b></p>
+                        <p><a href="https://www.flickr.com/photos/bibliotheekkortrijk/6375706025/in/album-72157628078720883/" target="_blank">Lien</a></p>
+                     </div>
+                     <hr>
+                     <div id="summary" class="p-1">
+                        <h5>Sommaire</h5>
+                        <div class="container">Raconte les événements survenus en Europe de 1325 à 1400 et plus particulièrement
+                           de la Guerre de cent ans. Les chroniques se divisent en 4 tomes</div>
+                     </div>
+                  </div>
+                  <div class="container col-md-8 col-sm-7">
+                     <h3>Chroniques</h3>
+                     <div class="container">
+                        <p>Ecrit en ancien français Ecrit en ancien français - <b>XVe siècle</b><br></p>
+                        <hr>
+                        <div id="extrait" class="p-1">
+                           <h5>Extrait</h5>
+                           <div class="container">
+                              <p>"<i style="color: #EF0107;">Coment Philipe de Valois fut coroné roy de France.</i>" - Folio 23 recto à folio 24 recto
+                                 <dl>
+                                    <dt>Incipit</dt>
+                                    <dd><i>"Li rois Charles de France, fils au biau roy Phelippe, fu III fois mariés, et si morut
+                                          sans hoir marle, dont ce fu damages pour le royaume, si com vous oréz chi aprés."</i></dd>
+                                    <dt>Explicit</dt>
+                                    <dd><i>"Or nous tairons nous I petit de lui, et parlerons d’aucunes des ordenances d’Engleterre
+                                          et dou gouvrenement le roy."</i></dd>
+                                 </dl>
+                              </p>
+                           </div>
+                        </div>
+                        <hr>
+                        <div id="resp" class="p-1">
+                           <h5>Intervenants</h5>
+                           <div class="container">Froissart, Jehan</div><br><p>Manuscrit associé : 0</p>
+                        </div>
+                        <hr>
+                        <div id="physDesc" class="p-1">
+                           <h3>Description matérielle</h3>
+                           <div class="container"><b>Support</b> : Papier<br><b>Dimension</b> : largeur : 220mm ; longueur : 295mm<br><b>Foliotation</b> : Le manuscrit est mutilé; on n'a conservé que les cin premiers cahiers, chacun de
+                              10 folios, munis de réclames,
+                              et huit folios antérieus du 6eme cahier, la feuille formant deux folios extrêmes (51
+                              et 60) ayant disparu. Il en résulte, outre l'interruption finale du texte,
+                              une lacune correspondant au folio 51 (entre les folios 50 et 51) et comprennant le
+                              texte correspondant aux pages 56 et 154 de l'édition citée, tome 2.
+                              <br><b>Mise en page</b><p>
+                                 <p>colonnes : 1 - lignes : 34</p>
+                              </p><br><hr><b>Description des mains</b> : Le manuscrit semble être écrit que par un seul scribe, pour l'état conservé. Ajout
+                              de sommaires marginaux au XVIe siècle, aujourd'hui partiellement effacés
+                              <hr><b>Description de l'écriture</b> : 
+                              <hr><b>Description de l'ornement :</b><p></p>
+                              <p><span class="subtitle">lettrine</span>La transcription du manuscrit a été assez soignée (Lettrines rouges et bleues)</p>
+                              <hr><b>Description des reliures :</b><br>Relieure comportait une languette de parchemin renforçant la couture de chaque cahier.
+                              Il est aujourd'hui dérelié.</div>
+                           <hr>
+                           <div id="physDesc" class="p-1">
+                              <h3>Historique</h3>
+                              <div class="container">
+                                 <p>Inconnue Transféré au dépôt des archives de la ville de Courtrai, après avoir été
+                                    communiqué en 1890 à M. Napoléon de Pauw.</p>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="tab-pane fade" id="NY" role="tabpanel" aria-labelledby="témoin">
+               <h1 class="p-3">Manuscrit <em> (MS M.804)
+                     </em></h1>
+               <div class="row">
+                  <div class="card col-md-3 col-sm-5 p-3">
+                     <div id="general" class="text-center">
+                        <h4>Morgan Library</h4>
+                        <p>
+                           <dl>
+                              <dt>Departement</dt>
+                              <dd>Instance de conservation</dd>
+                              <dt>Collection</dt>
+                              <dd>Medieval and Renaissance Manuscripts</dd>
+                              <dt>Localisation</dt>
+                              <dd>Etats-Unis, New York City</dd>
+                           </dl>
+                        </p>
+                     </div>
+                     <hr>
+                     <div id="id" class="p-1">
+                        <h5>Identifiants</h5>
+                        <p><b>Cote : MS M.804</b></p>
+                        <p><a href="https://www.themorgan.org/manuscript/147009" target="_blank">Lien</a></p>
+                     </div>
+                     <hr>
+                     <div id="summary" class="p-1">
+                        <h5>Sommaire</h5>
+                        <div class="container">Raconte les événements survenus en Europe de 1325 à 1400 et plus particulièrement
+                           de la Guerre de cent ans. Les chroniques se divisent en 4 tomes.
+                           </div>
+                     </div>
+                  </div>
+                  <div class="container col-md-8 col-sm-7">
+                     <h3>Chroniques</h3>
+                     <div class="container">
+                        <p>Language batard entre le dialecte burgond et picard Language batard entre le dialecte
+                           burgond et picard - <b>Estimé entre 1412 et 1415</b><br></p>
+                        <hr>
+                        <div id="extrait" class="p-1">
+                           <h5>Extrait</h5>
+                           <div class="container">
+                              <p>"<i style="color: #EF0107;">La mort du roy Charles de France et du commencement du roy Phelippe de Valois.</i>" - Folio 15 verso au folio 16 verso du livre 1
+                                 <dl>
+                                    <dt>Incipit</dt>
+                                    <dd><i>"Le roy Charles de France, filz au beau roy Phelippe fu III fois mariéz, et si mouru
+                                          sans hoir masle dont ce fu dommage pour le royaume, si comme vous orréz cy aprés."</i></dd>
+                                    <dt>Explicit</dt>
+                                    <dd><i>"Or nous tairons un petit de lui et parlerons des ordonnances d’Engleterre et du gouvernement
+                                          du roy."</i></dd>
+                                 </dl>
+                              </p>
+                           </div>
+                        </div>
+                        <hr>
+                        <div id="resp" class="p-1">
+                           <h5>Intervenants</h5>
+                           <div class="container">De Bailly, Guillaume</div><br><p>Manuscrit associé : 2</p>
+                        </div>
+                        <hr>
+                        <div id="physDesc" class="p-1">
+                           <h3>Description matérielle</h3>
+                           <div class="container"><b>Support</b> : Papier<br><b>Dimension</b> : largeur : 270mm ; longueur : 365mm<br><b>Foliotation</b> : Le livre illustré est divisée en 2 tomes, contenant au total 363 feuilles.<br><b>Mise en page</b><p>
+                                 <ul>
+                                    <li>colonnes : 2 - lignes : 48 50</li>
+                                    <li>colonnes : 2 - lignes : 38</li>
+                                 </ul>
+                              </p><br> 
+                              <hr><b>Description des mains</b> : Le manuscrit est écrit par Guillaume de Bailly. Il a été aidé par ses assitants
+                              <hr><b>Description de l'écriture</b> : Écrit dans une écriture bâtarde légère, fluide et arrondie par plusieurs scribes
+                              et comparable à Besancon MS 864-865 et Paris Fr 1134, le Receuil de moralités des
+                              philosphes, également écrit pour Pierre de Fontenayen 1393 et portant son bras dans
+                              les initiales. Une table des matières précède le texte du livre II, dont chaque chapitre
+                              a un titre et un numéro rubriqués.
+                              <hr><b>Description de l'ornement :</b><p>La femme de Guillaume de Bailly a aider à la décoration notamment pour l'empalement.
+                                 Si le matériel comparatif supplémentaire (livre de Moranville) montre que le livre
+                                 1 est par miniaturiste du deuxième livre du Froissart de Besançon, le livre I a été
+                                 enluminé par Guillaume de Bailly. Bailly est une commune du diocèse de Troyes. D'après
+                                 le Serapeum XII p.268, Guillaume de Bailly a prospéré en 1390. Le Francq prétend que
+                                 ce manuscrit est celui que Froissart a chargé Guillaume de Bailly d'illustrer pour
+                                 Richard II d'Angleterre. Il a cependant été saisi par Louis, duc d'Anjou en 1381.</p>
+                              <p><span class="subtitle">miniatures</span>Les miniatures des f.16, 25, 44v, 72, 111v et 117 sont particulièrement caractéristiques
+                                 de l'œuvre de Bailly. Son style est marqué par les contours plats du visage, la peau
+                                 blanche, les mains plutôt bien articulées et les pieds suspendus comme ceux d'un danseur.
+                                 Un style similaire prévalait en Angleterre, cf. le frontispice du Siège de Troie de
+                                 Lydgate à la J. Rylands Library (cf. leur catalogue d'exposition de 1939, p1.12) et
+                                 la bordure du Missel de Sherborne. Les fonds de miniatures pour le paysage avec des
+                                 ciels d'un bleu vif et de l'herbe poussant de petites touffes de jaune. Il utilise
+                                 des tons plus sombres et des contours noirs durs. La forme de l'initiale I des f.107v
+                                 et 150v est utilisée dans M512, le Lectionnaire de Reims du XIVe siècle. Plusieurs
+                                 des initiales ainsi que la bordure du premier plomb sont décorées des armes de son
+                                 épouse Marie de Broyes : Azur, à trois broies d'or. Une caractéristique importante
+                                 de la décoration sont les bannières peintes dans les marges dans les batailles, les
+                                 forces adverses, françaises et anglaises sont respectivement à gauche et à droite
+                                 du spectateur.</p>
+                              <hr><b>Description de l'ornement :</b><br>Vélin  à l'origine, reliée en 1948 par Marguerite Duprez Lahey en maroquin levant
+                              naturel avec incrustations brun foncé le long des bords.</div>
+                           <hr>
+                           <div id="physDesc" class="p-1">
+                              <h3>Historique</h3>
+                              <div class="container">
+                                 <p>Vraisemblablement fait à Troyes, Exécuté pour Pierre de Fontenoy, seigneur de Rance;
+                                    donné vers 1590 par Thomas Sackville, Lord Buckhurst (le comte de Dorset) à William
+                                    Cecil, Lord Burghley ; hérité par Robert Bruce, premier comte d'Ailesbury (d.1685).
+                                    ) ; sa vente (Londres, 21 nov. 1687, p. 87, n. 2) à Sir Thomas Mostyn ; collection
+                                    Lord Mostyn (ex-libris de la Gloddaeth Library à l'intérieur de la couverture) ; sa
+                                    vente (Sotheby's, Londres, 13 juillet 1920, lot 44, fac-similé) à William Clarkson
+                                    Van Antwerp ; sa vente (New York, American Art Association, 1922, lot 19, fac-similé)
+                                    à J. F. Drake pour Cortland. F. Drake pour Cortland F. Bishop ; sa vente (New York,
+                                    American Art Association, Anderson Galleries, part. I, 5-8 avril 1938, lot 830) ;
+                                    acheté à cette vente pour la Morgan Library par l'intermédiaire du Lewis Cass Ledyard
+                                    Fund.</p>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="tab-pane fade" id="Pa" role="tabpanel" aria-labelledby="témoin">
+               <h1 class="p-3">Manuscrit <em> (Français 2663)
+                     </em></h1>
+               <div class="row">
+                  <div class="card col-md-3 col-sm-5 p-3">
+                     <div id="general" class="text-center">
+                        <h4>Bibliothèque nationale de France</h4>
+                        <p>
+                           <dl>
+                              <dt>Departement</dt>
+                              <dd>Département des manuscrits</dd>
+                              <dt>Collection</dt>
+                              <dd>Français</dd>
+                              <dt>Localisation</dt>
+                              <dd>France, Paris</dd>
+                           </dl>
+                        </p>
+                     </div>
+                     <hr>
+                     <div id="id" class="p-1">
+                        <h5>Identifiants</h5>
+                        <p><b>Cote : Français 2663</b></p>
+                        <p> Ancien(s) identifiant(s) : 
+                           <ul>Regius 8332</ul>
+                        </p>
+                        <p><a href="https://gallica.bnf.fr/ark:/12148/btv1b60005702/f1.item" target="_blank">Lien</a></p>
+                     </div>
+                     <hr>
+                     <div id="summary" class="p-1">
+                        <h5>Sommaire</h5>
+                        <div class="container">Raconte les événements survenus en Europe de 1325 à 1400 et plus particulièrement
+                           de la Guerre de cent ans. Les chroniques se divisent en 4 tomes.</div>
+                     </div>
+                  </div>
+                  <div class="container col-md-8 col-sm-7">
+                     <h3>Les Croniques que fist sire Jehan Froissart</h3>
+                     <div class="container">
+                        <p>Ecrit en ancien français. Ecrit en français. - <b>Estimé entre 1410 et 1420</b><br></p>
+                        <hr>
+                        <div id="extrait" class="p-1">
+                           <h5>Extrait</h5>
+                           <div class="container">
+                              <p>"<i style="color: #EF0107;">Le commencement des guerres de France et d’Engleterre et la maniere comment et pourquoy
+                                    elles advindrent. XXXV.</i>" - Folio 28 recto au folio 29 recto du livre 1
+                                 <dl>
+                                    <dt>Incipit</dt>
+                                    <dd><i>"Le roy Charles de France, filz au beau roy Phelippe, fut trois fois marié et si mourut
+                                          sans hoir masle, dont ce fut dommaige pour le royaume de France, si comme vous orrés
+                                          cy aprés"</i></dd>
+                                    <dt>Explicit</dt>
+                                    <dd><i>"Or nous tairons un petit de lui et parlerons des ordonnances d’Angleterre et du gouvernement
+                                          du roy."</i></dd>
+                                 </dl>
+                              </p>
+                           </div>
+                        </div>
+                        <hr>
+                        <div id="resp" class="p-1">
+                           <h5>Intervenants</h5>
+                           <div class="container">Froissart, Jean</div><br><p>Manuscrit associé : 2</p>
+                        </div>
+                        <hr>
+                        <div id="physDesc" class="p-1">
+                           <h3>Description matérielle</h3>
+                           <div class="container"><b>Support</b> : Parchemin<br><b>Dimension</b> : largeur : 252mm ; longueur : 370mm<br><b>Foliotation</b> : Le tome 1 contient au total 407 folios.<br><b>Mise en page</b><p>
+                                 <p>colonnes : 2 - lignes : 45</p>
+                              </p><br>Espace écrit 252 mm par 188 mm.
+                              <hr><b>Description des mains</b> : 
+                              <hr><b>Description de l'écriture</b> : 
+                              <hr><b>Description de l'ornement :</b><p></p>
+                              <p><span class="subtitle">miniature</span>Ce manuscrit contient 22 miniatures, toutes réalisées par le maître de Boethius, à
+                                 l'exception de la miniature d'ouverture, qui a été peinte par lemaître de Harvard
+                                 Hannibal.
+                                 </p>
+                              <hr><b>Description de l'ornement :</b><br>Vélin.</div>
+                           <hr>
+                           <div id="physDesc" class="p-1">
+                              <h3>Historique</h3>
+                              <div class="container">
+                                 <p>Région parisiennce Manuscrit donnée à Jean de Derval, seigneur de Malestroit par Tanguy
+                                    du Chastel. Il est ensuite vendu par Pierre de Lisle Agaric dans une librairie parisienne.<br><br><b>Liste des estampilles</b><p><span class="subtitle">armoiries</span>Armes de la seigneurie de Malestroit
+                                       Folio 2 verso
+                                       <dl style="margin-left : 3em;" class="row">
+                                          <div class="col">
+                                             <dt>Folio</dt>
+                                             <dd>Folio 2 verso</dd>
+                                          </div>
+                                          <div class="col">
+                                             <dt>Type</dt>
+                                             <dd>bouclier</dd>
+                                          </div>
+                                          <div class="col">
+                                             <dt>Taille</dt>
+                                             <dd>5</dd>
+                                          </div>
+                                       </dl>
+                                    </p>
+                                    <p><span class="subtitle">sceau</span>Sceau Bibliothec R. Reoi
+                                       Folio 405 verso
+                                       <dl style="margin-left : 3em;" class="row">
+                                          <div class="col">
+                                             <dt>Folio</dt>
+                                             <dd>Folio 405 verso</dd>
+                                          </div>
+                                          <div class="col">
+                                             <dt>Type</dt>
+                                             <dd>circumference</dd>
+                                          </div>
+                                          <div class="col">
+                                             <dt>Taille</dt>
+                                             <dd>1</dd>
+                                          </div>
+                                       </dl>
+                                    </p>
+                                 </p>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div><br><br><br><footer class="text-center text-dark fixed-bottom footer-transparent">
+         <div class="text-center p-1" style="background-color: #4169E1;">
+            <p class="text-light">© MIT Licence | Humeau Maxime - 2022 : <a class="text-light" href="https://github.com/rayondemiel" target="_blank">Github</a></p>
+         </div>
+      </footer>
+   </body>
+</html>
