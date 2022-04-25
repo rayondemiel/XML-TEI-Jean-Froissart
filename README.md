@@ -33,4 +33,4 @@ Ce dossier contient un ensemble de 4 fichiers :
 - La documentation ODD au format XML et HTML au sein du dossier `docs/`
 - Le schéma RELAX RNG présent au sein du dossier `out/`
 - La transformation a été effectué via `froissart.xsl`
-- Les fichiers html sont présents au sein du dossier `HTML`
+- Les fichiers html sont présents au sein du dossier `HTML/`
