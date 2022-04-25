@@ -1,0 +1,532 @@
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta name="description" content="Projet d'édition numérique du roman-feuilleton les Fils de famille d'Eugène Sue (1856)">
+      <meta name="keywords" content="edition, tei, xslt, chroniques, Jean, Froissart">
+      <meta name="author" content="Humeau, Maxime">
+      <link rel="icon" type="image/png" href="img/brand.png">
+      <link href="https://fonts.googleapis.com/css2?family=MedievalSharp" rel="stylesheet">
+      <style>
+            .h1 {
+                text-align: center;
+            }
+            .h1,
+            .h2,
+            .h3,
+            .h4,
+            .h5 {
+                margin: 2em;
+            }
+            div.button {
+                display: flex;
+                justify-content: center;
+                margin: 10px;
+            }
+            span.subtitle {
+                margin: 1em;
+                margin-right: 3em;
+                background-color: #F0EFF0;
+                color: #000000;
+            }
+            div.entity_block {
+                margin-top: 1em;
+                border: 1px solid blue;
+                padding: 1em;
+                border-radius: 10px;
+            }
+            span.colonne {
+                text-align: center;
+            }
+            p.titre {
+                color: #EF0107;
+            }</style>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"><script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script><title>Chroniques | Manuscrit</title>
+      <style>
+                        p {
+                            font-family: 'MedievalSharp', cursive;
+                        }</style>
+   </head>
+   <body>
+      <nav class="navbar navbar-expand-lg navbar-dark sticky-top" style="background-color: #4169E1;"><a class="navbar-brand" href="./homepage.html" style="margin-left: 1em;"><img class="d-inline-block" src="./img/brand.png" width="60" height="60" alt="">Accueil</a><div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+               <li class="nav-item dropdown nav-item"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Editions</a><div class="dropdown-menu" aria-labelledby="navbarDropdown"><a class="dropdown-item" href="./ms_ny.html">MS M.804</a><a class="dropdown-item" href="./ms_pa.html">Français 2663</a><a class="dropdown-item" href="./ms_cou.html">Cod. 329</a></div>
+               </li>
+               <li class="nav-item"><a class="nav-link" href="./index.html">Index</a></li>
+               <li class="nav-item"><a class="nav-link" href="./manifeste.html">Notices</a></li>
+               <li class="nav-item"><a class="nav-link" href="./about.html">À propos</a></li>
+            </ul>
+         </div>
+      </nav>
+      <div class="container">
+         <h1 class="text-center"> Manuscrit <em>(MS M.804)</em></h1>
+         <div class="text-center"><i>Morgan Library, Etats-Unis, New York City</i></div><br><div class="block_p">
+            <p class="titre"><span class="subtitle">shp :1-41</span> La mort du roy <a href="./index.html" title="Charles, IV, le Bel,  | role : Roi de France"> Charles de France</a>  et du commencement du roy <a href="./index.html" title="Philippe, VI, de Valois,  | role : Roi de France"> Phelippe</a><span> de Valois</span></p>
+            <p class="para"> [1]  Le roy<a href="./index.html" title="Charles, IV, le Bel,  | role : Roi de France"> Charles de France</a> ,
+                filz 
+               au
+                beau<a href="./index.html" title="Philippe, V, le Long,  | role : Roi de France"> roy Phelippe,</a> fu III 
+               fois
+                mariéz, 
+               et si
+                mouru 
+               sans hoir
+                masle, 
+               dont ce
+                fu dommage 
+               pour le  royaume
+                
+               , si
+                comme 
+               vous
+                orréz cy 
+               aprés.
+                La<a href="./index.html" title="Blanche, , de Bourgogne,  | role : Reine de France"> premiere de ses femmes</a> fu l’une 
+               des plus belles dames
+                du 
+               monde
+                et fu 
+               fille
+                du <del>conte d’Artois </del><a href="./index.html" title="Mahaut, ,  d'Artois,  | role : Comtesse d'Artois"> contesse d’Artois</a> 
+               . Celle garda mal son mariage et se
+                forfist 
+               , par quoy elle en
+                demoura longtemps ou , en prison
+                et a 
+               grant meschief
+                ainçois 
+               que
+               <a href="./index.html" title="Charles, IV, le Bel,  | role : Roi de France"> son mary</a> fust roy. Quant le lui fu escheu 
+               et il
+                fu couronnéz, les<a href="./index.html" title=", , ,  | role : "> XII pers</a> 
+               et
+               <a href="./index.html" title=", , ,  | role : "> les barons</a> de France 
+               ne
+               
+                vouloient mie s’ilz peussent, 
+               que
+                le demourast 
+               sans hoir
+                masle , si quistrent 
+               sens et
+                avis 
+               par quoy
+                le roy<a href="./index.html" title="Charles, IV, le Bel,  | role : Roi de France"> Charles</a> fust remariéz , et 
+               le
+                fu 
+               a
+                la<a href="./index.html" title="Marie, , de Luxembourg,  | role : Reine de France"> fille</a><a href="./index.html" title="Henri, VII, de Luxembourg,  | role : Empereur du Saint-Empire, roi des Romains et comte de Luxembourg"> l’empereur</a><span> Henry</span><span> de</span><span> Lucembourt</span> 
+               et
+                suer 
+               au <a href="./index.html" title="Jean, Ier, de Bohême,  dit l'Aveugle | role : Roi de Bohême"> gentil roy de</a><span> Behaingne,</span> et 
+               par quoy
+                le premier mariage fu deffait 
+               et
+                anullé 
+               de celle
+               <a href="./index.html" title="Blanche, , de Bourgogne,  | role : Reine de France"> dame</a> 
+               qui en prison estoit
+                , et tout 
+               par
+                la 
+               declaration
+                du<a href="./index.html" title="Jacques, , Duèze, dit Jean XXII | role : Pape d'Avignon"> pappe,</a> 
+               nostre Saint Pere
+                
+               , qui
+                adont 
+               estoit. De celle <a href="./index.html" title="Marie, , de Luxembourg,  | role : Reine de France"> seconde</a><span> dame</span><span> de</span><span> Lucembourc</span> , qui 
+               estoit
+                moult humble 
+               et
+                moult 
+               preude femme, ot
+                le <a href="./index.html" title="Charles, IV, le Bel,  | role : Roi de France"> roy</a> I<a href="./index.html" title="Louis, , de France,  | role : Prince de France"> filz</a> 
+               qui
+                mouru 
+               moult
+                joenne, et asséz 
+               tost
+                aprés la<a href="./index.html" title="Marie, , de Luxembourg,  | role : Reine de France"> mere</a> trespassa aussi 
+               a
+                et moururent tous deux asséz souspeçonneusement 
+               , de
+                quoy 
+               aucunes gens furent
+                encoulpés par derriere 
+               couvertement. Aprés
+                ce<a href="./index.html" title="Charles, IV, le Bel,  | role : Roi de France"> roy</a><span></span> Charles fu remariéz tierce fois 
+               a
+                la<a href="./index.html" title="Jeanne, , d'Évreux,  | role : Reine de France"> fille de son oncle de remariage</a> ,
+                la 
+               fille
+                de <a href="./index.html" title="Louis, , d'Evreux,  | role : Conte d'Evreux"> monseigneur Loÿs,</a> 
+               conte
+                d’Evreux, la 
+               royne
+               <a href="./index.html" title="Jeanne, , d'Évreux,  | role : Reine de France"> Jehanne</a> , et suer du<a href="./index.html" title="Philippe, III, de Navarre,  | role : Roi de Navarre"> roy de</a><span> Navarre</span> 
+               qui
+                adont 
+               estoit.
+                Aprés avint 
+               que
+                
+               celle <a href="./index.html" title="Jeanne, , d'Évreux,  | role : Reine de France"> dame</a> fu ençainte et le dit <a href="./index.html" title="Charles, IV, le Bel,  | role : Roi de France"> roy</a>  son mary s’acoucha malade au lit de la mort. Quant il apparçut 
+               que
+                mourir 
+               le
+                couvenoit 
+               , il devisa que, s’il
+                avenoit 
+               que
+                la <a href="./index.html" title="Jeanne, , d'Évreux,  | role : Reine de France"> royne</a>  se acouçast 
+               d’un
+                filz, 
+               il
+                vouloit 
+               que
+                mesire<a href="./index.html" title="Philippe, VI, de Valois,  | role : Roi de France"> Phelippe de Valois son cousin</a> 
+               en
+                fust mainbour 
+               et
+                regent 
+               de tout son
+                
+               jusques
+                adont 
+               que
+                son filz seroit en aage 
+               d’estre
+                roy. Et s’il avenoit 
+               que ce
+                fust 
+               une fille, que
+                les<a href="./index.html" title=", , ,  | role : "> XII</a><span> pers</span> 
+               et
+                les hauls<a href="./index.html" title=", , ,  | role : "> barons</a> de France eussent 
+               conseil et
+                avis entre eulx de 
+               ordonner
+                , et donnassent le   a cellui 
+               qui avoir le
+                devroit 
+               par droit. Sur
+                ce le <a href="./index.html" title="Charles, IV, le Bel,  | role : Roi de France"> roy</a><span> Charles</span>  ala morir 
+               environ Pasques, l’an de
+                grace Nostre Seigneur mil CCC XXVIII . Ne
+                demoura mie granment 
+               aprés
+                ce 
+               que la
+               <a href="./index.html" title="Jeanne, , d'Évreux,  | role : Reine de France"> royne</a><span> Jehanne</span> 
+               acoucha d’une <a href="./index.html" title="Blanche, , de France,  | role : Princesse de France et duchesse d'Orléans"> fille</a> , de quoy
+                le 
+               plus
+                du  
+               en
+                furent 
+               durement
+                courrouciés et troubléz 
+               . Quant
+                les<a href="./index.html" title=", , ,  | role : "> XII</a><span> pers</span> 
+               et
+                les<a href="./index.html" title=", , ,  | role : "> barons</a> 
+               de France
+                sçorent ce ilz se assemblerent 
+               a   au plus tost
+                qu’ilz porent et donnerent le royaume 
+               de commun
+                accord 
+               a
+                monseigneur<a href="./index.html" title="Philippe, VI, de Valois,  | role : Roi de France"> Phelippe de Valois</a> , filz 
+               jadis au conte de
+                Valois. Et en osterent la <a href="./index.html" title="Isabelle, , de France,  | role : Reine de France"> royne d’Engleterre</a> 
+               et le
+               <a href="./index.html" title="Édouard, III, ,  | role : Roi d'Angleterre"> roy</a> 
+               son
+                filz 
+               , qui estoit
+                demouree 
+               suer germaine au <a href="./index.html" title="Charles, IV, le Bel,  | role : Roi de France"> roy</a><span> Charles</span> derrenierement trespasséz , par la 
+               raison de
+                ce qu’ilz dient 
+               que
+                le  est de si grant
+                noblesce 
+               qu’il ne doit
+                mie 
+               par succession
+                aler 
+               a
+                femelle, ainsi 
+               que vous
+                avéz 
+               oy
+                ça 
+               devant, au
+                commencement 
+               de
+                ce 
+               livre. Et
+                firent cellui monseigneur<a href="./index.html" title="Philippe, VI, de Valois,  | role : Roi de France"> Phelippe</a>  couronner
+                a  , 
+               l’an
+                mil CCC XXVIII , le jour de
+                la 
+               Trinité
+                . Dont aprés 
+               grant guerre
+                et grant  desolation avint ou  et 
+               en
+                pluseurs paÿs , si comme 
+               vous
+                pourréz oyr 
+               en ceste
+                histoire. Asséz 
+               tost
+                aprés ce 
+               que
+                le <a href="./index.html" title="Philippe, VI, de Valois,  | role : Roi de France"> roy Phelippe</a> fu couronné 
+               , il
+                vint a  grant ost a la ville de contre 
+               les <a href="./index.html" title=", , ,  | role : "> Flamens</a> 
+               ,qui
+                la 
+               estoient
+                assembléz, c’est assavoir ceulx 
+               de <a href="./index.html" title=", , ,  | role : "> Bruges</a> , <a href="./index.html" title=", , ,  | role : "> d’Ipre</a> 
+               et
+               <a href="./index.html" title=", , ,  | role : "> du Franc</a> , qui 
+               ne
+                voloient 
+               obeir
+                au <a href="./index.html" title="Louis, Ier, de Flandre,  | role : Comte de Flandre"> conte de Flandres</a> qui 
+               ne
+                se pouoit tenir ou  
+               fors
+                seulement 
+               a  ,
+                si 
+               avoient
+                cappitaine un 
+               homme
+                moult hardy nommé <a href="./index.html" title="Nicolaas, , Zannekin,  | role : Capitaine de la revolte"> Colin Dannekins.</a></p>
+            <figure><a href="https://ica.themorgan.org/manuscript/page/2/147009"><img class="rounded mx-auto d-block" src="./img/cassel.jpg" style="width: 38rem; height: auto"></a><figcaption style="text-align:center; margin-top: 1em;  font-size: 12px"> La  bataille de Cassel  en Flandres.</figcaption>
+            </figure>
+         </div>
+         <div class="block_p">
+            <p class="titre"><span class="subtitle">shp :1-42</span></p>
+            <p class="para"> [2]  Cilz 
+               se
+                partirent un 
+               jour
+                sus l’eure du souper de  
+               en
+                entention 
+               que pour desconfire le <a href="./index.html" title="Philippe, VI, de Valois,  | role : Roi de France"> roy</a>  et
+                tout 
+               son ost
+                , et 
+               s’en
+                vindrent 
+               tout paisiblement,
+               sans
+                point de 
+               noise,
+                ordonnéz 
+               en
+                trois 
+               batailles,
+                desquelles l’une s’en 
+               ala droit
+                aux 
+               tentes
+                du<a href="./index.html" title="Philippe, VI, de Valois,  | role : Roi de France"> roy</a> et orent pres le <a href="./index.html" title="Philippe, VI, de Valois,  | role : Roi de France"> roy</a>  souspris, 
+               qui seoit au
+                souper 
+               et toutes ses gens
+                
+               .
+                L’autre 
+               bataille s’en ala droit
+                aux 
+               tentes
+                du<a href="./index.html" title="Jean, Ier, de Bohême,  dit l'Aveugle | role : Roi de Bohême"> roy de</a><span> Bahaigne</span> et l’orent pres trouvé 
+               en tel point. Et
+                la tierce 
+               bataille s’en ala
+                droitement aux 
+               tentes
+                du<a href="./index.html" title="Guillaume, I, de Hainaut,  | role : Comte de Hainaut et de Hollande"> conte de</a><span> Hainau</span>  et l’orent 
+               aussi
+                pres souspris 
+               et le hasterent
+                si 
+               que a
+                grant 
+               paine
+                porent 
+               ses gens estre
+                armes, 
+               ne les gens
+                monseigneur<span> de</span><span> Biaumont</span> , 
+               son frere. Et
+                vindrent 
+               toutes ces
+                trois batailles 
+               si paisiblement jusques
+                aux 
+               tentes, que a grant meschief
+                furent les seigneurs arméz 
+               ne leurs gens
+                assembléz . Et en eussent tous les seigneurs et leurs gens 
+               esté mors, se
+                Dieux  
+               ne les
+                eust ainsi que 
+               par
+                droit 
+               miracle
+                secouru 
+               et
+                aidié, mais 
+               par
+                la grace 
+               de Dieu
+                chascun de ces seigneurs desconfist sa 
+               bataille si entierement, et tous
+                a 
+               une heure et en
+                I 
+               point, que
+                onques de tous ces XVIM<a href="./index.html" title=", , ,  | role : "> Flamens</a> 
+               n’en
+                eschappa M 
+               et
+                fu 
+               leur
+               <a href="./index.html" title="Nicolaas, , Zannekin,  | role : Capitaine de la revolte"> cappitaine</a>  mort 
+               . Et si ne
+                sçot onques nul 
+               de ces
+                seigneurs 
+               nouvelles
+                , l'un 
+               de l’autre, jusques
+                adont qu’ilz orent 
+               tout fait.
+                Et onques de XVM<a href="./index.html" title=", , ,  | role : "> Flamens</a>  qui
+                mors y demourerent, 
+               n’en recula
+                un seul 
+               que
+                tous ne fussent mors et tuéz 
+               en
+                trois monciaux l’un sur l’autre 
+               , sans
+                yssir de la 
+               place
+                la 
+               ou
+                chascune bataille commença 
+               , qui
+                fu 
+               l’an de
+                Grace  mil CCC XXVII 
+               , le jour
+                de saint Bertelemy. Adont 
+               aprés  vindrent les<a href="./index.html" title=", , ,  | role : "> Flamens</a> 
+               a   et y
+                mistrent 
+               les
+                banieres 
+               de France
+                et se rendy la  au <a href="./index.html" title="Philippe, VI, de Valois,  | role : Roi de France"> roy</a> , et puis  
+               et puis
+                et tous ceulz de la chastelerie 
+               de
+                , et ceulz 
+               de  ensivant . Et receurent 
+               le <a href="./index.html" title="Louis, Ier, de Flandre,  | role : Comte de Flandre"> conte Loÿs</a> ,leur
+                seigneur , adont 
+               amiablement et
+                paisiblement et lui 
+               jurerent foy et
+                loyauté 
+               a tousjours
+                mais.</p>
+            <p class="para"> [3]  Quant le <a href="./index.html" title="Philippe, VI, de Valois,  | role : Roi de France"> roy Phelippe</a> 
+               de France ot
+                remis 
+               le <a href="./index.html" title="Louis, Ier, de Flandre,  | role : Comte de Flandre"> conte de Flandres</a>  en son
+                
+               et que
+                tous lui orent juré feauté 
+               et hommage, il
+                departy 
+               ses gens et retourna
+                chascun 
+               en son lieu, et il
+                meismes 
+               s’en vint en  et 
+               sejourner a  et la 
+               environ. Si
+                fu durement 
+               prisiés et
+                honnoréz 
+               de celle emprise
+                qu’il avoit faite sur les <a href="./index.html" title=", , ,  | role : "> Flamens</a> 
+               et
+                du 
+               service
+                aussi du<a href="./index.html" title="Louis, Ier, de Flandre,  | role : Comte de Flandre"> conte</a><span> Loÿs</span> 
+               , son cousin. Si
+                demora 
+               en grant prosperité et en grant honneur
+                et acrut 
+               grandement
+                
+               l’estat royal. Et
+                n’y 
+               avoit
+                onques 
+               mais
+                eu 
+               en  roy 
+               ,
+                si comme 
+               on disoit,
+                qui eust 
+               tenu
+                l’estat pareil 
+               au roy
+               <a href="./index.html" title="Philippe, VI, de Valois,  | role : Roi de France"> Phelippe</a> 
+               . Et faisoit faire
+                tournois, 
+               joustes
+                
+               et esbatemens
+                
+               moult
+                et a 
+               grant
+                plenté 
+               .
+                
+               Or nous tairons
+                un 
+               petit de lui
+               et parlerons
+                
+               des
+                ordonnances 
+               et
+                du gouvernement du<a href="./index.html" title="Édouard, III, ,  | role : Roi d'Angleterre"> roy</a> .
+               </p>
+         </div>
+      </div><br><br><br><footer class="text-center text-dark fixed-bottom footer-transparent">
+         <div class="text-center p-1" style="background-color: #4169E1;">
+            <p class="text-light">© MIT Licence | Humeau Maxime - 2022 : <a class="text-light" href="https://github.com/rayondemiel" target="_blank">Github</a></p>
+         </div>
+      </footer>
+   </body>
+</html>

@@ -354,26 +354,14 @@
             <persName type="contemporary-name">
               <forename>Philippe</forename>
               <genName>V</genName>
-              <surname>le Bel</surname>
+              <surname>le Long</surname>
             </persName>
             <persName type="text-name">
-              <forename>
-                <app>
-                  <lem wit="#NY #Pa #Cou">Charles</lem>
-                  <rdg wit="#Cou">Charle</rdg>
-                </app>
-              </forename>
-              <surname>de France</surname>
+              <roleName>roy</roleName>
+              <forename>Phelippe</forename>
             </persName>
-            <birth when-iso="1294-01-18">18 janvier 1294</birth>
-            <death when-iso="1329-02-01">1er février 1328</death>
-            <note>
-              <p>Charles est né à Creil le 18 juin 1294, troisième fils du roi Philippe IV de France et de Jeanne de Navarre. En janvier 1308, il a épousé Blanche de Bourgogne. Il a été fait comte de La Marche en 1314. Il succède comme roi de France et roi de Navarre le 3 janvier 1322, après la mort de son frère aîné, Philippe V, et est couronné le 11 février à Reims. En mai de la même année, son mariage est annulé et il épouse alors Marie de Luxembourg le 21 septembre 1322. Elle donne naissance à un fils en mars 1324, mais le nourrisson meurt peu après, et Marie ne lui survit que de quelques jours. Charles se marie une troisième fois, avec Jeanne d'Évreux, le 5 juillet 1324. À sa mort, le 1er février 1328, il n'avait qu'un seul enfant vivant, une fille Marie issue de son troisième mariage. Les enfants nés de ses deux premiers mariages étaient morts en bas âge, de même que la première fille de son troisième mariage. La reine, Jeanne d'Évreux, était cependant enceinte lorsque son mari est mort, et elle a donné naissance à une fille posthume, appelée Blanche. Il fut le dernier roi de France de la lignée directe des Capétiens. Charles étant mort sans descendance mâle, Philippe VI de Valois, le fils de son oncle maternel Charles de Valois, lui succède sur le trône de France.</p>
-              <listBibl>
-                <bibl>Jules Viard, ‘Le titre de roi de France et de Navarre au XIVe siècle’, Bibliothèque de l’École des Chartes, 61 (1900), 447–49</bibl>
-                <bibl>Thierry Stasser, ‘The third marriage of king Charles IV of France and his offspring’, Medieval prosopography, 14 (1993), 1–26</bibl>
-              </listBibl>
-            </note>
+            <birth when-iso="1293">1293</birth>
+            <death when-iso="1322-01-03">3 janvier 1322</death>
           </person>
           <person xml:id="CharlesIV" role="Roi_de_France" sex="1">
             <persName type="contemporary-name">
@@ -401,7 +389,7 @@
             <note>
               <p>Charles est né à Creil le 18 juin 1294, troisième fils du roi Philippe IV de France et de Jeanne de Navarre. En janvier 1308, il a épousé Blanche de Bourgogne. Il a été fait comte de La Marche en 1314. Il succède comme roi de France et roi de Navarre le 3 janvier 1322, après la mort de son frère aîné, Philippe V, et est couronné le 11 février à Reims. En mai de la même année, son mariage est annulé et il épouse alors Marie de Luxembourg le 21 septembre 1322. Elle donne naissance à un fils en mars 1324, mais le nourrisson meurt peu après, et Marie ne lui survit que de quelques jours. Charles se marie une troisième fois, avec Jeanne d'Évreux, le 5 juillet 1324. À sa mort, le 1er février 1328, il n'avait qu'un seul enfant vivant, une fille Marie issue de son troisième mariage. Les enfants nés de ses deux premiers mariages étaient morts en bas âge, de même que la première fille de son troisième mariage. La reine, Jeanne d'Évreux, était cependant enceinte lorsque son mari est mort, et elle a donné naissance à une fille posthume, appelée Blanche. Il fut le dernier roi de France de la lignée directe des Capétiens. Charles étant mort sans descendance mâle, Philippe VI de Valois, le fils de son oncle maternel Charles de Valois, lui succède sur le trône de France.</p>
               <listBibl>
-                <bibl>Jules Viard, ‘Le titre de roi de France et de Navarre au XIVe siècle’, Bibliothèque de l’École des Chartes, 61 (1900), 447–49</bibl>
+                <bibl>Jules Viard, ‘Le titre de roi de France et de Navarre au XIVe siècle’, Bibliothèque de l’École des Chartes, 61 (1900), 447–49. </bibl>
                 <bibl>Thierry Stasser, ‘The third marriage of king Charles IV of France and his offspring’, Medieval prosopography, 14 (1993), 1–26</bibl>
               </listBibl>
             </note>
@@ -612,7 +600,7 @@
             <note>
               <p>Édouard III (1312 - 1377), roi d'Angleterre ; fils du roi Édouard II d'Angleterre et d'Isabelle de France.</p>
               <listBibl>
-                <bibl>W. M. Ormrod, 'Edward III (1312-1377)', in Oxford Dictionary of National Biography, ed. H. C. G. Matthew and Brian Harrison (Oxford: OUP, 2004)</bibl>
+                <bibl>W. M. Ormrod, 'Edward III (1312-1377)', in Oxford Dictionary of National Biography, ed. H. C. G. Matthew and Brian Harrison (Oxford: OUP, 2004). </bibl>
                 <bibl>online ed., ed. Lawrence Goldman, January 2008, http://www.oxforddnb.com/view/article/8519</bibl>
               </listBibl>
             </note>
@@ -650,7 +638,7 @@
             <note>
               <p>Fille d'Odo V, comte de Bourgogne, et de Mahaut, comtesse d'Artois. Première épouse du roi Charles IV de France, auquel elle fut mariée en 1308. Certaines versions manuscrites des Chroniques de Froissart la décrivent par erreur comme la fille du comte d'Artois, alors qu'elle était en fait la fille de la comtesse d'Artois, fille et héritière de Robert II, comte d'Artois.</p>
               <listBibl>
-                <bibl>Jules-Marie Richard, Une petite nièce de Saint Louis. Mahaut, comtesse d’Artois et de Bourgogne (1302–1329). Étude sur la vie privée, les arts et l’industrie, en Artois et à Paris au commencement du XIVe siècle (Paris: H. Champion, 1887) (in particular p. 5–***)</bibl>
+                <bibl>Jules-Marie Richard, Une petite nièce de Saint Louis. Mahaut, comtesse d’Artois et de Bourgogne (1302–1329). Étude sur la vie privée, les arts et l’industrie, en Artois et à Paris au commencement du XIVe siècle (Paris: H. Champion, 1887) (in particular p. 5–***). </bibl>
                 <bibl>Thierry Stasser, ‘The third marriage of king Charles IV of France and his offspring’, Medieval prosopography, 14 (1993), 1–26 (p. 3–7)</bibl>
               </listBibl>
             </note>
@@ -1061,2493 +1049,2494 @@
   </teiHeader>
   <text>
     <body>
-      <div type="section" synch="shp" n="1-41">
-        <head type="titre">
-          <app>
-            <lem wit="#NY">La mort du roy <persName ref="#CharlesIV">Charles de France</persName> et du</lem>
-            <rdgGrp type="substantive">
-              <rdg wit="#Cou">Coment <persName ref="#PhilippeVI" xml:id="PhilippeVI1-0" next="PhilippeVI1-1">Philipe</persName></rdg>
-              <rdg wit="#Pa">Le</rdg>
-            </rdgGrp>
-          </app>
-          <app>
-            <lem wit="#Pa #NY">commencement</lem>
-            <rdg wit="#Cou"/>
-          </app>
-          <app>
-            <lem wit="#NY">du roy <persName  ref="#PhilippeVI" xml:id="PhilippeVI1-0-1" next="PhilippeVI1-1">Phelippe</persName></lem>
-            <rdg wit="#Cou"/>
-            <rdg wit="#Pa" type="substantive">des guerres de France et d’Engleterre et la maniere comment et pourquoy elles advindrent. XXXV</rdg>
-          </app>
-          <app>
-            <lem wit="#NY #Cou"><persName xml:id="PhilippeVI1-1" prev="PhilippeVI1-0 PhilippeVI1-0-1">de Valois</persName></lem>
-            <rdg wit="#Pa"/>
-          </app>
-          <app>
-            <lem wit="#Pa #NY"/>
-            <rdg wit="#Cou">fut coroné <placeName ref="#France">roy de France</placeName>.</rdg>
-          </app>
-        </head>
-        <p n="1">
-          <app>
-            <lem wit="#NY #Pa">Le roy</lem>
-            <rdg wit="#Cou" type="orthographic">Li rois</rdg>
-          </app>
-          <persName ref="#CharlesIV">Charles de France</persName>,
-          <app>
-            <lem wit="#NY #Pa">filz</lem>
-            <rdg wit="#Cou" type="orthographic">fils</rdg>
-          </app>
+      <div type="section" synch="shp" n="1-41"> 
+        <head type="titre"> 
+          <app> 
+            <lem wit="#NY"> La mort du roy <persName ref="#CharlesIV"> Charles de France</persName>  et du</lem> 
+            <rdgGrp type="substantive"> 
+              <rdg wit="#Cou"> Coment <persName ref="#PhilippeVI" xml:id="PhilippeVI1-0" next="PhilippeVI1-1"> Philipe</persName> </rdg> 
+              <rdg wit="#Pa"> Le</rdg> 
+            </rdgGrp> 
+          </app> 
+          <app> 
+            <lem wit="#Pa #NY"> commencement</lem> 
+            <rdg wit="#Cou"/> 
+          </app> 
+          <app> 
+            <lem wit="#NY"> du roy <persName  ref="#PhilippeVI" xml:id="PhilippeVI1-0-1" next="PhilippeVI1-1"> Phelippe</persName> </lem> 
+            <rdg wit="#Cou"/> 
+            <rdg wit="#Pa" type="substantive"> des guerres de France et d’Engleterre et la maniere comment et pourquoy elles advindrent. XXXV</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY #Cou"> <persName xml:id="PhilippeVI1-1" prev="PhilippeVI1-0 PhilippeVI1-0-1"> de Valois</persName> </lem> 
+            <rdg wit="#Pa"/> 
+          </app> 
+          <app> 
+            <lem wit="#Pa #NY"/> 
+            <rdg wit="#Cou"> fut coroné <placeName ref="#France"> roy de France</placeName> .</rdg> 
+          </app> 
+        </head> 
+        <p n="1"> 
+          <app> 
+            <lem wit="#NY #Pa"> Le roy</lem> 
+            <rdg wit="#Cou" type="orthographic"> Li rois</rdg> 
+          </app> 
+          <persName ref="#CharlesIV"> Charles de France</persName> ,
+          <app> 
+            <lem wit="#NY #Pa"> filz</lem> 
+            <rdg wit="#Cou" type="orthographic"> fils</rdg> 
+          </app> 
           au
-          <app>
-            <lem wit="#NY #Pa">beau</lem>
-            <rdg wit="#Cou">biau</rdg>
-          </app>
-          <persName ref="#PhilippeVI">roy Phelippe,</persName>
-          <app>
-            <lem wit="#Cou #NY">fu III</lem>
-            <rdg wit="#Pa" type="orthographic">fut trois</rdg>
-          </app>
+          <app> 
+            <lem wit="#NY #Pa"> beau</lem> 
+            <rdg wit="#Cou"> biau</rdg> 
+          </app> 
+          <persName ref="#PhilippeV"> roy Phelippe,</persName> 
+          <app> 
+            <lem wit="#Cou #NY"> fu III</lem> 
+            <rdg wit="#Pa" type="orthographic"> fut trois</rdg> 
+          </app> 
           fois
-          <app>
-            <lem wit="#NY">mariéz,</lem>
-            <rdgGrp type="orthographic">
-              <rdg wit="#Cou">mariés,</rdg>
-              <rdg wit="#Pa">marié</rdg>
-            </rdgGrp>
-          </app>
+          <app> 
+            <lem wit="#NY"> mariéz,</lem> 
+            <rdgGrp type="orthographic"> 
+              <rdg wit="#Cou"> mariés,</rdg> 
+              <rdg wit="#Pa"> marié</rdg> 
+            </rdgGrp> 
+          </app> 
           et si
-          <app>
-            <lem wit="#NY">mouru</lem>
-            <rdgGrp type="orthographic">
-              <rdg wit="#Cou">morut</rdg>
-              <rdg wit="#Pa">mourut</rdg>
-            </rdgGrp>
-          </app>
+          <app> 
+            <lem wit="#NY"> mouru</lem> 
+            <rdgGrp type="orthographic"> 
+              <rdg wit="#Cou"> morut</rdg> 
+              <rdg wit="#Pa"> mourut</rdg> 
+            </rdgGrp> 
+          </app> 
           sans hoir
-          <app>
-            <lem wit="#NY #Pa">masle,</lem>
-            <rdg wit="#Cou" type="orthographic">marle,</rdg>
-          </app>
+          <app> 
+            <lem wit="#NY #Pa"> masle,</lem> 
+            <rdg wit="#Cou" type="orthographic"> marle,</rdg> 
+          </app> 
           dont ce
-          <app>
-            <lem wit="#NY">fu dommage</lem>
-            <rdgGrp type="orthographic">
-              <rdg wit="#Cou">fu damages</rdg>
-              <rdg wit="#Pa"><pb n="28v"/>fut dommaige</rdg>
-            </rdgGrp>
-          </app>
-          pour le <placeName  ref="#France" xml:id="France1-0" next="France1-1"></placeName>royaume
-          <app>
-            <lem wit="#Cou #NY"/>
-            <rdg wit="#Pa"><placeName xml:id="France1-1" next="France1-0">de France</placeName></rdg>
-          </app>
+          <app> 
+            <lem wit="#NY"> fu dommage</lem> 
+            <rdgGrp type="orthographic"> 
+              <rdg wit="#Cou"> fu damages</rdg> 
+              <rdg wit="#Pa"> <pb n="28v"/> fut dommaige</rdg> 
+            </rdgGrp> 
+          </app> 
+          pour le <placeName  ref="#France" xml:id="France1-0" next="France1-1"> </placeName> royaume
+          <app> 
+            <lem wit="#Cou #NY"/> 
+            <rdg wit="#Pa"> <placeName xml:id="France1-1" next="France1-0"> de France</placeName> </rdg> 
+          </app> 
           , si
-          <app>
-            <lem wit="#NY #Pa">comme</lem>
-            <rdg wit="#Cou">com</rdg>
-          </app>
+          <app> 
+            <lem wit="#NY #Pa"> comme</lem> 
+            <rdg wit="#Cou"> com</rdg> 
+          </app> 
           vous
-          <app>
-            <lem wit="#NY">orréz cy</lem>
-            <rdgGrp type="orthographic">
-              <rdg wit="#Cou">oréz chi</rdg>
-              <rdg wit="#Pa">orrés cy</rdg>
-            </rdgGrp>
-          </app>
+          <app> 
+            <lem wit="#NY"> orréz cy</lem> 
+            <rdgGrp type="orthographic"> 
+              <rdg wit="#Cou"> oréz chi</rdg> 
+              <rdg wit="#Pa"> orrés cy</rdg> 
+            </rdgGrp> 
+          </app> 
           aprés.
-          <app>
-            <lem wit="#NY #Pa">La</lem>
-            <rdg wit="#Cou" type="orthographic">Li</rdg>
-          </app>
-          <persName ref="#Blanche">premiere de ses femmes</persName>
-          <app>
-            <lem wit="#Cou #NY">fu</lem>
-            <rdg wit="#Pa">fut</rdg>
-          </app>
-          <app>
-            <lem wit="#NY #Pa">l’une</lem>
-            <rdg wit="#Cou" type="substantive">li une</rdg>
-          </app>
+          <app> 
+            <lem wit="#NY #Pa"> La</lem> 
+            <rdg wit="#Cou" type="orthographic"> Li</rdg> 
+          </app> 
+          <persName ref="#Blanche"> premiere de ses femmes</persName> 
+          <app> 
+            <lem wit="#Cou #NY"> fu</lem> 
+            <rdg wit="#Pa"> fut</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY #Pa"> l’une</lem> 
+            <rdg wit="#Cou" type="substantive"> li une</rdg> 
+          </app> 
           des plus belles dames
-          <app>
-            <lem wit="#NY #Pa">du</lem>
-            <rdg wit="#Cou">dou</rdg>
-          </app>
+          <app> 
+            <lem wit="#NY #Pa"> du</lem> 
+            <rdg wit="#Cou"> dou</rdg> 
+          </app> 
           monde
-          <app>
-            <lem wit="#Cou #NY">et fu</lem>
-            <rdg wit="#Pa" type="substantive">, qui fut</rdg>
-          </app>
+          <app> 
+            <lem wit="#Cou #NY"> et fu</lem> 
+            <rdg wit="#Pa" type="substantive"> , qui fut</rdg> 
+          </app> 
           fille
-          <app>
-            <lem wit="#NY">du <persName ref="#Mahaut"><choice corresp="#conte"><orig>conte</orig><reg>contesse</reg></choice>d’Artois</persName></lem>
-            <rdg wit="#Cou" type="substantive">le <persName ref="#Mahaut">contesse d’Artois</persName></rdg>
-            <rdg wit="#Pa" type="orthographic">au <persName ref="#Mahaut"><choice corresp="#conte"><orig>conte</orig><reg>contesse</reg></choice>d’Artoys</persName></rdg>
-          </app>
+          <app> 
+            <lem wit="#NY"> du <persName ref="#Mahaut"> <choice corresp="#conte"> <orig>conte d’Artois </orig> <reg> contesse d’Artois</reg> </choice></persName> </lem> 
+            <rdg wit="#Cou" type="substantive"> le <persName ref="#Mahaut"> contesse d’Artois</persName> </rdg> 
+            <rdg wit="#Pa" type="orthographic"> au <persName ref="#Mahaut"> <choice corresp="#conte"> <orig>conte d’Artois </orig> <reg> contesse d’Artois</reg> </choice></persName> </rdg> 
+          </app> 
           . Celle garda mal son mariage et se
-          <app>
-            <lem wit="#NY #Pa">forfist</lem>
-            <rdg wit="#Cou" type="orthographic">fourfist</rdg>
-          </app>
+          <app> 
+            <lem wit="#NY #Pa"> forfist</lem> 
+            <rdg wit="#Cou" type="orthographic"> fourfist</rdg> 
+          </app> 
           , par quoy elle en
-          <app>
-            <lem wit="#NY #Pa">demoura longtemps</lem>
-            <rdg wit="#Cou" type="orthographic">demora lonctamps</rdg>
-          </app>
-          <app>
-            <lem wit="#Cou #NY">ou</lem>
-            <rdg wit="#Pa" type="substantive">a</rdg>
-          </app>
-          <app>
-            <lem wit="#NY #Pa"><placeName ref="#Gaillart" xml:id="Gaillart1-0" next="Gaillart1-1">Chastel</placeName></lem>
-            <rdg wit="#Cou" type="orthographic"><placeName ref="#Gaillart" xml:id="Gaillart1-0-1" next="Gaillart1-1">Castiel</placeName></rdg>
-          </app>
-          <placeName xml:id="Gaillart1-1" next="Gaillart1-0 Gaillart1-0-1">Gaillart</placeName>, en prison
-          <app>
-            <lem wit="#Cou #NY">et</lem>
-            <rdg wit="#Pa"/>
-          </app>
-          <app>
-            <lem wit="#NY">a</lem>
-            <rdg wit="#Cou #Pa" type="substantive">en</rdg>
-          </app>
+          <app> 
+            <lem wit="#NY #Pa"> demoura longtemps</lem> 
+            <rdg wit="#Cou" type="orthographic"> demora lonctamps</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#Cou #NY"> ou</lem> 
+            <rdg wit="#Pa" type="substantive"> a</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY #Pa"> <placeName ref="#Gaillart" xml:id="Gaillart1-0" next="Gaillart1-1"> Chastel</placeName> </lem> 
+            <rdg wit="#Cou" type="orthographic"> <placeName ref="#Gaillart" xml:id="Gaillart1-0-1" next="Gaillart1-1"> Castiel</placeName> </rdg> 
+          </app> 
+          <placeName xml:id="Gaillart1-1" next="Gaillart1-0 Gaillart1-0-1"> Gaillart</placeName> , en prison
+          <app> 
+            <lem wit="#Cou #NY"> et</lem> 
+            <rdg wit="#Pa"/> 
+          </app> 
+          <app> 
+            <lem wit="#NY"> a</lem> 
+            <rdg wit="#Cou #Pa" type="substantive"> en</rdg> 
+          </app> 
           grant meschief
-          <app>
-            <lem wit="#NY">ainçois</lem>
-            <rdg wit="#Cou" type="orthographic">, anchois</rdg>
-            <rdg wit="#Pa" type="substantive">, avant</rdg>
-          </app>
+          <app> 
+            <lem wit="#NY"> ainçois</lem> 
+            <rdg wit="#Cou" type="orthographic"> , anchois</rdg> 
+            <rdg wit="#Pa" type="substantive"> , avant</rdg> 
+          </app> 
           que
-          <app>
-            <lem wit="#NY"><persName ref="#CharlesIV">son mary</persName></lem>
-            <rdg wit="#Cou" type="substantive"><persName ref="#CharlesIV">ses maris</persName></rdg>
-            <rdg wit="#Pa"><persName ref="#CharlesIV">son mary</persName><pb n="16r"/></rdg>
-          </app>
-          <app>
-            <lem wit="#Cou #NY">fust</lem>
-            <rdg wit="#Pa" type="orthographic">feust</rdg>
-          </app>
-          <app>
-            <lem wit="#NY #Pa">roy.</lem>
-            <rdg wit="#Cou" type="orthographic">rois.</rdg>
-          </app>
-          <app>
-            <lem wit="#NY #Pa">Quant le</lem>
-            <rdg wit="#Cou" type="orthographic">Quand li</rdg>
-          </app>
-          <app>
-            <lem wit="#NY"><placeName ref="#France" xml:id="France2-0-1" next="France2-0">royaume</placeName></lem>
-            <rdg wit="#Cou" type="orthographic"><placeName ref="#France" xml:id="France2-0-2" next="France2-0">royalmes</placeName></rdg>
-            <rdg wit="#Pa" type="orthographic"><placeName ref="#France" xml:id="France2-0-3" next="France2-0">royaulme</placeName></rdg>
-          </app>
-          <placeName xml:id="France2-0" prev="France2-0-1 France2-0-2 France2-0-3">de France</placeName>
-          <app>
-            <lem wit="#NY #Pa">lui</lem>
-            <rdg wit="#Cou" type="orthographic">li</rdg>
-          </app>
-          <app>
-            <lem wit="#Cou #NY">fu</lem>
-            <rdg wit="#Pa" type="orthographic">fut</rdg>
-          </app>
-          <app>
-            <lem wit="#NY #Pa">escheu</lem>
-            <rdg wit="#Cou" type="orthographic">escheus</rdg>
-          </app>
+          <app> 
+            <lem wit="#NY"> <persName ref="#CharlesIV"> son mary</persName> </lem> 
+            <rdg wit="#Cou" type="substantive"> <persName ref="#CharlesIV"> ses maris</persName> </rdg> 
+            <rdg wit="#Pa"> <persName ref="#CharlesIV"> son mary</persName> <pb n="16r"/> </rdg> 
+          </app> 
+          <app> 
+            <lem wit="#Cou #NY"> fust</lem> 
+            <rdg wit="#Pa" type="orthographic"> feust</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY #Pa"> roy.</lem> 
+            <rdg wit="#Cou" type="orthographic"> rois.</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY #Pa"> Quant le</lem> 
+            <rdg wit="#Cou" type="orthographic"> Quand li</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY"> <placeName ref="#France" xml:id="France2-0-1" next="France2-0"> royaume</placeName> </lem> 
+            <rdg wit="#Cou" type="orthographic"> <placeName ref="#France" xml:id="France2-0-2" next="France2-0"> royalmes</placeName> </rdg> 
+            <rdg wit="#Pa" type="orthographic"> <placeName ref="#France" xml:id="France2-0-3" next="France2-0"> royaulme</placeName> </rdg> 
+          </app> 
+          <placeName xml:id="France2-0" prev="France2-0-1 France2-0-2 France2-0-3"> de France</placeName> 
+          <app> 
+            <lem wit="#NY #Pa"> lui</lem> 
+            <rdg wit="#Cou" type="orthographic"> li</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#Cou #NY"> fu</lem> 
+            <rdg wit="#Pa" type="orthographic"> fut</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY #Pa"> escheu</lem> 
+            <rdg wit="#Cou" type="orthographic"> escheus</rdg> 
+          </app> 
           et il
-          <app>
-            <lem wit="#Cou #NY">fu</lem>
-            <rdg wit="#Pa" type="substantive">fut roy</rdg>
-          </app>
-          <app>
-            <lem wit="#NY">couronnéz,</lem>
-            <rdgGrp type="orthographic">
-              <rdg wit="#Cou">couronnés,</rdg>
-              <rdg wit="#Pa">couronné,</rdg>
-            </rdgGrp>
-          </app>
-          <app>
-            <lem wit="#NY #Pa">les</lem>
-            <rdg wit="#Cou" type="substantive">li</rdg>
-          </app>
-          <app>
-            <lem wit="#NY #Pa"><persName ref="#Pairs">XII pers</persName></lem>
-            <rdg wit="Pa" type="substantive"><persName ref="#Pairs">XII pers de France</persName></rdg>
-            <rdg wit="#Cou" type="orthographic"><persName ref="#Pairs">XII per</persName></rdg>
-          </app>
+          <app> 
+            <lem wit="#Cou #NY"> fu</lem> 
+            <rdg wit="#Pa" type="substantive"> fut roy</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY"> couronnéz,</lem> 
+            <rdgGrp type="orthographic"> 
+              <rdg wit="#Cou"> couronnés,</rdg> 
+              <rdg wit="#Pa"> couronné,</rdg> 
+            </rdgGrp> 
+          </app> 
+          <app> 
+            <lem wit="#NY #Pa"> les</lem> 
+            <rdg wit="#Cou" type="substantive"> li</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY #Pa"> <persName ref="#Pairs"> XII pers</persName> </lem> 
+            <rdg wit="Pa" type="substantive"> <persName ref="#Pairs"> XII pers de France</persName> </rdg> 
+            <rdg wit="#Cou" type="orthographic"> <persName ref="#Pairs"> XII per</persName> </rdg> 
+          </app> 
           et
-          <app>
-            <lem wit="#NY #Pa"><persName ref="#Barons">les barons</persName></lem>
-            <rdg wit="#Cou" type="orthographic"><persName ref="#Barons">li baron</persName></rdg>
-          </app>
-          <app>
-            <lem wit="#Cou #NY">de France</lem>
-            <rdg wit="#Pa"/>
-          </app>
+          <app> 
+            <lem wit="#NY #Pa"> <persName ref="#Barons"> les barons</persName> </lem> 
+            <rdg wit="#Cou" type="orthographic"> <persName ref="#Barons"> li baron</persName> </rdg> 
+          </app> 
+          <app> 
+            <lem wit="#Cou #NY"> de France</lem> 
+            <rdg wit="#Pa"/> 
+          </app> 
           ne
-          <app>
-            <lem wit="#NY #Pa">vouloient</lem>
-            <rdg wit="#Cou" type="substantive">vorent nient,</rdg>
-          </app>
-          <app>
-            <lem wit="#NY">mie</lem>
-            <rdg wit="#Cou"/>
-            <rdg wit="#Pa">point,</rdg>
-          </app>
-          <app>
-            <lem wit="#NY #Pa">s’ilz peussent,</lem>
-            <rdg wit="#Cou" type="substantive">se il peuissent,</rdg>
-          </app>
+          
+          <app> 
+            <lem wit="#NY #Pa"> vouloient</lem> 
+            <rdg wit="#Cou" type="substantive"> vorent nient,</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY"> mie</lem> 
+            <rdg wit="#Cou"/> 
+            <rdg wit="#Pa"> point,</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY #Pa"> s’ilz peussent,</lem> 
+            <rdg wit="#Cou" type="substantive"> se il peuissent,</rdg> 
+          </app> 
           que
-          <app>
-            <lem wit="#NY #Pa">le</lem>
-            <rdg wit="#Cou" type="orthographic">li</rdg>
-          </app>
-          <app>
-            <lem wit="#NY"><placeName ref="#France">royaume</placeName></lem>
-            <rdg wit="#Cou" type="orthographic"><placeName ref="#France" xml:id="France3-0" next="France3-1">royaulmes</placeName></rdg>
-            <rdg wit="#Pa"/>
-          </app>
-          <app>
-            <lem wit="#NY #Cou"/>
-            <rdg wit="#Pa"><persName ref="#CharlesIV">roy</persName></rdg>
-          </app>
-          <app>
-            <lem wit="NY #Pa"/>
-            <rdg wit="#Cou"><placeName xml:id="France3-1" prev="France3-0"></placeName>de France</rdg>
-          </app>
-          <app>
-            <lem wit="#NY #Pa">demourast</lem>
-            <rdg wit="#Cou" type="orthographic">demorast</rdg>
-          </app>
+          <app> 
+            <lem wit="#NY #Pa"> le</lem> 
+            <rdg wit="#Cou" type="orthographic"> li</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY"> <placeName ref="#France"> royaume</placeName> </lem> 
+            <rdg wit="#Cou" type="orthographic"> <placeName ref="#France" xml:id="France3-0" next="France3-1"> royaulmes</placeName> </rdg> 
+            <rdg wit="#Pa"/> 
+          </app> 
+          <app> 
+            <lem wit="#NY #Cou"/> 
+            <rdg wit="#Pa"> <persName ref="#CharlesIV"> roy</persName> </rdg> 
+          </app> 
+          <app> 
+            <lem wit="NY #Pa"/> 
+            <rdg wit="#Cou"> <placeName xml:id="France3-1" prev="France3-0"> </placeName> de France</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY #Pa"> demourast</lem> 
+            <rdg wit="#Cou" type="orthographic"> demorast</rdg> 
+          </app> 
           sans hoir
-          <app>
-            <lem wit="#NY #Pa">masle</lem>
-            <rdg wit="#Cou" type="orthographic">marle</rdg>
-          </app>
-          <app>
-            <lem wit="#NY">, si</lem>
-            <rdg wit="#Cou">. Si</rdg>
-            <rdg wit="#Pa">. <lb/><hi rend="initial">S</hi>i</rdg>
-          </app>
-          <app>
-            <lem wit="#NY #Pa">quistrent</lem>
-            <rdg wit="#Cou" type="orthographic">quisent</rdg>
-          </app>
+          <app> 
+            <lem wit="#NY #Pa"> masle</lem> 
+            <rdg wit="#Cou" type="orthographic"> marle</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY"> , si</lem> 
+            <rdg wit="#Cou"> . Si</rdg> 
+            <rdg wit="#Pa"> . <lb/> <hi rend="initial"> S</hi>i</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY #Pa"> quistrent</lem> 
+            <rdg wit="#Cou" type="orthographic"> quisent</rdg> 
+          </app> 
           sens et
-          <app>
-            <lem wit="#Cou #NY">avis</lem>
-            <rdg wit="#Pa" type="orthographic">advis</rdg>
-          </app>
+          <app> 
+            <lem wit="#Cou #NY"> avis</lem> 
+            <rdg wit="#Pa" type="orthographic"> advis</rdg> 
+          </app> 
           par quoy
-          <app>
-            <lem wit="#NY #Pa">le roy</lem>
-            <rdg wit="#Cou" type="orthographic">li rois</rdg>
-          </app>
-          <persName ref="#CharlesIV">Charles</persName>
-          <app>
-            <lem wit="#Cou #NY">fust</lem>
-            <rdg wit="#Pa" type="orthographic">feust</rdg>
-          </app>
-          <app>
-            <lem wit="#NY">remariéz</lem>
-            <rdg wit="#Cou #Pa" type="orthographic">remariés</rdg>
-          </app>
-          <app>
-            <lem wit="#Cou #NY">, et</lem>
-            <rdg wit="#Pa" type="substantive">. Si</rdg>
-          </app>
+          <app> 
+            <lem wit="#NY #Pa"> le roy</lem> 
+            <rdg wit="#Cou" type="orthographic"> li rois</rdg> 
+          </app> 
+          <persName ref="#CharlesIV"> Charles</persName> 
+          <app> 
+            <lem wit="#Cou #NY"> fust</lem> 
+            <rdg wit="#Pa" type="orthographic"> feust</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY"> remariéz</lem> 
+            <rdg wit="#Cou #Pa" type="orthographic"> remariés</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#Cou #NY"> , et</lem> 
+            <rdg wit="#Pa" type="substantive"> . Si</rdg> 
+          </app> 
           le
-          <app>
-            <lem wit="#Cou #NY">fu</lem>
-            <rdg wit="#Pa" type="orthographic">fut</rdg>
-          </app>
+          <app> 
+            <lem wit="#Cou #NY"> fu</lem> 
+            <rdg wit="#Pa" type="orthographic"> fut</rdg> 
+          </app> 
           a
-          <app>
-            <lem wit="#NY #Pa">la</lem>
-            <rdg wit="#Cou" type="orthographic">le</rdg>
-          </app>
-          <persName ref="#Marielux">fille</persName>
-          <app>
-            <lem wit="#Cou #NY"/>
-            <rdg wit="#Pa" type="orthographic">de</rdg>
-          </app>
-          <persName ref="#HenryVII" xml:id="Henry1-0" next="Henry1-1-1 Henry1-1-2">l’empereur</persName>
-          <app>
-            <lem wit="#NY"><persName xml:id="Henry1-1-1" prev="Henry1-0" next="Henry1-2">Henry</persName></lem>
-            <rdg wit="#Cou #Pa" type="orthographic"><persName xml:id="Henry1-1-2" prev="Henry1-0" next="Henry1-2">Henri</persName></rdg>
-          </app>
-          <persName xml:id="Henry1-2" prev="Henry1-1-1 Henry1-1-2" next="Henry1-3-1 Henry1-3-2 Henry1-3-3">de</persName>
-          <app>
-            <lem wit="#NY"><persName xml:id="Henry1-3-1" prev="Henry1-2">Lucembourt</persName></lem>
-            <rdgGrp type="orthographic">
-              <rdg wit="#Cou"><persName xml:id="Henry1-3-2" prev="Henry1-2">Lucembourch</persName></rdg>
-              <rdg wit="#Pa"><persName xml:id="Henry1-3-3" prev="Henry1-2">Lucembourc</persName></rdg>
-            </rdgGrp>
-          </app>
+          <app> 
+            <lem wit="#NY #Pa"> la</lem> 
+            <rdg wit="#Cou" type="orthographic"> le</rdg> 
+          </app> 
+          <persName ref="#Marielux"> fille</persName> 
+          <app> 
+            <lem wit="#Cou #NY"/> 
+            <rdg wit="#Pa" type="orthographic"> de</rdg> 
+          </app> 
+          <persName ref="#HenryVII" xml:id="Henry1-0" next="Henry1-1-1 Henry1-1-2"> l’empereur</persName> 
+          <app> 
+            <lem wit="#NY"> <persName xml:id="Henry1-1-1" prev="Henry1-0" next="Henry1-2"> Henry</persName> </lem> 
+            <rdg wit="#Cou #Pa" type="orthographic"> <persName xml:id="Henry1-1-2" prev="Henry1-0" next="Henry1-2"> Henri</persName> </rdg> 
+          </app> 
+          <persName xml:id="Henry1-2" prev="Henry1-1-1 Henry1-1-2" next="Henry1-3-1 Henry1-3-2 Henry1-3-3"> de</persName> 
+          <app> 
+            <lem wit="#NY"> <persName xml:id="Henry1-3-1" prev="Henry1-2"> Lucembourt</persName> </lem> 
+            <rdgGrp type="orthographic"> 
+              <rdg wit="#Cou"> <persName xml:id="Henry1-3-2" prev="Henry1-2"> Lucembourch</persName> </rdg> 
+              <rdg wit="#Pa"> <persName xml:id="Henry1-3-3" prev="Henry1-2"> Lucembourc</persName> </rdg> 
+            </rdgGrp> 
+          </app> 
           et
-          <app>
-            <lem wit="#NY #Pa">suer</lem>
-            <rdg wit="#Cou" type="orthographic">soer</rdg>
-          </app>
-          au <persName ref="#JeanI" xml:id="JeanI1-0" next="Jean1-1-1 Jean1-1-2">gentil roy de</persName>
-          <app>
-            <lem wit="#NY"><persName xml:id="Jean1-1-1" prev="Jean1-0">Behaingne,</persName></lem>
-            <rdg wit="#Cou #Pa" type="orthographic"><persName xml:id="Jean1-1-2" prev="Jean1-0">Behaigne,</persName></rdg>
-          </app>
-          <app>
-            <lem wit="#Cou #NY">et</lem>
-            <rdg wit="#Pa"/>
-          </app>
+          <app> 
+            <lem wit="#NY #Pa"> suer</lem> 
+            <rdg wit="#Cou" type="orthographic"> soer</rdg> 
+          </app> 
+          au <persName ref="#JeanI" xml:id="JeanI1-0" next="Jean1-1-1 Jean1-1-2"> gentil roy de</persName> 
+          <app> 
+            <lem wit="#NY"> <persName xml:id="Jean1-1-1" prev="Jean1-0"> Behaingne,</persName> </lem> 
+            <rdg wit="#Cou #Pa" type="orthographic"> <persName xml:id="Jean1-1-2" prev="Jean1-0"> Behaigne,</persName> </rdg> 
+          </app> 
+          <app> 
+            <lem wit="#Cou #NY"> et</lem> 
+            <rdg wit="#Pa"/> 
+          </app> 
           par quoy
-          <app>
-            <lem wit="#NY #Pa">le premier mariage</lem>
-            <rdg wit="#Cou" type="orthographic">li premiers mariages</rdg>
-          </app>
-          <app>
-            <lem wit="#NY">fu deffait</lem>
-            <rdgGrp type="orthographic">
-              <rdg wit="#Cou" >fust deffais</rdg>
-              <rdg wit="#Pa">fut fait</rdg>
-            </rdgGrp>
-          </app>
+          <app> 
+            <lem wit="#NY #Pa"> le premier mariage</lem> 
+            <rdg wit="#Cou" type="orthographic"> li premiers mariages</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY"> fu deffait</lem> 
+            <rdgGrp type="orthographic"> 
+              <rdg wit="#Cou" > fust deffais</rdg> 
+              <rdg wit="#Pa"> fut fait</rdg> 
+            </rdgGrp> 
+          </app> 
           et
-          <app>
-            <lem wit="#NY #Pa">anullé</lem>
-            <rdg wit="#Cou" type="orthographic">anullés</rdg>
-          </app>
+          <app> 
+            <lem wit="#NY #Pa"> anullé</lem> 
+            <rdg wit="#Cou" type="orthographic"> anullés</rdg> 
+          </app> 
           de celle
-          <app>
-            <lem wit="#Cou #NY"><persName ref="#Blanche">dame</persName></lem>
-            <rdg wit="#Pa"/>
-          </app>
+          <app> 
+            <lem wit="#Cou #NY"> <persName ref="#Blanche"> dame</persName> </lem> 
+            <rdg wit="#Pa"/> 
+          </app> 
           qui en prison estoit
-          <app>
-            <lem wit="#Cou #NY">, et tout</lem>
-            <rdg wit="#Pa" type="substantive">. Et ce fut fait</rdg>
-          </app>
+          <app> 
+            <lem wit="#Cou #NY"> , et tout</lem> 
+            <rdg wit="#Pa" type="substantive"> . Et ce fut fait</rdg> 
+          </app> 
           par
-          <app>
-            <lem wit="#NY #Pa">la</lem>
-            <rdg wit="#Cou" type="orthographic">le</rdg>
-          </app>
+          <app> 
+            <lem wit="#NY #Pa"> la</lem> 
+            <rdg wit="#Cou" type="orthographic"> le</rdg> 
+          </app> 
           declaration
-          <app>
-            <lem wit="#Cou #NY">du</lem>
-            <rdg wit="#Pa" type="orthographic">de</rdg>
-          </app>
-          <app>
-            <lem wit="#NY"><persName ref="#JeanXXII">pappe,</persName></lem>
-            <rdg wit="#Cou" type="orthographic"><persName ref="#JeanXXII">pape,</persName></rdg>
-            <rdg wit="#Pa"/>
-          </app>
+          <app> 
+            <lem wit="#Cou #NY"> du</lem> 
+            <rdg wit="#Pa" type="orthographic"> de</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY"> <persName ref="#JeanXXII"> pappe,</persName> </lem> 
+            <rdg wit="#Cou" type="orthographic"> <persName ref="#JeanXXII"> pape,</persName> </rdg> 
+            <rdg wit="#Pa"/> 
+          </app> 
           nostre Saint Pere
-          <app>
-            <lem wit="#Cou #NY"/>
-            <rdg wit="#Pa">le <persName ref="#JeanXXII">pape</persName></rdg>
-          </app>
+          <app> 
+            <lem wit="#Cou #NY"/> 
+            <rdg wit="#Pa"> le <persName ref="#JeanXXII"> pape</persName> </rdg> 
+          </app> 
           , qui
-          <app>
-            <lem wit="#Cou #NY">adont</lem>
-            <rdg wit="#Pa" type="substantive">pour lors</rdg>
-          </app>
-          estoit. De celle <persName ref="#Marielux" xml:id="marie1-0" next="marie1-1-1 marie1-1-2">seconde</persName>
-          <app>
-            <lem wit="#NY #Pa"><persName xml:id="marie1-1-1" prev="marie1-0" next="marie1-2">dame</persName></lem>
-            <rdg wit="#Cou" type="substantive"><persName xml:id="marie1-1-2" prev="marie1-0" next="marie1-2">femme</persName></rdg>
-          </app>
-          <persName xml:id="marie1-2" prev="marie1-1-1 marie1-1-2" next="marie1-3-1 marie1-3-2">de</persName>
-          <app>
-            <lem wit="#NY #Pa"><persName xml:id="marie1-3-1" prev="marie1-2">Lucembourc</persName></lem>
-            <rdg wit="#Cou" type="orthographic"><persName xml:id="marie1-3-2" prev="marie1-2">Luxembourc</persName></rdg>
-          </app>
-          <app>
-            <lem wit="#Cou #NY">, qui</lem>
-            <rdg wit="#Pa" type="substantive">qui moult</rdg>
-          </app>
+          <app> 
+            <lem wit="#Cou #NY"> adont</lem> 
+            <rdg wit="#Pa" type="substantive"> pour lors</rdg> 
+          </app> 
+          estoit. De celle <persName ref="#Marielux" xml:id="marie1-0" next="marie1-1-1 marie1-1-2"> seconde</persName> 
+          <app> 
+            <lem wit="#NY #Pa"> <persName xml:id="marie1-1-1" prev="marie1-0" next="marie1-2"> dame</persName> </lem> 
+            <rdg wit="#Cou" type="substantive"> <persName xml:id="marie1-1-2" prev="marie1-0" next="marie1-2"> femme</persName> </rdg> 
+          </app> 
+          <persName xml:id="marie1-2" prev="marie1-1-1 marie1-1-2" next="marie1-3-1 marie1-3-2"> de</persName> 
+          <app> 
+            <lem wit="#NY #Pa"> <persName xml:id="marie1-3-1" prev="marie1-2"> Lucembourc</persName> </lem> 
+            <rdg wit="#Cou" type="orthographic"> <persName xml:id="marie1-3-2" prev="marie1-2"> Luxembourc</persName> </rdg> 
+          </app> 
+          <app> 
+            <lem wit="#Cou #NY"> , qui</lem> 
+            <rdg wit="#Pa" type="substantive"> qui moult</rdg> 
+          </app> 
           estoit
-          <app>
-            <lem wit="#Cou #NY">moult</lem>
-            <rdg wit="#Pa"/>
-          </app>
-          <app>
-            <lem wit="#NY #Pa">humble</lem>
-            <rdg wit="#Cou" type="orthographic">humle</rdg>
-          </app>
+          <app> 
+            <lem wit="#Cou #NY"> moult</lem> 
+            <rdg wit="#Pa"/> 
+          </app> 
+          <app> 
+            <lem wit="#NY #Pa"> humble</lem> 
+            <rdg wit="#Cou" type="orthographic"> humle</rdg> 
+          </app> 
           et
-          <app>
-            <lem wit="#Cou #NY">moult</lem>
-            <rdg wit="#Pa"/>
-          </app>
+          <app> 
+            <lem wit="#Cou #NY"> moult</lem> 
+            <rdg wit="#Pa"/> 
+          </app> 
           preude femme, ot
-          <app>
-            <lem wit="#NY #Pa">le <persName ref="#CharlesIV">roy</persName></lem>
-            <rdg wit="#Cou" type="orthographic">li <persName ref="#CharlesIV">rois</persName></rdg>
-          </app>
-          <app>
-            <lem wit="#Cou #NY">I</lem>
-            <rdg wit="#Pa" type="orthographic">un</rdg>
-          </app>
-          <app>
-            <lem wit="#NY #Pa"><persName ref="#LouisdeFrance">filz</persName></lem>
-            <rdg wit="#Cou" type="orthographic"><persName ref="#LouisdeFrance">fil</persName></rdg>
-          </app>
+          <app> 
+            <lem wit="#NY #Pa"> le <persName ref="#CharlesIV"> roy</persName> </lem> 
+            <rdg wit="#Cou" type="orthographic"> li <persName ref="#CharlesIV"> rois</persName> </rdg> 
+          </app> 
+          <app> 
+            <lem wit="#Cou #NY"> I</lem> 
+            <rdg wit="#Pa" type="orthographic"> un</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY #Pa"> <persName ref="#LouisdeFrance"> filz</persName> </lem> 
+            <rdg wit="#Cou" type="orthographic"> <persName ref="#LouisdeFrance"> fil</persName> </rdg> 
+          </app> 
           qui
-          <app>
-            <lem wit="#NY">mouru</lem>
-            <rdgGrp type="orthographic">
-              <rdg wit="#Cou">morut</rdg>
-              <rdg wit="#Pa">mourut</rdg>
-            </rdgGrp>
-          </app>
+          <app> 
+            <lem wit="#NY"> mouru</lem> 
+            <rdgGrp type="orthographic"> 
+              <rdg wit="#Cou"> morut</rdg> 
+              <rdg wit="#Pa"> mourut</rdg> 
+            </rdgGrp> 
+          </app> 
           moult
-          <app>
-            <lem wit="#NY">joenne, et</lem>
-            <rdgGrp type="orthographic">
-              <rdg wit="#Cou">jones, et</rdg>
-              <rdg wit="#Pa">jeune. Et</rdg>
-            </rdgGrp>
-          </app>
-          <app>
-            <lem wit="#NY">asséz</lem>
-            <rdg wit="#Cou #Pa" type="orthographic">assés</rdg>
-          </app>
+          <app> 
+            <lem wit="#NY"> joenne, et</lem> 
+            <rdgGrp type="orthographic"> 
+              <rdg wit="#Cou"> jones, et</rdg> 
+              <rdg wit="#Pa"> jeune. Et</rdg> 
+            </rdgGrp> 
+          </app> 
+          <app> 
+            <lem wit="#NY"> asséz</lem> 
+            <rdg wit="#Cou #Pa" type="orthographic"> assés</rdg> 
+          </app> 
           tost
-          <app>
-            <lem wit="#NY #Pa">aprés</lem>
-            <rdg wit="#Cou"/>
-          </app>
-          <app>
-            <lem wit="#Cou #NY"/>
-            <rdg wit="#Pa">mourut</rdg>
-          </app>
-          <app>
-            <lem wit="#NY #Pa">la</lem>
-            <rdg wit="#Cou" type="orthographic">li</rdg>
-          </app>
-          <persName ref="#Marielux">mere</persName>
-          <app>
-            <lem wit="#NY">trespassa aussi</lem>
-            <rdg wit="#Cou" type="substantive">apriés,</rdg>
-            <rdg wit="#Pa"/>
-          </app>
+          <app> 
+            <lem wit="#NY #Pa"> aprés</lem> 
+            <rdg wit="#Cou"/> 
+          </app> 
+          <app> 
+            <lem wit="#Cou #NY"/> 
+            <rdg wit="#Pa"> mourut</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY #Pa"> la</lem> 
+            <rdg wit="#Cou" type="orthographic"> li</rdg> 
+          </app> 
+          <persName ref="#Marielux"> mere</persName> 
+          <app> 
+            <lem wit="#NY"> trespassa aussi</lem> 
+            <rdg wit="#Cou" type="substantive"> apriés,</rdg> 
+            <rdg wit="#Pa"/> 
+          </app> 
           a
-          <app>
-            <lem wit="#NY"><placeName ref="#Issoudun" xml:id="issoudun1-0-1" next="issoudun1-1">Ysodon</placeName></lem>
-            <rdgGrp type="orthographic">
-              <rdg wit="#Cou"><placeName ref="#Issoudun" xml:id="issoudun1-0-2" next="issoudun1-1"><choice><orig>Ysodoy</orig><reg>Ysodon</reg></choice></placeName></rdg>
-              <rdg wit="#Pa"><placeName ref="#Issoudun" xml:id="issoudun1-0-3" next="issoudun1-1">Yssoudun</placeName></rdg>
-            </rdgGrp>
-          </app>
-          <placeName xml:id="issoudun1-1" prev="issoudun1-0-1 issoudun1-0-2 issoudun1-0-3">en Berry</placeName>
-          <app>
-            <lem wit="#NY">et</lem>
-            <rdg wit="#Cou #Pa">. Et</rdg>
-          </app>
-          <app>
-            <lem wit="#NY #Pa">moururent tous deux</lem>
-            <rdg wit="#Cou" type="orthographic">morurent tout doy</rdg>
-          </app>
-          <app>
-            <lem wit="#NY">asséz</lem>
-            <rdg wit="#Cou"/>
-            <rdg wit="#Pa" type="orthographic">assés</rdg>
-          </app>
-          <app>
-            <lem wit="#NY #Pa">souspeçonneusement</lem>
-            <rdg wit="#Cou" type="orthographic">souspecheneusement</rdg>
-          </app>
+          <app> 
+            <lem wit="#NY"> <placeName ref="#Issoudun" xml:id="issoudun1-0-1" next="issoudun1-1"> Ysodon</placeName> </lem> 
+            <rdgGrp type="orthographic"> 
+              <rdg wit="#Cou"> <placeName ref="#Issoudun" xml:id="issoudun1-0-2" next="issoudun1-1"> <choice> <orig>Ysodoy</orig> <reg>Ysodon</reg> </choice> </placeName> </rdg> 
+              <rdg wit="#Pa"> <placeName ref="#Issoudun" xml:id="issoudun1-0-3" next="issoudun1-1"> Yssoudun</placeName> </rdg> 
+            </rdgGrp> 
+          </app> 
+          <placeName xml:id="issoudun1-1" prev="issoudun1-0-1 issoudun1-0-2 issoudun1-0-3"> en Berry</placeName> 
+          <app> 
+            <lem wit="#NY"> et</lem> 
+            <rdg wit="#Cou #Pa"> . Et</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY #Pa"> moururent tous deux</lem> 
+            <rdg wit="#Cou" type="orthographic"> morurent tout doy</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY"> asséz</lem> 
+            <rdg wit="#Cou"/> 
+            <rdg wit="#Pa" type="orthographic"> assés</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY #Pa"> souspeçonneusement</lem> 
+            <rdg wit="#Cou" type="orthographic"> souspecheneusement</rdg> 
+          </app> 
           , de
-          <app>
-            <lem wit="#NY #Pa">quoy</lem>
-            <rdg wit="#Cou" type="orthographic">quoi</rdg>
-          </app>
+          <app> 
+            <lem wit="#NY #Pa"> quoy</lem> 
+            <rdg wit="#Cou" type="orthographic"> quoi</rdg> 
+          </app> 
           aucunes gens furent
-          <app>
-            <lem wit="#NY">encoulpés</lem>
-            <rdgGrp type="orthographic">
-              <rdg wit="#Cou">encouppés</rdg>
-              <rdg wit="#Pa">encoulpéz</rdg>
-            </rdgGrp>
-          </app>
-          <app>
-            <lem wit="#NY #Pa">par derriere</lem>
-            <rdg wit="#Cou" type="substantive"> en deriere</rdg>
-          </app>
+          <app> 
+            <lem wit="#NY"> encoulpés</lem> 
+            <rdgGrp type="orthographic"> 
+              <rdg wit="#Cou"> encouppés</rdg> 
+              <rdg wit="#Pa"> encoulpéz</rdg> 
+            </rdgGrp> 
+          </app> 
+          <app> 
+            <lem wit="#NY #Pa"> par derriere</lem> 
+            <rdg wit="#Cou" type="substantive">  en deriere</rdg> 
+          </app> 
           couvertement. Aprés
-          <app>
-            <lem wit="#NY #Pa">ce</lem>
-            <rdg wit="#Cou" type="orthographic">, chis</rdg>
-          </app>
-          <app>
-            <lem wit="#Cou #NY"/>
-            <rdg wit="#Pa" type="substantive">fut le</rdg>
-          </app>
-          <app>
-            <lem wit="#NY #Pa"><persName ref="#CharlesIV" xml:id="charles3-0-1" next="charles3-1">roy</persName></lem>
-            <rdg wit="#Cou" type="orthographic"><persName ref="#CharlesIV" xml:id="charles3-0-2" next="charles3-1">rois</persName></rdg>
-          </app>
-          <app>
-            <lem wit="#Cou #NY"><persName xml:id="charles3-1" prev="charles3-0-1 charles3-0-2"></persName>Charles fu</lem>
-            <rdg wit="#Pa"/>
-          </app>
-          <app>
-            <lem wit="#NY">remariéz</lem>
-            <rdg wit="#Cou #Pa" type="orthographic">remariés</rdg>
-          </app>
-          <app>
-            <lem wit="#Cou #NY">tierce fois</lem>
-            <rdg wit="#Pa"/>
-          </app>
+          <app> 
+            <lem wit="#NY #Pa"> ce</lem> 
+            <rdg wit="#Cou" type="orthographic"> , chis</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#Cou #NY"/> 
+            <rdg wit="#Pa" type="substantive"> fut le</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY #Pa"> <persName ref="#CharlesIV" xml:id="charles3-0-1" next="charles3-1"> roy</persName> </lem> 
+            <rdg wit="#Cou" type="orthographic"> <persName ref="#CharlesIV" xml:id="charles3-0-2" next="charles3-1"> rois</persName> </rdg> 
+          </app> 
+          <app> 
+            <lem wit="#Cou #NY"> <persName xml:id="charles3-1" prev="charles3-0-1 charles3-0-2"> </persName> Charles fu</lem> 
+            <rdg wit="#Pa"/> 
+          </app> 
+          <app> 
+            <lem wit="#NY"> remariéz</lem> 
+            <rdg wit="#Cou #Pa" type="orthographic"> remariés</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#Cou #NY"> tierce fois</lem> 
+            <rdg wit="#Pa"/> 
+          </app> 
           a
-          <app>
-            <lem wit="#NY #Pa">la</lem>
-            <rdg wit="#Cou" type="orthographic">le</rdg>
-          </app>
-          <persName ref="#JeanneEvreux">fille de son oncle de remariage</persName>,
-          <app>
-            <lem wit="#NY #Pa">la</lem>
-            <rdg wit="#Cou" type="orthographic"><pb n="23v"/>le</rdg>
-          </app>
+          <app> 
+            <lem wit="#NY #Pa"> la</lem> 
+            <rdg wit="#Cou" type="orthographic"> le</rdg> 
+          </app> 
+          <persName ref="#JeanneEvreux"> fille de son oncle de remariage</persName> ,
+          <app> 
+            <lem wit="#NY #Pa"> la</lem> 
+            <rdg wit="#Cou" type="orthographic"> <pb n="23v"/> le</rdg> 
+          </app> 
           fille
-          <app>
-            <lem wit="#NY #Pa">de <persName ref="#LouisEvreux">monseigneur Loÿs,</persName></lem>
-            <rdg wit="#Cou" type="substantive">a <persName ref="#LouisEvreux">monsigneur Loeis</persName>,</rdg>
-          </app>
+          <app> 
+            <lem wit="#NY #Pa"> de <persName ref="#LouisEvreux"> monseigneur Loÿs,</persName> </lem> 
+            <rdg wit="#Cou" type="substantive"> a <persName ref="#LouisEvreux"> monsigneur Loeis</persName> ,</rdg> 
+          </app> 
           conte
-          <app>
-            <lem wit="#NY #Pa">d’Evreux, la</lem>
-            <rdg wit="#Cou" type="substantive"><choice><orig>de Wines</orig><reg>d'Evreux</reg></choice>, le</rdg>
-          </app>
+          <app> 
+            <lem wit="#NY #Pa"> d’Evreux, la</lem> 
+            <rdg wit="#Cou" type="substantive"> <choice> <orig>de Wines</orig> <reg>d'Evreux</reg> </choice> , le</rdg> 
+          </app> 
           royne
-          <app>
-            <lem wit="#NY #Pa"><persName ref="#JeanneEvreux">Jehanne</persName>,</lem>
-            <rdg wit="#Cou" type="orthographic"><persName ref="#JeanneEvreux">Jehane</persName>,</rdg>
-          </app>
-          <app>
-            <lem wit="#Cou #NY">et</lem>
-            <rdg wit="#Pa"/>
-          </app>
-          <app>
-            <lem wit="#NY #Pa">suer</lem>
-            <rdg wit="#Cou" type="orthographic">sereur</rdg>
-          </app>
-          <app>
-            <lem wit="#NY">du</lem>
-            <rdg wit="#Cou #Pa" type="substantive">au</rdg>
-          </app>
-          <persName ref="#PhilippeIII" xml:id="philippeiii3-0" next="philippeiii3-1-1 philippeiii3-1-2">roy de</persName>
-          <app>
-            <lem wit="#NY #Pa"><persName xml:id="philippeiii3-1-1" prev="philippeiii3-0">Navarre</persName></lem>
-            <rdg wit="#Cou" type="orthographic"><persName xml:id="philippeiii3-1-2" prev="philippeiii3-0"></persName>Navare</rdg>
-          </app>
+          <app> 
+            <lem wit="#NY #Pa"> <persName ref="#JeanneEvreux"> Jehanne</persName> ,</lem> 
+            <rdg wit="#Cou" type="orthographic"> <persName ref="#JeanneEvreux"> Jehane</persName> ,</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#Cou #NY"> et</lem> 
+            <rdg wit="#Pa"/> 
+          </app> 
+          <app> 
+            <lem wit="#NY #Pa"> suer</lem> 
+            <rdg wit="#Cou" type="orthographic"> sereur</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY"> du</lem> 
+            <rdg wit="#Cou #Pa" type="substantive"> au</rdg> 
+          </app> 
+          <persName ref="#PhilippeIII" xml:id="philippeiii3-0" next="philippeiii3-1-1 philippeiii3-1-2"> roy de</persName> 
+          <app> 
+            <lem wit="#NY #Pa"> <persName xml:id="philippeiii3-1-1" prev="philippeiii3-0"> Navarre</persName> </lem> 
+            <rdg wit="#Cou" type="orthographic"> <persName xml:id="philippeiii3-1-2" prev="philippeiii3-0"> </persName> Navare</rdg> 
+          </app> 
           qui
-          <app>
-            <lem wit="#Cou #NY">adont</lem>
-            <rdg wit="#Pa" type="orthographic">adonques</rdg>
-          </app>
+          <app> 
+            <lem wit="#Cou #NY"> adont</lem> 
+            <rdg wit="#Pa" type="orthographic"> adonques</rdg> 
+          </app> 
           estoit.
-          <app>
-            <lem wit="#NY">Aprés</lem>
-            <rdg wit="#Cou" type="substantive">Puissedi</rdg>
-            <rdg wit="#Pa" type="substantive"><lb/><hi rend="initial">A</hi>doncques advint apres</rdg>
-          </app>
-          <app>
-            <lem wit="#Cou #NY">avint</lem>
-            <rdg wit="#Pa"/>
-          </app>
+          <app> 
+            <lem wit="#NY"> Aprés</lem> 
+            <rdg wit="#Cou" type="substantive"> Puissedi</rdg> 
+            <rdg wit="#Pa" type="substantive"> <lb/> <hi rend="initial"> A</hi>doncques advint apres</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#Cou #NY"> avint</lem> 
+            <rdg wit="#Pa"/> 
+          </app> 
           que
-          <app>
-            <lem wit="#Cou #NY"/>
-            <rdg wit="#Pa" type="substantive">quant</rdg>
-          </app>
-          celle <persName ref="#JeanneEvreux">dame</persName>
-          <app>
-            <lem wit="#Cou #NY">fu</lem>
-            <rdg wit="#Pa" type="orthographic">fut</rdg>
-          </app>
-          <app>
-            <lem wit="#NY #Pa">ençainte</lem>
-            <rdg wit="#Cou" type="orthographic">enchainte</rdg>
-          </app>
-          <app>
-            <lem wit="#Cou #NY">et</lem>
-            <rdg wit="#Pa" type="substantive">,</rdg>
-          </app>
-          <app>
-            <lem wit="#NY #Pa">le dit <persName ref="#CharlesIV">roy</persName> son</lem>
-            <rdg wit="#Cou" type="orthographic">li dis <persName ref="#CharlesIV">rois</persName>, ses</rdg>
-          </app>
-          <app>
-            <lem wit="#NY">mary</lem>
-            <rdg wit="#Cou" type="orthographic">maris,</rdg>
-            <rdg wit="#Pa">mari</rdg>
-          </app>
-          <app>
-            <lem wit="#Cou #NY">s’acoucha</lem>
-            <rdg wit="#Pa" type="substantive">acoucha</rdg>
-          </app>
-          <app>
-            <lem wit="#NY #Pa">malade</lem>
-            <rdg wit="#Cou" type="orthographic">maladez</rdg>
-          </app>
-          <app>
-            <lem wit="#Cou #NY">au lit de</lem>
-            <rdg wit="#Pa" type="substantive">. <lb/> <hi rend="initial">E</hi>et</rdg>
-          </app>
-          <app>
-            <lem wit="#NY">la</lem>
-            <rdg wit="#Cou" type="orthographic">le</rdg>
-            <rdg wit="#Pa"/>
-          </app>
-          <app>
-            <lem wit="#Cou #NY">mort.</lem>
-            <rdg wit="#Pa"/>
-          </app>
-          <app>
-            <lem wit="#Cou #NY">Quant il</lem>
-            <rdg wit="#Pa" type="orthographic">quant il</rdg>
-          </app>
-          <app>
-            <lem wit="#NY">apparçut</lem>
-            <rdgGrp type="orthographic">
-              <rdg wit="#Cou">perchut</rdg>
-              <rdg wit="#Pa">apperçeut</rdg>
-            </rdgGrp>
-          </app>
+          <app> 
+            <lem wit="#Cou #NY"/> 
+            <rdg wit="#Pa" type="substantive"> quant</rdg> 
+          </app> 
+          celle <persName ref="#JeanneEvreux"> dame</persName> 
+          <app> 
+            <lem wit="#Cou #NY"> fu</lem> 
+            <rdg wit="#Pa" type="orthographic"> fut</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY #Pa"> ençainte</lem> 
+            <rdg wit="#Cou" type="orthographic"> enchainte</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#Cou #NY"> et</lem> 
+            <rdg wit="#Pa" type="substantive"> ,</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY #Pa"> le dit <persName ref="#CharlesIV"> roy</persName>  son</lem> 
+            <rdg wit="#Cou" type="orthographic"> li dis <persName ref="#CharlesIV"> rois</persName> , ses</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY"> mary</lem> 
+            <rdg wit="#Cou" type="orthographic"> maris,</rdg> 
+            <rdg wit="#Pa"> mari</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#Cou #NY"> s’acoucha</lem> 
+            <rdg wit="#Pa" type="substantive"> acoucha</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY #Pa"> malade</lem> 
+            <rdg wit="#Cou" type="orthographic"> maladez</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#Cou #NY"> au lit de</lem> 
+            <rdg wit="#Pa" type="substantive"> . <lb/>  <hi rend="initial"> E</hi>et</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY"> la</lem> 
+            <rdg wit="#Cou" type="orthographic"> le</rdg> 
+            <rdg wit="#Pa"/> 
+          </app> 
+          <app> 
+            <lem wit="#Cou #NY"> mort.</lem> 
+            <rdg wit="#Pa"/> 
+          </app> 
+          <app> 
+            <lem wit="#Cou #NY"> Quant il</lem> 
+            <rdg wit="#Pa" type="orthographic"> quant il</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY"> apparçut</lem> 
+            <rdgGrp type="orthographic"> 
+              <rdg wit="#Cou"> perchut</rdg> 
+              <rdg wit="#Pa"> apperçeut</rdg> 
+            </rdgGrp> 
+          </app> 
           que
-          <app>
-            <lem wit="#NY #Pa">mourir</lem>
-            <rdg wit="#Cou" type="orthographic">morir</rdg>
-          </app>
+          <app> 
+            <lem wit="#NY #Pa"> mourir</lem> 
+            <rdg wit="#Cou" type="orthographic"> morir</rdg> 
+          </app> 
           le
-          <app>
-            <lem wit="#NY #Pa">couvenoit</lem>
-            <rdg wit="#Cou" type="orthographic">convenoit</rdg>
-          </app>
+          <app> 
+            <lem wit="#NY #Pa"> couvenoit</lem> 
+            <rdg wit="#Cou" type="orthographic"> convenoit</rdg> 
+          </app> 
           , il devisa que, s’il
-          <app>
-            <lem wit="#Cou #NY">avenoit</lem>
-            <rdg wit="#Pa" type="orthographic">advenoit</rdg>
-          </app>
+          <app> 
+            <lem wit="#Cou #NY"> avenoit</lem> 
+            <rdg wit="#Pa" type="orthographic"> advenoit</rdg> 
+          </app> 
           que
-          <app>
-            <lem wit="#NY">la <persName ref="#JeanneEvreux">royne</persName> se acouçast</lem>
-            <rdg wit="#Cou" type="substantive">li <persName ref="#JeanneEvreux">roine</persName> s’acouchast</rdg>
-            <rdg wit="#Pa" type="substantive">sa <persName ref="#JeanneEvreux">femme</persName> acouchast</rdg>
-          </app>
+          <app> 
+            <lem wit="#NY"> la <persName ref="#JeanneEvreux"> royne</persName>  se acouçast</lem> 
+            <rdg wit="#Cou" type="substantive"> li <persName ref="#JeanneEvreux"> roine</persName>  s’acouchast</rdg> 
+            <rdg wit="#Pa" type="substantive"> sa <persName ref="#JeanneEvreux"> femme</persName>  acouchast</rdg> 
+          </app> 
           d’un
-          <app>
-            <lem wit="#NY #Pa">filz,</lem>
-            <rdg wit="#Cou" type="orthographic">fil,</rdg>
-          </app>
+          <app> 
+            <lem wit="#NY #Pa"> filz,</lem> 
+            <rdg wit="#Cou" type="orthographic"> fil,</rdg> 
+          </app> 
           il
-          <app>
-            <lem wit="#NY #Pa">vouloit</lem>
-            <rdg wit="#Cou" type="orthographic">voloit</rdg>
-          </app>
+          <app> 
+            <lem wit="#NY #Pa"> vouloit</lem> 
+            <rdg wit="#Cou" type="orthographic"> voloit</rdg> 
+          </app> 
           que
-          <app>
-            <lem wit="#NY">mesire</lem>
-            <rdgGrp type="orthographic">
-              <rdg wit="#Cou">messires</rdg>
-              <rdg wit="#Pa">messire</rdg>
-            </rdgGrp>
-          </app>
-          <app>
-            <lem wit="#NY #Pa"><persName ref="#PhilippeVI">Phelippe de Valois son cousin</persName></lem>
-            <rdg wit="#Cou" type="substantive"><persName ref="#PhilippeVI">Phelippes de Valois, ses cousins germains,</persName></rdg>
-          </app>
+          <app> 
+            <lem wit="#NY"> mesire</lem> 
+            <rdgGrp type="orthographic"> 
+              <rdg wit="#Cou"> messires</rdg> 
+              <rdg wit="#Pa"> messire</rdg> 
+            </rdgGrp> 
+          </app> 
+          <app> 
+            <lem wit="#NY #Pa"> <persName ref="#PhilippeVI"> Phelippe de Valois son cousin</persName> </lem> 
+            <rdg wit="#Cou" type="substantive"> <persName ref="#PhilippeVI"> Phelippes de Valois, ses cousins germains,</persName> </rdg> 
+          </app> 
           en
-          <app>
-            <lem wit="#Cou #NY">fust</lem>
-            <rdg wit="#Pa" type="orthographic">feust</rdg>
-          </app>
-          <app>
-            <lem wit="#NY">mainbour</lem>
-            <rdgGrp type="orthographic">
-              <rdg wit="#Cou">mambours</rdg>
-              <rdg wit="#Pa">maimbourt</rdg>
-            </rdgGrp>
-          </app>
+          <app> 
+            <lem wit="#Cou #NY"> fust</lem> 
+            <rdg wit="#Pa" type="orthographic"> feust</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY"> mainbour</lem> 
+            <rdgGrp type="orthographic"> 
+              <rdg wit="#Cou"> mambours</rdg> 
+              <rdg wit="#Pa"> maimbourt</rdg> 
+            </rdgGrp> 
+          </app> 
           et
-          <app>
-            <lem wit="#NY #Pa">regent</lem>
-            <rdg wit="#Cou" type="orthographic" >regens</rdg>
-          </app>
+          <app> 
+            <lem wit="#NY #Pa"> regent</lem> 
+            <rdg wit="#Cou" type="orthographic" > regens</rdg> 
+          </app> 
           de tout son
-          <app>
-            <lem wit="#NY #Pa"><placeName ref="#France">royaume,</placeName></lem>
-            <rdg wit="#Cou" type="orthographic"><placeName ref="#France">roiaume,</placeName></rdg>
-          </app>
+          <app> 
+            <lem wit="#NY #Pa"> <placeName ref="#France"> royaume,</placeName> </lem> 
+            <rdg wit="#Cou" type="orthographic"> <placeName ref="#France"> roiaume,</placeName> </rdg> 
+          </app> 
           jusques
-          <app>
-            <lem wit="#Cou #NY">adont</lem>
-            <rdg wit="#Pa" type="substantive">a tant</rdg>
-          </app>
+          <app> 
+            <lem wit="#Cou #NY"> adont</lem> 
+            <rdg wit="#Pa" type="substantive"> a tant</rdg> 
+          </app> 
           que
-          <app>
-            <lem wit="#NY #Pa">son filz</lem>
-            <rdg wit="#Cou" type="substantive">ses fils</rdg>
-          </app>
-          <app>
-            <lem wit="#Cou #NY">seroit en</lem>
-            <rdg wit="#Pa" type="substantive">eust</rdg>
-          </app>
-          <app>
-            <lem wit="#NY #Pa">aage</lem>
-            <rdg wit="#Cou" type="orthographic">eage</rdg>
-          </app>
+          <app> 
+            <lem wit="#NY #Pa"> son filz</lem> 
+            <rdg wit="#Cou" type="substantive"> ses fils</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#Cou #NY"> seroit en</lem> 
+            <rdg wit="#Pa" type="substantive"> eust</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY #Pa"> aage</lem> 
+            <rdg wit="#Cou" type="orthographic"> eage</rdg> 
+          </app> 
           d’estre
-          <app>
-            <lem wit="#NY #Pa">roy.</lem>
-            <rdg wit="#Cou" type="orthographic">rois</rdg>
-          </app>
-          <app>
-            <lem wit="#NY #Pa">Et s’il</lem>
-            <rdg wit="#Cou" type="orthographic">et s’il</rdg>
-          </app>
-          <app>
-            <lem wit="#Cou #NY">avenoit</lem>
-            <rdg wit="#Pa" type="orthographic">advenoit</rdg>
-          </app>
+          <app> 
+            <lem wit="#NY #Pa"> roy.</lem> 
+            <rdg wit="#Cou" type="orthographic"> rois</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY #Pa"> Et s’il</lem> 
+            <rdg wit="#Cou" type="orthographic"> et s’il</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#Cou #NY"> avenoit</lem> 
+            <rdg wit="#Pa" type="orthographic"> advenoit</rdg> 
+          </app> 
           que ce
-          <app>
-            <lem wit="#Cou #NY">fust</lem>
-            <rdg wit="#Pa" type="orthographic">feust</rdg>
-          </app>
+          <app> 
+            <lem wit="#Cou #NY"> fust</lem> 
+            <rdg wit="#Pa" type="orthographic"> feust</rdg> 
+          </app> 
           une fille, que
-          <app>
-            <lem wit="#NY #Pa">les</lem>
-            <rdg wit="#Cou" type="substantive">li</rdg>
-          </app>
-          <persName ref="#Pairs" xml:id="pairs2-0" next="pairs2-1-1 pairs2-1-2">XII</persName>
-          <app>
-            <lem wit="#NY #Pa"><persName xml:id="pairs2-1-1" prev="paris2-0">pers</persName></lem>
-            <rdg wit="#Cou" type="orthographic"><persName xml:id="pairs2-1-2" prev="paris2-0">per</persName></rdg>
-          </app>
+          <app> 
+            <lem wit="#NY #Pa"> les</lem> 
+            <rdg wit="#Cou" type="substantive"> li</rdg> 
+          </app> 
+          <persName ref="#Pairs" xml:id="pairs2-0" next="pairs2-1-1 pairs2-1-2"> XII</persName> 
+          <app> 
+            <lem wit="#NY #Pa"> <persName xml:id="pairs2-1-1" prev="paris2-0"> pers</persName> </lem> 
+            <rdg wit="#Cou" type="orthographic"> <persName xml:id="pairs2-1-2" prev="paris2-0"> per</persName> </rdg> 
+          </app> 
           et
-          <app>
-            <lem wit="#NY #Pa">les</lem>
-            <rdg wit="#Cou" type="substantive">li</rdg>
-          </app>
-          <app>
-            <lem wit="#NY">hauls</lem>
-            <rdg wit="#Cou" type="orthographic">hault</rdg>
-            <rdg wit="#Pa" type="substantive"/>
-          </app>
-          <app>
-            <lem wit="#NY #Pa"><persName ref="#Barons">barons</persName></lem>
-            <rdg wit="#Cou" type="orthographic"><persName ref="#Barons">baron</persName></rdg>
-          </app>
-          <app>
-            <lem wit="#Cou #NY">de France</lem>
-            <rdg wit="#Pa" type="substantive">du royaume</rdg>
-          </app>
-          <app>
-            <lem wit="#NY #Pa">eussent</lem>
-            <rdg wit="#Cou" type="orthographic">euissent</rdg>
-          </app>
+          <app> 
+            <lem wit="#NY #Pa"> les</lem> 
+            <rdg wit="#Cou" type="substantive"> li</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY"> hauls</lem> 
+            <rdg wit="#Cou" type="orthographic"> hault</rdg> 
+            <rdg wit="#Pa" type="substantive"/> 
+          </app> 
+          <app> 
+            <lem wit="#NY #Pa"> <persName ref="#Barons"> barons</persName> </lem> 
+            <rdg wit="#Cou" type="orthographic"> <persName ref="#Barons"> baron</persName> </rdg> 
+          </app> 
+          <app> 
+            <lem wit="#Cou #NY"> de France</lem> 
+            <rdg wit="#Pa" type="substantive"> du royaume</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY #Pa"> eussent</lem> 
+            <rdg wit="#Cou" type="orthographic"> euissent</rdg> 
+          </app> 
           conseil et
-          <app>
-            <lem wit="#Cou #NY">avis entre</lem>
-            <rdg wit="#Pa" type="orthographic">advis entr’</rdg>
-          </app>
-          <app>
-            <lem wit="#NY">eulx de</lem>
-            <rdgGrp type="substantive">
-              <rdg wit="#Cou">yaus del</rdg>
-              <rdg wit="#Pa">eulx d’en</rdg>
-            </rdgGrp>
-          </app>
+          <app> 
+            <lem wit="#Cou #NY"> avis entre</lem> 
+            <rdg wit="#Pa" type="orthographic"> advis entr’</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY"> eulx de</lem> 
+            <rdgGrp type="substantive"> 
+              <rdg wit="#Cou"> yaus del</rdg> 
+              <rdg wit="#Pa"> eulx d’en</rdg> 
+            </rdgGrp> 
+          </app> 
           ordonner
-          <app>
-            <lem wit="#Cou #NY">, et donnassent le <placeName ref="#France">royaume</placeName> a</lem>
-            <rdg wit="#Pa" type="substantive">et le donassent acellui</rdg>
-          </app>
-          <app>
-            <lem wit="#NY">cellui</lem>
-            <rdg wit="#Cou" type="orthographic">chelui</rdg>
-            <rdg wit="#Pa" type="substantive"/>
-          </app>
+          <app> 
+            <lem wit="#Cou #NY"> , et donnassent le <placeName ref="#France"> royaume</placeName>  a</lem> 
+            <rdg wit="#Pa" type="substantive"> et le donassent acellui</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY"> cellui</lem> 
+            <rdg wit="#Cou" type="orthographic"> chelui</rdg> 
+            <rdg wit="#Pa" type="substantive"/> 
+          </app> 
           qui avoir le
-          <app>
-            <lem wit="#NY #Pa">devroit</lem>
-            <rdg wit="#Cou" type="orthographic">deveroit</rdg>
-          </app>
+          <app> 
+            <lem wit="#NY #Pa"> devroit</lem> 
+            <rdg wit="#Cou" type="orthographic"> deveroit</rdg> 
+          </app> 
           par droit. Sur
-          <app>
-            <lem wit="#NY #Pa">ce le <persName ref="#CharlesIV" xml:id="charles4-0" next="charles4-1">roy</persName></lem>
-            <rdg wit="#Cou" type="orthographic">che li <persName ref="#CharlesIV" xml:id="charles4-0-1" next="charles4-1">rois</persName></rdg>
-          </app>
-          <app>
-            <lem wit="#Cou #NY"><persName xml:id="charles4-1" prev="charles4-0 charles4-0-1">Charles</persName> ala morir</lem>
-            <rdg wit="#Pa" type="substantive">se mourut,</rdg>
-          </app>
+          <app> 
+            <lem wit="#NY #Pa"> ce le <persName ref="#CharlesIV" xml:id="charles4-0" next="charles4-1"> roy</persName> </lem> 
+            <rdg wit="#Cou" type="orthographic"> che li <persName ref="#CharlesIV" xml:id="charles4-0-1" next="charles4-1"> rois</persName> </rdg> 
+          </app> 
+          <app> 
+            <lem wit="#Cou #NY"> <persName xml:id="charles4-1" prev="charles4-0 charles4-0-1"> Charles</persName>  ala morir</lem> 
+            <rdg wit="#Pa" type="substantive"> se mourut,</rdg> 
+          </app> 
           environ Pasques, l’an de
-          <app>
-            <lem wit="#NY">grace</lem>
-            <rdgGrp type="orthographic">
-              <rdg wit="#Cou">grasce</rdg>
-              <rdg wit="#Pa">Grace</rdg>
-            </rdgGrp>
-          </app>
-          <app>
-            <lem wit="#Cou #NY">Nostre</lem>
-            <rdg wit="#Pa"/>
-          </app>
-          <app>
-            <lem wit="#NY">Seigneur</lem>
-            <rdg wit="#Cou" type="orthographic">Signeur</rdg>
-            <rdg wit="#Pa"/>
-          </app>
-          <app>
-            <lem wit="#NY #Pa"><date xml:id="date1-0-1" when-iso="1328" next="date1-1">mil</date></lem>
-            <rdg wit="#Cou" type="orthographic"><date xml:id="date1-0-2" when-iso="1328" next="date1-1">M</date></rdg>
-          </app>
-          <date xml:id="date1-1" prev="date1-01 date1-0-2">CCC XXVIII</date>. Ne
-          <app>
-            <lem wit="#NY #Pa">demoura mie</lem>
-            <rdg wit="#Cou" type="orthographic">demora mies</rdg>
-          </app>
-          <app>
-            <lem wit="#Cou #NY">granment</lem>
-            <rdg wit="#Pa" type="orthographic">grandement</rdg>
-          </app>
+          <app> 
+            <lem wit="#NY"> grace</lem> 
+            <rdgGrp type="orthographic"> 
+              <rdg wit="#Cou"> grasce</rdg> 
+              <rdg wit="#Pa"> Grace</rdg> 
+            </rdgGrp> 
+          </app> 
+          <app> 
+            <lem wit="#Cou #NY"> Nostre</lem> 
+            <rdg wit="#Pa"/> 
+          </app> 
+          <app> 
+            <lem wit="#NY"> Seigneur</lem> 
+            <rdg wit="#Cou" type="orthographic"> Signeur</rdg> 
+            <rdg wit="#Pa"/> 
+          </app> 
+          <app> 
+            <lem wit="#NY #Pa"> <date xml:id="date1-0-1" when-iso="1328" next="date1-1"> mil</date> </lem> 
+            <rdg wit="#Cou" type="orthographic"> <date xml:id="date1-0-2" when-iso="1328" next="date1-1"> M</date> </rdg> 
+          </app> 
+          <date xml:id="date1-1" prev="date1-01 date1-0-2"> CCC XXVIII</date> . Ne
+          <app> 
+            <lem wit="#NY #Pa"> demoura mie</lem> 
+            <rdg wit="#Cou" type="orthographic"> demora mies</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#Cou #NY"> granment</lem> 
+            <rdg wit="#Pa" type="orthographic"> grandement</rdg> 
+          </app> 
           aprés
-          <app>
-            <lem wit="#NY">ce</lem>
-            <rdg wit="#Cou #Pa"/>
-          </app>
+          <app> 
+            <lem wit="#NY"> ce</lem> 
+            <rdg wit="#Cou #Pa"/> 
+          </app> 
           que la
-          <app>
-            <lem wit="#NY #Pa"><persName ref="#JeanneEvreux" xml:id="jeanne3-0-1" next="jeanne3-1-1">royne</persName></lem>
-            <rdg wit="#Cou" type="orthographic"><persName ref="#JeanneEvreux" xml:id="jeanne3-0-2" next="jeanne3-1-2">roine</persName></rdg>
-          </app>
-          <app>
-            <lem wit="#NY"><persName xml:id="jeanne3-1-1" prev="jeanne3-0-1">Jehanne</persName></lem>
-            <rdg wit="#Cou" type="orthographic"><persName xml:id="jeanne3-1-2" prev="jeanne3-0-2">Jehenne</persName></rdg>
-            <rdg wit="#Pa"/>
-          </app>
-          acoucha d’une <persName ref="#BlancheFrance">fille</persName>, de quoy
-          <app>
-            <lem wit="#NY #Pa">le</lem>
-            <rdg wit="#Cou" type="orthographic">li</rdg>
-          </app>
+          <app> 
+            <lem wit="#NY #Pa"> <persName ref="#JeanneEvreux" xml:id="jeanne3-0-1" next="jeanne3-1-1"> royne</persName> </lem> 
+            <rdg wit="#Cou" type="orthographic"> <persName ref="#JeanneEvreux" xml:id="jeanne3-0-2" next="jeanne3-1-2"> roine</persName> </rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY"> <persName xml:id="jeanne3-1-1" prev="jeanne3-0-1"> Jehanne</persName> </lem> 
+            <rdg wit="#Cou" type="orthographic"> <persName xml:id="jeanne3-1-2" prev="jeanne3-0-2"> Jehenne</persName> </rdg> 
+            <rdg wit="#Pa"/> 
+          </app> 
+          acoucha d’une <persName ref="#BlancheFrance"> fille</persName> , de quoy
+          <app> 
+            <lem wit="#NY #Pa"> le</lem> 
+            <rdg wit="#Cou" type="orthographic"> li</rdg> 
+          </app> 
           plus
-          <app>
-            <lem wit="#NY #Pa">du <placeName ref="#France">royaume</placeName></lem>
-            <rdg wit="#Cou" type="orthographic">del <placeName ref="#France">royalme</placeName></rdg>
-          </app>
+          <app> 
+            <lem wit="#NY #Pa"> du <placeName ref="#France"> royaume</placeName> </lem> 
+            <rdg wit="#Cou" type="orthographic"> del <placeName ref="#France"> royalme</placeName> </rdg> 
+          </app> 
           en
-          <app>
-            <lem wit="#Cou #NY">furent</lem>
-            <rdg wit="#Pa" type="substantive">fut</rdg>
-          </app>
+          <app> 
+            <lem wit="#Cou #NY"> furent</lem> 
+            <rdg wit="#Pa" type="substantive"> fut</rdg> 
+          </app> 
           durement
-          <app>
-            <lem wit="#NY">courrouciés et troubléz</lem>
-            <rdg wit="#Cou" type="orthographic">courouchiet et tourblé</rdg>
-            <rdg wit="#Pa" type="substantive">courroucié</rdg>
-          </app>
+          <app> 
+            <lem wit="#NY"> courrouciés et troubléz</lem> 
+            <rdg wit="#Cou" type="orthographic"> courouchiet et tourblé</rdg> 
+            <rdg wit="#Pa" type="substantive"> courroucié</rdg> 
+          </app> 
           . Quant
-          <app>
-            <lem wit="#NY #Pa">les</lem>
-            <rdg wit="#Cou" type="orthographic">li</rdg>
-          </app>
-          <persName ref="#Pairs" xml:id="pairs3-0" next="pairs3-1-1 pairs3-1-2">XII</persName>
-          <app>
-            <lem wit="#NY #Pa"><persName xml:id="pairs3-1-1" prev="pairs3-0">pers</persName></lem>
-            <rdg wit="#Cou" type="orthographic"><persName xml:id="pairs3-1-2" prev="pairs3-0">per</persName></rdg>
-          </app>
+          <app> 
+            <lem wit="#NY #Pa"> les</lem> 
+            <rdg wit="#Cou" type="orthographic"> li</rdg> 
+          </app> 
+          <persName ref="#Pairs" xml:id="pairs3-0" next="pairs3-1-1 pairs3-1-2"> XII</persName> 
+          <app> 
+            <lem wit="#NY #Pa"> <persName xml:id="pairs3-1-1" prev="pairs3-0"> pers</persName> </lem> 
+            <rdg wit="#Cou" type="orthographic"> <persName xml:id="pairs3-1-2" prev="pairs3-0"> per</persName> </rdg> 
+          </app> 
           et
-          <app>
-            <lem wit="#NY">les</lem>
-            <rdg wit="#Cou" type="orthographic">li</rdg>
-            <rdg wit="#Pa"/>
-          </app>
-          <app>
-            <lem wit="#NY #Pa"/>
-            <rdg wit="#Cou" type="substantive">hault</rdg>
-          </app>
-          <app>
-            <lem wit="#NY #Pa"><persName ref="#Barons">barons</persName></lem>
-            <rdg wit="#Cou" type="orthographic"><persName ref="#Barons">baron</persName></rdg>
-          </app>
+          <app> 
+            <lem wit="#NY"> les</lem> 
+            <rdg wit="#Cou" type="orthographic"> li</rdg> 
+            <rdg wit="#Pa"/> 
+          </app> 
+          <app> 
+            <lem wit="#NY #Pa"/> 
+            <rdg wit="#Cou" type="substantive"> hault</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY #Pa"> <persName ref="#Barons"> barons</persName> </lem> 
+            <rdg wit="#Cou" type="orthographic"> <persName ref="#Barons"> baron</persName> </rdg> 
+          </app> 
           de France
-          <app>
-            <lem wit="#NY">sçorent</lem>
-            <rdg wit="#Cou #Pa" type="orthographic">sceurent</rdg>
-          </app>
-          <app>
-            <lem wit="#NY">ce</lem>
-            <rdg wit="#Cou" type="substantive">chou,</rdg>
-            <rdg wit="#Pa" type="orthographic">ce,</rdg>
-          </app>
-          <app>
-            <lem wit="#NY #Pa">ilz</lem>
-            <rdg wit="#Cou" type="orthographic">il</rdg>
-          </app>
-          <app>
-            <lem wit="#NY">se assemblerent</lem>
-            <rdgGrp type="orthographic">
-              <rdg wit="#Cou">se assamblerent</rdg>
-              <rdg wit="#Pa">s’assemblerent</rdg>
-            </rdgGrp>
-          </app>
-          a <placeName ref="#Paris">Paris</placeName> au plus tost
-          <app>
-            <lem wit="#NY">qu’ilz</lem>
-            <rdg wit="#Cou #Pa" type="orthographic">qu’il</rdg>
-          </app>
-          <app>
-            <lem wit="#NY #Pa">porent</lem>
-            <rdg wit="#Cou" type="orthographic">peurent.</rdg>
-          </app>
-          <app>
-            <lem wit="#NY">et donnerent le</lem>
-            <rdg wit="#Cou" type="orthographic">Et donnerent le</rdg>
-            <rdg wit="#Pa" type="substantive">, et</rdg>
-          </app>
-          <app>
-            <lem wit="#NY">royaume</lem>
-            <rdg wit="#Cou" type="substantive"><del rend="strikethrough">commun</del> <placeName ref="#France">roiaulme</placeName>,</rdg>
-            <rdg wit="#Pa"/>
-          </app>
+          <app> 
+            <lem wit="#NY"> sçorent</lem> 
+            <rdg wit="#Cou #Pa" type="orthographic"> sceurent</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY"> ce</lem> 
+            <rdg wit="#Cou" type="substantive"> chou,</rdg> 
+            <rdg wit="#Pa" type="orthographic"> ce,</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY #Pa"> ilz</lem> 
+            <rdg wit="#Cou" type="orthographic"> il</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY"> se assemblerent</lem> 
+            <rdgGrp type="orthographic"> 
+              <rdg wit="#Cou"> se assamblerent</rdg> 
+              <rdg wit="#Pa"> s’assemblerent</rdg> 
+            </rdgGrp> 
+          </app> 
+          a <placeName ref="#Paris"> Paris</placeName>  au plus tost
+          <app> 
+            <lem wit="#NY"> qu’ilz</lem> 
+            <rdg wit="#Cou #Pa" type="orthographic"> qu’il</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY #Pa"> porent</lem> 
+            <rdg wit="#Cou" type="orthographic"> peurent.</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY"> et donnerent le</lem> 
+            <rdg wit="#Cou" type="orthographic"> Et donnerent le</rdg> 
+            <rdg wit="#Pa" type="substantive"> , et</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY"> royaume</lem> 
+            <rdg wit="#Cou" type="substantive"> <del rend="strikethrough"> commun</del>  <placeName ref="#France"> roiaulme</placeName> ,</rdg> 
+            <rdg wit="#Pa"/> 
+          </app> 
           de commun
-          <app>
-            <lem wit="#NY #Pa">accord</lem>
-            <rdg wit="#Cou" type="orthographic">acord,</rdg>
-          </app>
-          <app>
-            <lem wit="#Cou #NY"/>
-            <rdg wit="#Pa" type="substantive">donnerent le royaulme</rdg>
-          </app>
+          <app> 
+            <lem wit="#NY #Pa"> accord</lem> 
+            <rdg wit="#Cou" type="orthographic"> acord,</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#Cou #NY"/> 
+            <rdg wit="#Pa" type="substantive"> donnerent le royaulme</rdg> 
+          </app> 
           a
-          <app>
-            <lem wit="#NY">monseigneur</lem>
-            <rdg wit="#Cou" type="orthographic">monsigneur</rdg>
-            <rdg wit="#Pa" type="substantive">messire</rdg>
-          </app>
-          <app>
-            <lem wit="#NY #Pa"><persName ref="#PhilippeVI">Phelippe de Valois</persName>, filz</lem>
-            <rdg wit="#Cou" type="orthographic"><persName ref="#PhilippeVI">Phelippe de Vallois</persName>, fils</rdg>
-          </app>
+          <app> 
+            <lem wit="#NY"> monseigneur</lem> 
+            <rdg wit="#Cou" type="orthographic"> monsigneur</rdg> 
+            <rdg wit="#Pa" type="substantive"> messire</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY #Pa"> <persName ref="#PhilippeVI"> Phelippe de Valois</persName> , filz</lem> 
+            <rdg wit="#Cou" type="orthographic"> <persName ref="#PhilippeVI"> Phelippe de Vallois</persName> , fils</rdg> 
+          </app> 
           jadis au conte de
-          <app>
-            <lem wit="#NY #Pa">Valois.</lem>
-            <rdg wit="#Cou" type="orthographic">Vallois,</rdg>
-          </app>
-          <app>
-            <lem wit="#NY">Et en osterent</lem>
-            <rdg wit="#Cou #Pa" type="orthographic">et en osterent</rdg>
-          </app>
-          <app>
-            <lem wit="#NY #Pa">la <persName ref="#Isabelle">royne d’Engleterre</persName></lem>
-            <rdgGrp type="orthographic">
-              <rdg wit="#Pa">la<persName ref="#Isabelle">royne d’Angleterre</persName></rdg>
-              <rdg wit="#Cou">le <persName ref="#Isabelle">roine d’Engleterre</persName></rdg>
-            </rdgGrp>
-          </app>
+          <app> 
+            <lem wit="#NY #Pa"> Valois.</lem> 
+            <rdg wit="#Cou" type="orthographic"> Vallois,</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY"> Et en osterent</lem> 
+            <rdg wit="#Cou #Pa" type="orthographic"> et en osterent</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY"> la <persName ref="#Isabelle"> royne d’Engleterre</persName> </lem> 
+            <rdgGrp type="orthographic"> 
+              <rdg wit="#Pa"> la<persName ref="#Isabelle"> royne d’Angleterre</persName> </rdg> 
+              <rdg wit="#Cou"> le <persName ref="#Isabelle"> roine d’Engleterre</persName> </rdg> 
+            </rdgGrp> 
+          </app> 
           et le
-          <app>
-            <lem wit="#NY #Pa"><persName ref="#EdouardIII">roy</persName></lem>
-            <rdg wit="#Cou" type="orthographic"><persName ref="#EdouardIII">roi</persName></rdg>
-          </app>
+          <app> 
+            <lem wit="#NY #Pa"> <persName ref="#EdouardIII"> roy</persName> </lem> 
+            <rdg wit="#Cou" type="orthographic"> <persName ref="#EdouardIII"> roi</persName> </rdg> 
+          </app> 
           son
-          <app>
-            <lem wit="#NY #Pa">filz</lem>
-            <rdg wit="#Cou" type="orthographic">fil</rdg>
-          </app>
+          <app> 
+            <lem wit="#NY #Pa"> filz</lem> 
+            <rdg wit="#Cou" type="orthographic"> fil</rdg> 
+          </app> 
           , qui estoit
-          <app>
-            <lem wit="#NY">demouree</lem>
-            <rdg wit="#Cou" type="orthographic">demoree</rdg>
-            <rdg wit="#Pa"/>
-          </app>
-          suer germaine au <persName ref="#CharlesIV" xml:id="charles5-0" next="charles5-1-1 charles5-1-2">roy</persName>
-          <app>
-            <lem wit="#NY #Pa"><persName xml:id="charles5-1-1" prev="charles5-0">Charles</persName></lem>
-            <rdg wit="#Cou" type="orthographic"><persName xml:id="charles5-1-2" prev="charles5-0">Charle</persName></rdg>
-          </app>
-          <app>
-            <lem wit="#NY">derrenierement trespasséz</lem>
-            <rdg wit="#Cou" type="orthographic">darrainement trespasset</rdg>
-            <rdg wit="#Pa" type="substantive">derrainement mort.</rdg>
-          </app>
-          <app>
-            <lem wit="#Cou #NY">, par</lem>
-            <rdg wit="#Pa" type="substantive">Pour</rdg>
-          </app>
-          <app>
-            <lem wit="#NY">la</lem>
-            <rdg wit="#Cou" type="orthographic">le</rdg>
-            <rdg wit="#Pa"/>
-          </app>
+          <app> 
+            <lem wit="#NY"> demouree</lem> 
+            <rdg wit="#Cou" type="orthographic"> demoree</rdg> 
+            <rdg wit="#Pa"/> 
+          </app> 
+          suer germaine au <persName ref="#CharlesIV" xml:id="charles5-0" next="charles5-1-1 charles5-1-2"> roy</persName> 
+          <app> 
+            <lem wit="#NY #Pa"> <persName xml:id="charles5-1-1" prev="charles5-0"> Charles</persName> </lem> 
+            <rdg wit="#Cou" type="orthographic"> <persName xml:id="charles5-1-2" prev="charles5-0"> Charle</persName> </rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY"> derrenierement trespasséz</lem> 
+            <rdg wit="#Cou" type="orthographic"> darrainement trespasset</rdg> 
+            <rdg wit="#Pa" type="substantive"> derrainement mort.</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#Cou #NY"> , par</lem> 
+            <rdg wit="#Pa" type="substantive"> Pour</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY"> la</lem> 
+            <rdg wit="#Cou" type="orthographic"> le</rdg> 
+            <rdg wit="#Pa"/> 
+          </app> 
           raison de
-          <app>
-            <lem wit="#NY #Pa">ce qu’ilz</lem>
-            <rdg wit="#Cou" type="orthographic">chou qu’il</rdg>
-          </app>
-          <app>
-            <lem wit="#Cou #NY">dient</lem>
-            <rdg wit="#Pa" type="substantive">disoient</rdg>
-          </app>
+          <app> 
+            <lem wit="#NY #Pa"> ce qu’ilz</lem> 
+            <rdg wit="#Cou" type="orthographic"> chou qu’il</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#Cou #NY"> dient</lem> 
+            <rdg wit="#Pa" type="substantive"> disoient</rdg> 
+          </app> 
           que
-          <app>
-            <lem wit="#NY #Pa">le</lem>
-            <rdg wit="#Cou" type="orthographic">li</rdg>
-          </app>
-          <app>
-            <lem wit="#NY"><placeName ref="#France" xml:id="france4-0-1" next="france4-1">royaume</placeName></lem>
-            <rdgGrp type="orthographic">
-              <rdg wit="#Cou"><placeName ref="#France" xml:id="france4-0-2" next="france4-1">roiaumes</placeName></rdg>
-              <rdg wit="#Pa"><placeName ref="#France" xml:id="france4-0-3" next="france4-1">royaulme</placeName></rdg>
-            </rdgGrp>
-          </app>
-          <placeName xml:id="france4-1" prev="france4-0-1 france4-0-2 france4-0-3">de France</placeName> est de si grant
-          <app>
-            <lem wit="#NY #Pa">noblesce</lem>
-            <rdg wit="#Cou" type="orthographic">noblece</rdg>
-          </app>
+          <app> 
+            <lem wit="#NY #Pa"> le</lem> 
+            <rdg wit="#Cou" type="orthographic"> li</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY"> <placeName ref="#France" xml:id="france4-0-1" next="france4-1"> royaume</placeName> </lem> 
+            <rdgGrp type="orthographic"> 
+              <rdg wit="#Cou"> <placeName ref="#France" xml:id="france4-0-2" next="france4-1"> roiaumes</placeName> </rdg> 
+              <rdg wit="#Pa"> <placeName ref="#France" xml:id="france4-0-3" next="france4-1"> royaulme</placeName> </rdg> 
+            </rdgGrp> 
+          </app> 
+          <placeName xml:id="france4-1" prev="france4-0-1 france4-0-2 france4-0-3"> de France</placeName>  est de si grant
+          <app> 
+            <lem wit="#NY #Pa"> noblesce</lem> 
+            <rdg wit="#Cou" type="orthographic"> noblece</rdg> 
+          </app> 
           qu’il ne doit
-          <app>
-            <lem wit="#NY #Pa">mie</lem>
-            <rdg wit="#Cou" type="substantive">mies aller</rdg>
-          </app>
+          <app> 
+            <lem wit="#NY #Pa"> mie</lem> 
+            <rdg wit="#Cou" type="substantive"> mies aller</rdg> 
+          </app> 
           par succession
-          <app>
-            <lem wit="#NY #Pa">aler</lem>
-            <rdg wit="#Cou"/>
-          </app>
+          <app> 
+            <lem wit="#NY #Pa"> aler</lem> 
+            <rdg wit="#Cou"/> 
+          </app> 
           a
-          <app>
-            <lem wit="#NY #Pa">femelle,</lem>
-            <rdg wit="#Cou" type="orthographic">fumelle</rdg>
-          </app>
-          <app>
-            <lem wit="#NY #Pa"/>
-            <rdg wit="#Cou" type="substantive">, ne par consequense a fil de fumelle,</rdg>
-          </app>
-          <app>
-            <lem wit="#NY #Pa">ainsi</lem>
-            <rdg wit="#Cou" type="orthographic">ensi</rdg>
-          </app>
+          <app> 
+            <lem wit="#NY #Pa"> femelle,</lem> 
+            <rdg wit="#Cou" type="orthographic"> fumelle</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY #Pa"/> 
+            <rdg wit="#Cou" type="substantive"> , ne par consequense a fil de fumelle,</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY #Pa"> ainsi</lem> 
+            <rdg wit="#Cou" type="orthographic"> ensi</rdg> 
+          </app> 
           que vous
-          <app>
-            <lem wit="#NY #Pa">avéz</lem>
-            <rdg wit="#Cou" type="orthographic">avés</rdg>
-          </app>
+          <app> 
+            <lem wit="#NY #Pa"> avéz</lem> 
+            <rdg wit="#Cou" type="orthographic"> avés</rdg> 
+          </app> 
           oy
-          <app>
-            <lem wit="#NY #Pa">ça</lem>
-            <rdg wit="#Cou" type="orthographic">chi</rdg>
-          </app>
+          <app> 
+            <lem wit="#NY #Pa"> ça</lem> 
+            <rdg wit="#Cou" type="orthographic"> chi</rdg> 
+          </app> 
           devant, au
-          <app>
-            <lem wit="#Cou #NY">commencement</lem>
-            <rdg wit="#Pa" type="orthographic">commancement</rdg>
-          </app>
+          <app> 
+            <lem wit="#Cou #NY"> commencement</lem> 
+            <rdg wit="#Pa" type="orthographic"> commancement</rdg> 
+          </app> 
           de
-          <app>
-            <lem wit="#NY #Pa">ce</lem>
-            <rdg wit="#Cou" type="orthographic">che</rdg>
-          </app>
+          <app> 
+            <lem wit="#NY #Pa"> ce</lem> 
+            <rdg wit="#Cou" type="orthographic"> che</rdg> 
+          </app> 
           livre. Et
-          <app>
-            <lem wit="#NY #Pa">firent</lem>
-            <rdg wit="#Cou" type="orthographic">fisent</rdg>
-          </app>
-          <app>
-            <lem wit="#NY">cellui monseigneur</lem>
-            <rdg wit="#Cou" type="orthographic">cheli monsigneur</rdg>
-            <rdg wit="#Pa" type="substantive">ycellui messire</rdg>
-          </app>
-          <persName ref="#PhilippeVI">Phelippe</persName> couronner
-          <app>
-            <lem wit="#Cou #NY">a <placeName ref="#Reims">Rains</placeName>,</lem>
-            <rdg wit="#Pa"/>
-          </app>
+          <app> 
+            <lem wit="#NY #Pa"> firent</lem> 
+            <rdg wit="#Cou" type="orthographic"> fisent</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY"> cellui monseigneur</lem> 
+            <rdg wit="#Cou" type="orthographic"> cheli monsigneur</rdg> 
+            <rdg wit="#Pa" type="substantive"> ycellui messire</rdg> 
+          </app> 
+          <persName ref="#PhilippeVI"> Phelippe</persName>  couronner
+          <app> 
+            <lem wit="#Cou #NY"> a <placeName ref="#Reims"> Rains</placeName> ,</lem> 
+            <rdg wit="#Pa"/> 
+          </app> 
           l’an
-          <app>
-            <lem wit="#NY #Pa"/>
-            <rdg wit="#Cou" type="substantive">de Grace</rdg>
-          </app>
-          <date when-iso="1328">mil CCC XXVIII</date>, le jour de
-          <app>
-            <lem wit="#NY #Pa">la</lem>
-            <rdg wit="#Cou" type="substantive">le</rdg>
-          </app>
+          <app> 
+            <lem wit="#NY #Pa"/> 
+            <rdg wit="#Cou" type="substantive"> de Grace</rdg> 
+          </app> 
+          <date when-iso="1328"> mil CCC XXVIII</date> , le jour de
+          <app> 
+            <lem wit="#NY #Pa"> la</lem> 
+            <rdg wit="#Cou" type="substantive"> le</rdg> 
+          </app> 
           Trinité
-          <app>
-            <lem wit="#NY">. Dont</lem>
-            <rdg wit="#Cou" type="orthographic">, dont</rdg>
-            <rdg wit="#Pa" type="substantive">, donc</rdg>
-          </app>
-          <app>
-            <lem wit="#NY #Pa">aprés</lem>
-            <rdg wit="#Cou" type="substantive">puissedi</rdg>
-          </app>
+          <app> 
+            <lem wit="#NY"> . Dont</lem> 
+            <rdg wit="#Cou" type="orthographic"> , dont</rdg> 
+            <rdg wit="#Pa" type="substantive"> , donc</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY #Pa"> aprés</lem> 
+            <rdg wit="#Cou" type="substantive"> puissedi</rdg> 
+          </app> 
           grant guerre
-          <app>
-            <lem wit="#Cou #NY">et grant</lem>
-            <rdg wit="#Pa" type="substantive">advint</rdg>
-          </app>
-          <app>
-            <lem wit="#NY">desolation</lem>
-            <rdg wit="#Cou" type="orthographic"><choice><orig>desolution</orig><reg>desolation</reg></choice></rdg>
-            <rdg wit="#Pa"/>
-          </app>
-          <app>
-            <lem wit="#Cou #NY">avint</lem>
-            <rdg wit="#Pa"/>
-          </app>
-          <app>
-            <lem wit="#NY #Pa">ou <placeName ref="#France" xml:id="france5-0-1" next="france5-1">royaume</placeName></lem>
-            <rdg wit="#Cou" type="substantive"><placeName ref="#France" xml:id="france5-0-2" next="france5-1">au royaulme</placeName></rdg>
-          </app>
-          <placeName xml:id="france5-1" prev="france5-0-1 france5-0-2">de France</placeName>
-          <app>
-            <lem wit="#NY #Pa">et</lem>
-            <rdg wit="#Cou"/>
-          </app>
+          <app> 
+            <lem wit="#Cou #NY"> et grant </lem> 
+            <rdg wit="#Pa" type="substantive"> advint</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY"> desolation</lem> 
+            <rdg wit="#Cou" type="orthographic"> <choice> <orig>desolution</orig> <reg>desolation</reg> </choice> </rdg> 
+            <rdg wit="#Pa"/> 
+          </app> 
+          <app> 
+            <lem wit="#Cou #NY"> avint</lem> 
+            <rdg wit="#Pa"/> 
+          </app> 
+          <app> 
+            <lem wit="#NY #Pa"> ou <placeName ref="#France" xml:id="france5-0-1" next="france5-1"> royaume</placeName> </lem> 
+            <rdg wit="#Cou" type="substantive"> <placeName ref="#France" xml:id="france5-0-2" next="france5-1"> au royaulme</placeName> </rdg> 
+          </app> 
+          <placeName xml:id="france5-1" prev="france5-0-1 france5-0-2"> de France</placeName> 
+          <app> 
+            <lem wit="#NY #Pa"> et</lem> 
+            <rdg wit="#Cou"/> 
+          </app> 
           en
-          <app>
-            <lem wit="#NY">pluseurs</lem>
-            <rdgGrp type="orthographic">
-              <rdg wit="#Cou">pluiseurs</rdg>
-              <rdg wit="#Pa">plusieurs,</rdg>
-            </rdgGrp>
-          </app>
-          <app>
-            <lem wit="#Cou #NY">paÿs</lem>
-            <rdg wit="#Pa" type="orthographic">païs</rdg>
-          </app>
-          <app>
-            <lem wit="#Cou #NY">, si</lem>
-            <rdg wit="#Pa"/>
-          </app>
-          <app>
-            <lem wit="#NY #Pa">comme</lem>
-            <rdg wit="#Cou" type="orthographic">com</rdg>
-          </app>
+          <app> 
+            <lem wit="#NY"> pluseurs</lem> 
+            <rdgGrp type="orthographic"> 
+              <rdg wit="#Cou"> pluiseurs</rdg> 
+              <rdg wit="#Pa"> plusieurs,</rdg> 
+            </rdgGrp> 
+          </app> 
+          <app> 
+            <lem wit="#Cou #NY"> paÿs</lem> 
+            <rdg wit="#Pa" type="orthographic"> païs</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#Cou #NY"> , si</lem> 
+            <rdg wit="#Pa"/> 
+          </app> 
+          <app> 
+            <lem wit="#NY #Pa"> comme</lem> 
+            <rdg wit="#Cou" type="orthographic"> com</rdg> 
+          </app> 
           vous
-          <app>
-            <lem wit="#NY #Pa">pourréz</lem>
-            <rdg wit="#Cou" type="orthographic">porés</rdg>
-          </app>
-          <app>
-            <lem wit="#NY">oyr</lem>
-            <rdg wit="#Cou #Pa" type="orthographic">oir</rdg>
-          </app>
+          <app> 
+            <lem wit="#NY #Pa"> pourréz</lem> 
+            <rdg wit="#Cou" type="orthographic"> porés</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY"> oyr</lem> 
+            <rdg wit="#Cou #Pa" type="orthographic"> oir</rdg> 
+          </app> 
           en ceste
-          <app>
-            <lem wit="#NY">histoire.</lem>
-            <rdgGrp type="orthographic">
-              <rdg wit="#Cou">hystore.</rdg>
-              <rdg wit="#Pa">hystoire.</rdg>
-            </rdgGrp>
-          </app>
-          <app>
-            <lem wit="#NY">Asséz</lem>
-            <rdgGrp type="orthographic">
-              <rdg wit="#Cou">Assés</rdg>
-              <rdg wit="#Pa"><lb/> <hi rend="initial">A</hi>ssés</rdg>
-            </rdgGrp>
-          </app>
+          <app> 
+            <lem wit="#NY"> histoire.</lem> 
+            <rdgGrp type="orthographic"> 
+              <rdg wit="#Cou"> hystore.</rdg> 
+              <rdg wit="#Pa"> hystoire.</rdg> 
+            </rdgGrp> 
+          </app> 
+          <app> 
+            <lem wit="#NY"> Asséz</lem> 
+            <rdgGrp type="orthographic"> 
+              <rdg wit="#Cou"> Assés</rdg> 
+              <rdg wit="#Pa"> <lb/>  <hi rend="initial"> A</hi>ssés</rdg> 
+            </rdgGrp> 
+          </app> 
           tost
-          <app>
-            <lem wit="#NY #Pa">aprés</lem>
-            <rdg wit="#Cou" type="orthographic">apriés</rdg>
-          </app>
-          <app>
-            <lem wit="#NY">ce</lem>
-            <rdg wit="#Cou #Pa" type="orthographic">chou</rdg>
-          </app>
+          <app> 
+            <lem wit="#NY #Pa"> aprés</lem> 
+            <rdg wit="#Cou" type="orthographic"> apriés</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY"> ce</lem> 
+            <rdg wit="#Cou #Pa" type="orthographic"> chou</rdg> 
+          </app> 
           que
-          <app>
-            <lem wit="#NY">le <persName ref="#PhilippeVI">roy Phelippe</persName></lem>
-            <rdgGrp type="substantive">
-              <rdg wit="#Cou">cils <persName ref="#PhilippeVI">rois Phelippes</persName></rdg>
-              <rdg wit="#Pa">ce <persName ref="#PhilippeVI">roy Phelippe</persName></rdg>
-            </rdgGrp>
-          </app>
-          <app>
-            <lem wit="#Cou #NY">fu</lem>
-            <rdg wit="#Pa" type="orthographic">fut</rdg>
-          </app>
-          <app>
-            <lem wit="#NY #Pa">couronné</lem>
-            <rdg wit="#Cou" type="orthographic">couronnés</rdg>
-          </app>
-          <app>
-            <lem wit="#NY"/>
-            <rdg wit="#Cou #Pa" type="substantive">a</rdg>
-          </app>
-          <app>
-            <lem wit="#NY"/>
-            <rdgGrp type="substantive">
-              <rdg wit="#Cou"><placeName ref="#Reims">Rains</placeName></rdg>
-              <rdg wit="#Pa"><placeName ref="#Reims">Reins</placeName></rdg>
-            </rdgGrp>
-          </app>
+          <app> 
+            <lem wit="#NY"> le <persName ref="#PhilippeVI"> roy Phelippe</persName> </lem> 
+            <rdgGrp type="substantive"> 
+              <rdg wit="#Cou"> cils <persName ref="#PhilippeVI"> rois Phelippes</persName> </rdg> 
+              <rdg wit="#Pa"> ce <persName ref="#PhilippeVI"> roy Phelippe</persName> </rdg> 
+            </rdgGrp> 
+          </app> 
+          <app> 
+            <lem wit="#Cou #NY"> fu</lem> 
+            <rdg wit="#Pa" type="orthographic"> fut</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY #Pa"> couronné</lem> 
+            <rdg wit="#Cou" type="orthographic"> couronnés</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY"/> 
+            <rdg wit="#Cou #Pa" type="substantive"> a</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY"/> 
+            <rdgGrp type="substantive"> 
+              <rdg wit="#Cou"> <placeName ref="#Reims"> Rains</placeName> </rdg> 
+              <rdg wit="#Pa"> <placeName ref="#Reims"> Reins</placeName> </rdg> 
+            </rdgGrp> 
+          </app> 
           , il
-          <app>
-            <lem wit="#NY"/>
-            <rdgGrp type="substantive">
-              <rdg wit="#Cou">semonst</rdg>
-              <rdg wit="#Pa">semonny</rdg>
-            </rdgGrp>
-          </app>
-          <app>
-            <lem wit="#NY"/>
-            <rdg wit="#Cou #Pa" type="substantive">ses princes, ses barons et toutes ses gens d’armes,</rdg>
-          </app>
-          <app>
-            <lem wit="#NY">vint a </lem>
-            <rdg wit="#Cou #Pa" type="substantive">et ala a tout son</rdg>
-          </app>
-          <app>
-            <lem wit="#NY">grant ost a la ville de</lem>
-            <rdgGrp type="substantive">
-              <rdg wit="#Cou">pooir logier en le vallee de</rdg>
-              <rdg wit="#Pa">pouoir devers</rdg>
-            </rdgGrp>
-          </app>
-          <placeName ref="#Cassel">Cassel</placeName>
-          <app>
-            <lem wit="#NY">contre</lem>
-            <rdg wit="#Cou #Pa" type="substantive">pour</rdg>
-          </app>
-          <app>
-            <lem wit="#NY"/>
-            <rdgGrp type="substantive">
-              <rdg wit="#Cou">guerrier</rdg>
-              <rdg wit="#Pa">guerroier</rdg>
-            </rdgGrp>
-          </app>
-          les <persName ref="#flamand">Flamens</persName>
+          <app> 
+            <lem wit="#NY"/> 
+            <rdgGrp type="substantive"> 
+              <rdg wit="#Cou"> semonst</rdg> 
+              <rdg wit="#Pa"> semonny</rdg> 
+            </rdgGrp> 
+          </app> 
+          <app> 
+            <lem wit="#NY"/> 
+            <rdg wit="#Cou #Pa" type="substantive"> ses princes, ses barons et toutes ses gens d’armes,</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY"> vint a </lem> 
+            <rdg wit="#Cou #Pa" type="substantive"> et ala a tout son</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY"> grant ost a la ville de</lem> 
+            <rdgGrp type="substantive"> 
+              <rdg wit="#Cou"> pooir logier en le vallee de</rdg> 
+              <rdg wit="#Pa"> pouoir devers</rdg> 
+            </rdgGrp> 
+          </app> 
+          <placeName ref="#Cassel"> Cassel</placeName> 
+          <app> 
+            <lem wit="#NY"> contre</lem> 
+            <rdg wit="#Cou #Pa" type="substantive"> pour</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY"/> 
+            <rdgGrp type="substantive"> 
+              <rdg wit="#Cou"> guerrier</rdg> 
+              <rdg wit="#Pa"> guerroier</rdg> 
+            </rdgGrp> 
+          </app> 
+          les <persName ref="#flamand"> Flamens</persName> 
           ,qui
-          <app>
-            <lem wit="#NY">la</lem>
-            <rdgGrp type="substantive">
-              <rdg wit="#Cou"/>
-              <rdg wit="#Pa">s’</rdg>
-            </rdgGrp>
-          </app>
+          <app> 
+            <lem wit="#NY"> la</lem> 
+            <rdgGrp type="substantive"> 
+              <rdg wit="#Cou"/> 
+              <rdg wit="#Pa"> s’</rdg> 
+            </rdgGrp> 
+          </app> 
           estoient
-          <app>
-            <lem wit="#NY">assembléz, c’est assavoir</lem>
-            <rdgGrp type="substantive">
-              <rdg wit="#Cou">rebelle</rdg>
-              <rdg wit="#Pa">rebelléz</rdg>
-            </rdgGrp>
-          </app>
-          <app>
-            <lem wit="#NY"/>
-            <rdg wit="#Cou #Pa" type="substantive">a leur</rdg>
-          </app>
-          <app>
-            <lem wit="#NY"/>
-            <rdgGrp type="substantive">
-              <rdg wit="#Cou">signeur, chiaus</rdg>
-              <rdg wit="#Pa">seigneur, mesmement</rdg>
-            </rdgGrp>
-          </app>
-          <app>
-            <lem wit="#NY #Pa">ceulx</lem>
-            <rdg wit="#Cou"/>
-          </app>
-          de <persName ref="#brugeois">Bruges</persName>
-          <app>
-            <lem wit="#NY">, <persName ref="#yprois">d’Ipre</persName></lem>
-            <rdgGrp type="substantive">
-              <rdg wit="#Cou">, <persName ref="#yprois">chiaus d’Ippre</persName></rdg>
-              <rdg wit="#Pa"><persName ref="#yprois">ceulx d’Ypre</persName></rdg>
-            </rdgGrp>
-          </app>
+          <app> 
+            <lem wit="#NY"> assembléz, c’est assavoir</lem> 
+            <rdgGrp type="substantive"> 
+              <rdg wit="#Cou"> rebelle</rdg> 
+              <rdg wit="#Pa"> rebelléz</rdg> 
+            </rdgGrp> 
+          </app> 
+          <app> 
+            <lem wit="#NY"/> 
+            <rdg wit="#Cou #Pa" type="substantive"> a leur</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY"/> 
+            <rdgGrp type="substantive"> 
+              <rdg wit="#Cou"> signeur, chiaus</rdg> 
+              <rdg wit="#Pa"> seigneur, mesmement</rdg> 
+            </rdgGrp> 
+          </app> 
+          <app> 
+            <lem wit="#NY #Pa"> ceulx</lem> 
+            <rdg wit="#Cou"/> 
+          </app> 
+          de <persName ref="#brugeois"> Bruges</persName> 
+          <app> 
+            <lem wit="#NY"> , <persName ref="#yprois"> d’Ipre</persName> </lem> 
+            <rdgGrp type="substantive"> 
+              <rdg wit="#Cou"> , <persName ref="#yprois"> chiaus d’Ippre</persName> </rdg> 
+              <rdg wit="#Pa"> <persName ref="#yprois"> ceulx d’Ypre</persName> </rdg> 
+            </rdgGrp> 
+          </app> 
           et
-          <app>
-            <lem wit="#NY"><persName ref="#brugeoisfranc">du Franc</persName>,</lem>
-            <rdgGrp type="substantive">
-              <rdg wit="#Cou"><persName ref="#brugeoisfranc">chiaus dou Franch</persName>,</rdg>
-              <rdg wit="#Pa"><persName ref="#brugeoisfranc">ceulx du Franc</persName>,</rdg>
-            </rdgGrp>
-          </app>
-          <app>
-            <lem wit="#NY">qui</lem>
-            <rdg wit="#Cou #Pa" type="substantive">et</rdg>
-          </app>
+          <app> 
+            <lem wit="#NY"> <persName ref="#brugeoisfranc"> du Franc</persName> ,</lem> 
+            <rdgGrp type="substantive"> 
+              <rdg wit="#Cou"> <persName ref="#brugeoisfranc"> chiaus dou Franch</persName> ,</rdg> 
+              <rdg wit="#Pa"> <persName ref="#brugeoisfranc"> ceulx du Franc</persName> ,</rdg> 
+            </rdgGrp> 
+          </app> 
+          <app> 
+            <lem wit="#NY"> qui</lem> 
+            <rdg wit="#Cou #Pa" type="substantive"> et</rdg> 
+          </app> 
           ne
-          <app>
-            <lem wit="#Cou #NY">voloient</lem>
-            <rdg wit="#Pa" type="orthographic">vouloient</rdg>
-          </app>
+          <app> 
+            <lem wit="#Cou #NY"> voloient</lem> 
+            <rdg wit="#Pa" type="orthographic"> vouloient</rdg> 
+          </app> 
           obeir
-          <app>
-            <lem wit="#Cou #NY">au <persName ref="#LouisI">conte de Flandres</persName></lem>
-            <rdg wit="#Pa" type="substantive">a lui. Ains</rdg>
-          </app>
-          <app>
-            <lem wit="#NY">qui</lem>
-            <rdg wit="#Cou" type="substantive">, mes</rdg>
-            <rdg wit="#Pa"/>
-          </app>
-          <app>
-            <lem wit="#NY"/>
-            <rdg wit="#Cou #Pa" type="substantive">l’avoient</rdg>
-          </app>
-          <app>
-            <lem wit="#NY"/>
-            <rdgGrp type="substantive">
-              <rdg wit="#Cou">decachiet. Et</rdg>
-              <rdg wit="#Pa">dechacié si qu’il</rdg>
-            </rdgGrp>
-          </app>
+          <app> 
+            <lem wit="#Cou #NY"> au <persName ref="#LouisI"> conte de Flandres</persName> </lem> 
+            <rdg wit="#Pa" type="substantive"> a lui. Ains</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY"> qui</lem> 
+            <rdg wit="#Cou" type="substantive"> , mes</rdg> 
+            <rdg wit="#Pa"/> 
+          </app> 
+          <app> 
+            <lem wit="#NY"/> 
+            <rdg wit="#Cou #Pa" type="substantive"> l’avoient</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY"/> 
+            <rdgGrp type="substantive"> 
+              <rdg wit="#Cou"> decachiet. Et</rdg> 
+              <rdg wit="#Pa"> dechacié si qu’il</rdg> 
+            </rdgGrp> 
+          </app> 
           ne
-          <app>
-            <lem wit="#NY">se</lem>
-            <rdg wit="#Cou" type="substantive">pooit adont</rdg>
-            <rdg wit="#Pa"/>
-          </app>
-          <app>
-            <lem wit="#NY #Pa">pouoit</lem>
-            <rdg wit="#Cou"/>
-          </app>
-          <app>
-            <lem wit="#NY">tenir ou <placeName ref="#Flandres">paÿs</placeName></lem>
-            <rdg wit="#Cou #Pa" type="substantive">nulle part</rdg>
-          </app>
-          <app>
-            <lem wit="#NY #Pa"/>
-            <rdg wit="#Cou" type="substantive">demorer</rdg>
-          </app>
-          <app>
-            <lem wit="#NY"/>
-            <rdg wit="#Cou #Pa" type="substantive">en son <placeName ref="#Flandres">païs</placeName></rdg>
-          </app>
-          <app>
-            <lem wit="#Cou #NY"/>
-            <rdg wit="#Pa" type="substantive">demourer,</rdg>
-          </app>
+          <app> 
+            <lem wit="#NY"> se</lem> 
+            <rdg wit="#Cou" type="substantive"> pooit adont</rdg> 
+            <rdg wit="#Pa"/> 
+          </app> 
+          <app> 
+            <lem wit="#NY #Pa"> pouoit</lem> 
+            <rdg wit="#Cou"/> 
+          </app> 
+          <app> 
+            <lem wit="#NY"> tenir ou <placeName ref="#Flandres"> paÿs</placeName> </lem> 
+            <rdg wit="#Cou #Pa" type="substantive"> nulle part</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY #Pa"/> 
+            <rdg wit="#Cou" type="substantive"> demorer</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY"/> 
+            <rdg wit="#Cou #Pa" type="substantive"> en son <placeName ref="#Flandres"> païs</placeName> </rdg> 
+          </app> 
+          <app> 
+            <lem wit="#Cou #NY"/> 
+            <rdg wit="#Pa" type="substantive"> demourer,</rdg> 
+          </app> 
           fors
-          <app>
-            <lem wit="#NY"/>
-            <rdgGrp type="substantive">
-              <rdg wit="#Cou">tant</rdg>
-              <rdg wit="#Pa" type="substantive">que</rdg>
-            </rdgGrp>
-          </app>
-          <app>
-            <lem wit="#Cou #NY">seulement</lem>
-            <rdg wit="#Pa"/>
-          </app>
-          a <placeName ref="#Gand">Gand</placeName>,
-          <app>
-            <lem wit="#NY #Pa"/>
-            <rdg wit="#Cou" type="substantive">et</rdg>
-          </app>
-          <app>
-            <lem wit="#NY"/>
-            <rdg wit="#Cou #Pa" type="substantive">encores</rdg>
-          </app>
-          <app>
-            <lem wit="#NY"/>
-            <rdgGrp type="substantive">
-              <rdg wit="#Cou">assés escarsement.</rdg>
-              <rdg wit="#Pa">bien escharcement.</rdg>
-            </rdgGrp>
-          </app>
-          <app>
-            <lem wit="#NY">si</lem>
-            <rdg wit="#Cou #Pa">Si</rdg>
-          </app>
-          <app>
-            <lem wit="#NY"/>
-            <rdgGrp type="substantive">
-              <rdg wit="#Cou">desconfi adont li <persName ref="#PhilippeVI">rois Phelippes</persName></rdg>
-              <rdg wit="#Pa">desconfist adoncques le <persName ref="#PhilippeVI">roy Phelippe</persName></rdg>
-            </rdgGrp>
-          </app>
-          <app>
-            <lem wit="#NY"/>
-            <rdg wit="#Cou #Pa" type="substantive">bien</rdg>
-          </app>
-          <app>
-            <lem wit="#NY"/>
-            <rdgGrp type="substantive">
-              <rdg wit="#Cou">XVI M hommes <persName ref="#flamand">flamens,</persName></rdg>
-              <rdg wit="#Pa">XM <persName ref="#flamand">Flamens</persName></rdg>
-            </rdgGrp>
-          </app>
-          <app>
-            <lem wit="#NY"/>
-            <rdg wit="#Cou #Pa" type="substantive">qui</rdg>
-          </app>
+          <app> 
+            <lem wit="#NY"/> 
+            <rdgGrp type="substantive"> 
+              <rdg wit="#Cou"> tant</rdg> 
+              <rdg wit="#Pa" type="substantive"> que</rdg> 
+            </rdgGrp> 
+          </app> 
+          <app> 
+            <lem wit="#Cou #NY"> seulement</lem> 
+            <rdg wit="#Pa"/> 
+          </app> 
+          a <placeName ref="#Gand"> Gand</placeName> ,
+          <app> 
+            <lem wit="#NY #Pa"/> 
+            <rdg wit="#Cou" type="substantive"> et</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY"/> 
+            <rdg wit="#Cou #Pa" type="substantive"> encores</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY"/> 
+            <rdgGrp type="substantive"> 
+              <rdg wit="#Cou"> assés escarsement.</rdg> 
+              <rdg wit="#Pa"> bien escharcement.</rdg> 
+            </rdgGrp> 
+          </app> 
+          <app> 
+            <lem wit="#NY"> si</lem> 
+            <rdg wit="#Cou #Pa"> Si</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY"/> 
+            <rdgGrp type="substantive"> 
+              <rdg wit="#Cou"> desconfi adont li <persName ref="#PhilippeVI"> rois Phelippes</persName> </rdg> 
+              <rdg wit="#Pa"> desconfist adoncques le <persName ref="#PhilippeVI"> roy Phelippe</persName> </rdg> 
+            </rdgGrp> 
+          </app> 
+          <app> 
+            <lem wit="#NY"/> 
+            <rdg wit="#Cou #Pa" type="substantive"> bien</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY"/> 
+            <rdgGrp type="substantive"> 
+              <rdg wit="#Cou"> XVI M hommes <persName ref="#flamand"> flamens,</persName> </rdg> 
+              <rdg wit="#Pa"> XM <persName ref="#flamand"> Flamens</persName> </rdg> 
+            </rdgGrp> 
+          </app> 
+          <app> 
+            <lem wit="#NY"/> 
+            <rdg wit="#Cou #Pa" type="substantive"> qui</rdg> 
+          </app> 
           avoient
-          <app>
-            <lem wit="#NY"/>
-            <rdg wit="#Cou #Pa" type="substantive">fait</rdg>
-          </app>
-          <app>
-            <lem wit="#NY"/>
-            <rdgGrp type="substantive">
-              <rdg wit="#Cou">I</rdg>
-              <rdg wit="#Pa">un</rdg>
-            </rdgGrp>
-          </app>
-          <app>
-            <lem wit="#NY #Pa">cappitaine</lem>
-            <rdg wit="#Cou" type="orthographic">capitaine</rdg>
-          </app>
-          <app>
-            <lem wit="#NY">un</lem>
-            <rdgGrp type="substantive">
-              <rdg wit="#Cou">qui se nommoit</rdg>
-              <rdg wit="#Pa">nommé</rdg>
-            </rdgGrp>
-          </app>
-          <app>
-            <lem wit="#NY"/>
-            <rdg wit="#Cou Pa" type="substantive"><persName ref="#NicolasZannekin">Colin Dennekins,</persName></rdg>
-          </app>
-          <app>
-            <lem wit="#NY"/>
-            <rdgGrp type="substantive">
-              <rdg wit="#Cou">hardy et outrageus</rdg>
-              <rdg wit="#Pa">hardi</rdg>
-            </rdgGrp>
-          </app>
+          <app> 
+            <lem wit="#NY"/> 
+            <rdg wit="#Cou #Pa" type="substantive"> fait</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY"/> 
+            <rdgGrp type="substantive"> 
+              <rdg wit="#Cou"> I</rdg> 
+              <rdg wit="#Pa"> un</rdg> 
+            </rdgGrp> 
+          </app> 
+          <app> 
+            <lem wit="#NY #Pa"> cappitaine</lem> 
+            <rdg wit="#Cou" type="orthographic"> capitaine</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY"> un</lem> 
+            <rdgGrp type="substantive"> 
+              <rdg wit="#Cou"> qui se nommoit</rdg> 
+              <rdg wit="#Pa"> nommé</rdg> 
+            </rdgGrp> 
+          </app> 
+          <app> 
+            <lem wit="#NY"/> 
+            <rdg wit="#Cou Pa" type="substantive"> <persName ref="#NicolasZannekin"> Colin Dennekins,</persName> </rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY"/> 
+            <rdgGrp type="substantive"> 
+              <rdg wit="#Cou"> hardy et outrageus</rdg> 
+              <rdg wit="#Pa"> hardi</rdg> 
+            </rdgGrp> 
+          </app> 
           homme
-          <app>
-            <lem wit="#NY">moult hardy nommé <persName ref="#NicolasZannekin">Colin Dannekins.</persName></lem>
-            <rdg wit="#Cou"/>
-            <rdg wit="#Pa" type="substantive">et courageux</rdg>
-          </app>
-          <app>
-            <lem wit="#NY"/>
-            <rdg wit="#Cou #Pa" type="substantive">durement. Et avoient</rdg>
-          </app>
-          <app>
-            <lem wit="#NY"/>
-            <rdgGrp type="substantive">
-              <rdg wit="#Cou">li dessus dit <persName ref="#flamand">Flamenc</persName> fait</rdg>
-              <rdg wit="#Pa">les diz <persName ref="#flamand">Flamens</persName> faite</rdg>
-            </rdgGrp>
-          </app>
-          <app>
-            <lem wit="#NY"/>
-            <rdg wit="#Cou #Pa" type="substantive">leur garnison de</rdg>
-          </app>
-          <app>
-            <lem wit="#NY"/>
-            <rdgGrp type="substantive">
-              <rdg wit="#Cou">le ville de <placeName ref="#Cassel">Cassel</placeName>,</rdg>
-              <rdg wit="#Pa"><placeName ref="#Cassel">Cassel</placeName></rdg>
-            </rdgGrp>
-          </app>
-          <app>
-            <lem wit="#NY"/>
-            <rdg wit="#Cou #Pa" type="substantive">au</rdg>
-          </app>
-          <app>
-            <lem wit="#NY"/>
-            <rdgGrp type="substantive">
-              <rdg wit="#Cou"><choice><orig>commenchement</orig><reg>commandement</reg></choice>et as gages</rdg>
-              <rdg wit="#Pa">commandement et aux gaiges</rdg>
-            </rdgGrp>
-          </app>
-          <app>
-            <lem wit="#NY"/>
-            <rdg wit="#Cou #Pa" type="substantive">des <placeName ref="#Flandres">villes de Flandres</placeName></rdg>
-          </app>
-          <app>
-            <lem wit="#NY"/>
-            <rdg wit="#Cou #Pa" type="substantive">, pour garder ces frontieres la endroit.</rdg>
-          </app>
-          <app>
-            <lem wit="#Cou #NY"/>
-            <rdg wit="#Pa" type="substantive">Et vous diray comment <pb n="29r"/>ces <persName ref="#flamand">Flamens</persName> furent desconfiz par leur oultraige.</rdg>
-          </app>
-        </p>
-        <figure facs="enluminure" corresp="#NY">
-          <head>La <placeName ref="#Cassel">bataille de Cassel</placeName> en Flandres.</head>
-          <graphic url="https://ica.themorgan.org/manuscript/page/2/147009"/>
-        </figure> 
-      </div>
-      <div type="section" synch="shp" n="1-42">
-        <head type="titre">
-          <app>
-            <lem wit="#NY #Cou"/>
-            <rdg wit="#Pa" type="substantive">Comment les <persName ref="#flamand">Flamens</persName> furent desconfis par nuit en trois diverses batailles. XXXVI.</rdg>
-          </app>
-          <app>
-            <lem wit="#NY #Pa"/>
-            <rdg wit="#Cou" type="substantive">Cy parle de la <placeName ref="#Cassel">bataille de <choice><orig>Casse</orig><reg>Cassel</reg></choice> en Flandre</placeName>. Et vous diray comment <persName ref="#flamand">chil de Flandres</persName> furent desconfit et tout par leur oultrage. </rdg>
-          </app>
-        </head>
-        <p n="2">
-          <app>
-            <lem wit="#NY">Cilz</lem>
-            <rdgGrp type="substantive">
-              <rdg wit="#Cou">Il</rdg>
-              <rdg wit="#Pa">Les Flamens</rdg>
-            </rdgGrp>
-          </app>
+          <app> 
+            <lem wit="#NY"> moult hardy nommé <persName ref="#NicolasZannekin"> Colin Dannekins.</persName> </lem> 
+            <rdg wit="#Cou"/> 
+            <rdg wit="#Pa" type="substantive"> et courageux</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY"/> 
+            <rdg wit="#Cou #Pa" type="substantive"> durement. Et avoient</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY"/> 
+            <rdgGrp type="substantive"> 
+              <rdg wit="#Cou"> li dessus dit <persName ref="#flamand"> Flamenc</persName>  fait</rdg> 
+              <rdg wit="#Pa"> les diz <persName ref="#flamand"> Flamens</persName>  faite</rdg> 
+            </rdgGrp> 
+          </app> 
+          <app> 
+            <lem wit="#NY"/> 
+            <rdg wit="#Cou #Pa" type="substantive"> leur garnison de</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY"/> 
+            <rdgGrp type="substantive"> 
+              <rdg wit="#Cou"> le ville de <placeName ref="#Cassel"> Cassel</placeName> ,</rdg> 
+              <rdg wit="#Pa"> <placeName ref="#Cassel"> Cassel</placeName> </rdg> 
+            </rdgGrp> 
+          </app> 
+          <app> 
+            <lem wit="#NY"/> 
+            <rdg wit="#Cou #Pa" type="substantive"> au </rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY"/> 
+            <rdgGrp type="substantive"> 
+              <rdg wit="#Cou"> <choice> <orig>commenchement</orig> <reg>commandement</reg> </choice> et as gages</rdg> 
+              <rdg wit="#Pa"> commandement et aux gaiges</rdg> 
+            </rdgGrp> 
+          </app> 
+          <app> 
+            <lem wit="#NY"/> 
+            <rdg wit="#Cou #Pa" type="substantive"> des <placeName ref="#Flandres"> villes de Flandres</placeName> </rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY"/> 
+            <rdg wit="#Cou #Pa" type="substantive"> , pour garder ces frontieres la endroit.</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#Cou #NY"/> 
+            <rdg wit="#Pa" type="substantive"> Et vous diray comment <pb n="29r"/> ces <persName ref="#flamand"> Flamens</persName>  furent desconfiz par leur oultraige.</rdg> 
+          </app> 
+        </p> 
+        <figure facs="enluminure" corresp="#NY"> 
+          <head> La <placeName ref="#Cassel"> bataille de Cassel</placeName>  en Flandres.</head> 
+          <graphic url="https://ica.themorgan.org/manuscript/page/2/147009"/> 
+        </figure>  
+      </div> 
+      <div type="section" synch="shp" n="1-42"> 
+        <head type="titre"> 
+          <app> 
+            <lem wit="#NY #Cou"/> 
+            <rdg wit="#Pa" type="substantive"> Comment les <persName ref="#flamand"> Flamens</persName>  furent desconfis par nuit en trois diverses batailles. XXXVI.</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY #Pa"/> 
+            <rdg wit="#Cou" type="substantive"> Cy parle de la <placeName ref="#Cassel"> bataille de <choice> <orig>Casse</orig> <reg>Cassel</reg> </choice>  en Flandre</placeName> . Et vous diray comment <persName ref="#flamand"> chil de Flandres</persName>  furent desconfit et tout par leur oultrage. </rdg> 
+          </app> 
+        </head> 
+        <p n="2"> 
+          <app> 
+            <lem wit="#NY"> Cilz</lem> 
+            <rdgGrp type="substantive"> 
+              <rdg wit="#Cou"> Il</rdg> 
+              <rdg wit="#Pa"> Les Flamens</rdg> 
+            </rdgGrp> 
+          </app> 
           se
-          <app>
-            <lem wit="#Pa #NY">partirent un</lem>
-            <rdg wit="#Cou" type="substantive">departirent I</rdg>
-          </app>
+          <app> 
+            <lem wit="#Pa #NY"> partirent un</lem> 
+            <rdg wit="#Cou" type="substantive"> departirent I</rdg> 
+          </app> 
           jour
-          <app>
-            <lem wit="#Cou #NY">sus l’eure</lem>
-            <rdg wit="#Pa" type="substantive">a heure</rdg>
-          </app>
-          <app>
-            <lem wit="#NY">du</lem>
-            <rdgGrp type="orthographic">
-              <rdg wit="#Cou">dou</rdg>
-              <rdg wit="#Pa">de</rdg>
-            </rdgGrp>
-          </app>
-          <app>
-            <lem wit="#NY">souper</lem>
-            <rdg wit="#Cou #Pa" type="orthographic">soupper</rdg>
-          </app>
-          <app>
-            <lem wit="#Pa #NY">de <placeName ref="#Cassel">Cassel</placeName></lem>
-            <rdg wit="#Cou"/>
-          </app>
+          <app> 
+            <lem wit="#Cou #NY"> sus l’eure</lem> 
+            <rdg wit="#Pa" type="substantive"> a heure</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY"> du</lem> 
+            <rdgGrp type="orthographic"> 
+              <rdg wit="#Cou"> dou</rdg> 
+              <rdg wit="#Pa"> de</rdg> 
+            </rdgGrp> 
+          </app> 
+          <app> 
+            <lem wit="#NY"> souper</lem> 
+            <rdg wit="#Cou #Pa" type="orthographic"> soupper</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#Pa #NY"> de <placeName ref="#Cassel"> Cassel</placeName> </lem> 
+            <rdg wit="#Cou"/> 
+          </app> 
           en
-          <app>
-            <lem wit="#Pa #NY">entention</lem>
-            <rdg wit="#Cou" type="substantive">entente</rdg>
-          </app>
-          que pour desconfire le <persName ref="#PhilippeVI">roy</persName> et
-          <app>
-            <lem wit="#Pa #NY">tout</lem>
-            <rdg wit="#Cou" type="substantive">toute</rdg>
-          </app>
+          <app> 
+            <lem wit="#Pa #NY"> entention</lem> 
+            <rdg wit="#Cou" type="substantive"> entente</rdg> 
+          </app> 
+          que pour desconfire le <persName ref="#PhilippeVI"> roy</persName>  et
+          <app> 
+            <lem wit="#Pa #NY"> tout</lem> 
+            <rdg wit="#Cou" type="substantive"> toute</rdg> 
+          </app> 
           son ost
-          <app>
-            <lem wit="#NY">, et</lem>
-            <rdg wit="#Cou" type="orthographic">. Et</rdg>
-            <rdg wit="#Pa" type="substantive">. Ilz</rdg>
-          </app>
+          <app> 
+            <lem wit="#NY"> , et</lem> 
+            <rdg wit="#Cou" type="orthographic"> . Et</rdg> 
+            <rdg wit="#Pa" type="substantive"> . Ilz</rdg> 
+          </app> 
           s’en
-          <app>
-            <lem wit="#Pa #NY">vindrent</lem>
-            <rdg wit="#Cou" type="orthographic">vinrent</rdg>
-          </app>
+          <app> 
+            <lem wit="#Pa #NY"> vindrent</lem> 
+            <rdg wit="#Cou" type="orthographic"> vinrent</rdg> 
+          </app> 
           tout paisiblement,
           sans
-          <app>
-            <lem wit="#Cou #NY">point de</lem>
-            <rdg wit="#Pa" type="substantive">faire</rdg>
-          </app>
+          <app> 
+            <lem wit="#Cou #NY"> point de</lem> 
+            <rdg wit="#Pa" type="substantive"> faire</rdg> 
+          </app> 
           noise,
-          <app>
-            <lem wit="#NY">ordonnéz</lem>
-            <rdgGrp type="orthographic">
-              <rdg wit="#Cou">ordonné</rdg>
-              <rdg wit="#Pa">ordonnés</rdg>
-            </rdgGrp>
-          </app>
+          <app> 
+            <lem wit="#NY"> ordonnéz</lem> 
+            <rdgGrp type="orthographic"> 
+              <rdg wit="#Cou"> ordonné</rdg> 
+              <rdg wit="#Pa"> ordonnés</rdg> 
+            </rdgGrp> 
+          </app> 
           en
-          <app>
-            <lem wit="#Pa #NY">trois</lem>
-            <rdg wit="#Cou" type="orthographic">III</rdg>
-          </app>
+          <app> 
+            <lem wit="#Pa #NY"> trois</lem> 
+            <rdg wit="#Cou" type="orthographic"> III</rdg> 
+          </app> 
           batailles,
-          <app>
-            <lem wit="#Pa #NY">desquelles l’une s’en</lem>
-            <rdg wit="#Cou" type="substantive">dont li une en</rdg>
-          </app>
+          <app> 
+            <lem wit="#Pa #NY"> desquelles l’une s’en</lem> 
+            <rdg wit="#Cou" type="substantive"> dont li une en</rdg> 
+          </app> 
           ala droit
-          <app>
-            <lem wit="#Pa #NY">aux</lem>
-            <rdg wit="#Cou" type="substantive">as</rdg>
-          </app>
+          <app> 
+            <lem wit="#Pa #NY"> aux</lem> 
+            <rdg wit="#Cou" type="substantive"> as</rdg> 
+          </app> 
           tentes
-          <app>
-            <lem wit="#Pa #NY">du</lem>
-            <rdg wit="#Cou" type="substantive">le</rdg>
-          </app>
-          <persName ref="#PhilippeVI">roy</persName>
-          <app>
-            <lem wit="#NY">et</lem>
-            <rdg wit="#Cou">. Et</rdg>
-            <rdg wit="#Pa"/>
-          </app>
-          <app>
-            <lem wit="#NY">orent pres</lem>
-            <rdg wit="#Cou" type="orthographic">eurent priés</rdg>
-            <rdg wit="#Pa"/>
-          </app>
-          <app>
-            <lem wit="#Cou #NY">le <persName ref="#PhilippeVI">roy</persName> souspris,</lem>
-            <rdg wit="#Pa"/>
-          </app>
+          <app> 
+            <lem wit="#Pa #NY"> du</lem> 
+            <rdg wit="#Cou" type="substantive"> le</rdg> 
+          </app> 
+          <persName ref="#PhilippeVI"> roy</persName> 
+          <app> 
+            <lem wit="#NY"> et</lem> 
+            <rdg wit="#Cou"> . Et</rdg> 
+            <rdg wit="#Pa"/> 
+          </app> 
+          <app> 
+            <lem wit="#NY"> orent pres</lem> 
+            <rdg wit="#Cou" type="orthographic"> eurent priés</rdg> 
+            <rdg wit="#Pa"/> 
+          </app> 
+          <app> 
+            <lem wit="#Cou #NY"> le <persName ref="#PhilippeVI"> roy</persName>  souspris,</lem> 
+            <rdg wit="#Pa"/> 
+          </app> 
           qui seoit au
-          <app>
-            <lem wit="#Cou #NY">souper</lem>
-            <rdg wit="#Pa" type="orthographic">soupper</rdg>
-          </app>
+          <app> 
+            <lem wit="#Cou #NY"> souper</lem> 
+            <rdg wit="#Pa" type="orthographic"> soupper</rdg> 
+          </app> 
           et toutes ses gens
-          <app>
-            <lem wit="#Cou #NY"/>
-            <rdg wit="#Pa" type="substantive">aussi</rdg>
-          </app>
+          <app> 
+            <lem wit="#Cou #NY"/> 
+            <rdg wit="#Pa" type="substantive"> aussi</rdg> 
+          </app> 
           .
-          <app>
-            <lem wit="#Pa #NY">L’autre</lem>
-            <rdg wit="#Cou" type="orthographic">Li aultre <pb n="24r"/></rdg>
-          </app>
+          <app> 
+            <lem wit="#Pa #NY"> L’autre</lem> 
+            <rdg wit="#Cou" type="orthographic"> Li aultre <pb n="24r"/> </rdg> 
+          </app> 
           bataille s’en ala droit
-          <app>
-            <lem wit="#Pa #NY">aux</lem>
-            <rdg wit="#Cou" type="substantive">as</rdg>
-          </app>
+          <app> 
+            <lem wit="#Pa #NY"> aux</lem> 
+            <rdg wit="#Cou" type="substantive"> as</rdg> 
+          </app> 
           tentes
-          <app>
-            <lem wit="#Pa #NY">du</lem>
-            <rdg wit="#Cou" type="substantive">le</rdg>
-          </app>
-          <persName ref="#JeanI" xml:id="jean1-0" next="jean1-1-1 jean1-1-2 jean1-1-3">roy de</persName>
-          <app>
-            <lem wit="#NY"><persName xml:id="jean1-1-1" prev="jean1-0">Bahaigne</persName></lem>
-            <rdgGrp type="orthographic">
-              <rdg wit="#Cou"><persName xml:id="jean1-1-2" prev="jean1-0">Behaigne</persName>.</rdg>
-              <rdg wit="#Pa"><persName xml:id="jean1-1-3" prev="jean1-0"><choice><orig>Behaigne</orig><reg>Behaine</reg></choice></persName></rdg>
-            </rdgGrp>
-          </app>
-          <app>
-            <lem wit="#NY #Pa">et</lem>
-            <rdg wit="#Cou">Et</rdg>
-          </app>
-          <app>
-            <lem wit="#NY">l’orent pres</lem>
-            <rdg wit="#Cou" type="orthographic">l’eurent prés</rdg>
-            <rdg wit="#Pa" type="substantive">le trouverent pres</rdg>
-          </app>
-          <app>
-            <lem wit="#Cou #NY">trouvé</lem>
-            <rdg wit="#Pa" type="substantive">que</rdg>
-          </app>
+          <app> 
+            <lem wit="#Pa #NY"> du</lem> 
+            <rdg wit="#Cou" type="substantive"> le</rdg> 
+          </app> 
+          <persName ref="#JeanI" xml:id="jean1-0" next="jean1-1-1 jean1-1-2 jean1-1-3"> roy de</persName> 
+          <app> 
+            <lem wit="#NY"> <persName xml:id="jean1-1-1" prev="jean1-0"> Bahaigne</persName> </lem> 
+            <rdgGrp type="orthographic"> 
+              <rdg wit="#Cou"> <persName xml:id="jean1-1-2" prev="jean1-0"> Behaigne</persName> .</rdg> 
+              <rdg wit="#Pa"> <persName xml:id="jean1-1-3" prev="jean1-0"> <choice> <orig>Behaigne</orig> <reg>Behaine</reg> </choice> </persName> </rdg> 
+            </rdgGrp> 
+          </app> 
+          <app> 
+            <lem wit="#NY #Pa"> et</lem> 
+            <rdg wit="#Cou"> Et</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY"> l’orent pres</lem> 
+            <rdg wit="#Cou" type="orthographic"> l’eurent prés</rdg> 
+            <rdg wit="#Pa" type="substantive"> le trouverent pres</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#Cou #NY"> trouvé</lem> 
+            <rdg wit="#Pa" type="substantive"> que</rdg> 
+          </app> 
           en tel point. Et
-          <app>
-            <lem wit="#Cou #NY">la</lem>
-            <rdg wit="#Pa" type="substantive">l’autre</rdg>
-          </app>
-          <app>
-            <lem wit="#NY">tierce</lem>
-            <rdg wit="#Cou" type="orthographic">tierche</rdg>
-            <rdg wit="#Pa"/>
-          </app>
+          <app> 
+            <lem wit="#Cou #NY"> la</lem> 
+            <rdg wit="#Pa" type="substantive"> l’autre</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY"> tierce</lem> 
+            <rdg wit="#Cou" type="orthographic"> tierche</rdg> 
+            <rdg wit="#Pa"/> 
+          </app> 
           bataille s’en ala
-          <app>
-            <lem wit="#Cou #NY">droitement</lem>
-            <rdg wit="#Pa"/>
-          </app>
-          <app>
-            <lem wit="#Pa #NY">aux</lem>
-            <rdg wit="#Cou" type="substantive">as</rdg>
-          </app>
+          <app> 
+            <lem wit="#Cou #NY"> droitement</lem> 
+            <rdg wit="#Pa"/> 
+          </app> 
+          <app> 
+            <lem wit="#Pa #NY"> aux</lem> 
+            <rdg wit="#Cou" type="substantive"> as</rdg> 
+          </app> 
           tentes
-          <app>
-            <lem wit="#NY"/>
-            <rdgGrp type="substantive">
-              <rdg wit="#Cou">le</rdg>
-              <rdg wit="#Pa">droitement</rdg>
-            </rdgGrp>
-          </app>
-          <app>
-            <lem wit="#Pa #NY">du</lem>
-            <rdg wit="#Cou"/>
-          </app>
-          <persName ref="#GuillaumeI" xml:id="guillaume1-0" next="guillaume1-1-1 guillaume1-1-2 guillaume1-1-3">conte de</persName>
-          <app>
-            <lem wit="#NY"><persName xml:id="guillaume1-1-1" prev="guillaume1-0">Hainau</persName> et l’orent</lem>
-            <rdg wit="#Cou" type="substantive"><persName xml:id="guillaume1-1-2" prev="guillaume1-0">Hainnau</persName>, et l’eurent priés</rdg>
-            <rdg wit="#Pa" type="orthographic"><persName xml:id="guillaume1-1-3" prev="guillaume1-0">Haynault</persName> et l’eurent</rdg>
-          </app>
+          <app> 
+            <lem wit="#NY"/> 
+            <rdgGrp type="substantive"> 
+              <rdg wit="#Cou"> le</rdg> 
+              <rdg wit="#Pa"> droitement</rdg> 
+            </rdgGrp> 
+          </app> 
+          <app> 
+            <lem wit="#Pa #NY"> du</lem> 
+            <rdg wit="#Cou"/> 
+          </app> 
+          <persName ref="#GuillaumeI" xml:id="guillaume1-0" next="guillaume1-1-1 guillaume1-1-2 guillaume1-1-3"> conte de</persName> 
+          <app> 
+            <lem wit="#NY"> <persName xml:id="guillaume1-1-1" prev="guillaume1-0"> Hainau</persName>  et l’orent</lem> 
+            <rdg wit="#Cou" type="substantive"> <persName xml:id="guillaume1-1-2" prev="guillaume1-0"> Hainnau</persName> , et l’eurent priés</rdg> 
+            <rdg wit="#Pa" type="orthographic"> <persName xml:id="guillaume1-1-3" prev="guillaume1-0"> Haynault</persName>  et l’eurent</rdg> 
+          </app> 
           aussi
-          <app>
-            <lem wit="#Pa #NY">pres</lem>
-            <rdg wit="#Cou"/>
-          </app>
-          <app>
-            <lem wit="#Cou #NY">souspris</lem>
-            <rdg wit="#Pa" type="substantive">que surpris</rdg>
-          </app>
+          <app> 
+            <lem wit="#Pa #NY"> pres</lem> 
+            <rdg wit="#Cou"/> 
+          </app> 
+          <app> 
+            <lem wit="#Cou #NY"> souspris</lem> 
+            <rdg wit="#Pa" type="substantive"> que surpris</rdg> 
+          </app> 
           et le hasterent
-          <app>
-            <lem wit="#Cou #NY">si</lem>
-            <rdg wit="#Pa" type="substantive">tant</rdg>
-          </app>
+          <app> 
+            <lem wit="#Cou #NY"> si</lem> 
+            <rdg wit="#Pa" type="substantive"> tant</rdg> 
+          </app> 
           que a
-          <app>
-            <lem wit="#Cou #NY">grant</lem>
-            <rdg wit="#Pa"/>
-          </app>
+          <app> 
+            <lem wit="#Cou #NY"> grant</lem> 
+            <rdg wit="#Pa"/> 
+          </app> 
           paine
-          <app>
-            <lem wit="#NY">porent</lem>
-            <rdg wit="#Cou #Pa" type="orthographic">peurent</rdg>
-          </app>
+          <app> 
+            <lem wit="#NY"> porent</lem> 
+            <rdg wit="#Cou #Pa" type="orthographic"> peurent</rdg> 
+          </app> 
           ses gens estre
-          <app>
-            <lem wit="#NY">armes,</lem>
-            <rdgGrp type="orthographic">
-              <rdg wit="#Cou">armet,</rdg>
-              <rdg wit="#Pa">arméz</rdg>
-            </rdgGrp>
-          </app>
+          <app> 
+            <lem wit="#NY"> armes,</lem> 
+            <rdgGrp type="orthographic"> 
+              <rdg wit="#Cou"> armet,</rdg> 
+              <rdg wit="#Pa"> arméz</rdg> 
+            </rdgGrp> 
+          </app> 
           ne les gens
-          <app>
-            <lem wit="#NY">monseigneur</lem>
-            <rdg wit="#Cou" type="orthographic">monsigneur</rdg>
-            <rdg wit="#Pa" type="substantive">de messire <persName ref="#JeanBeaumont" xml:id="JB1-0" next="JB1-1">Jehan</persName></rdg>
-          </app>
-          <persName xml:id="JB1-1" next="JB1-2-1 JB1-2-2">de</persName>
-          <app>
-            <lem wit="#Cou #NY"><persName xml:id="JB1-2-1" prev="JB1-1">Biaumont</persName>,</lem>
-            <rdg wit="#Pa" type="orthographic"><persName xml:id="JB1-2-2" prev="JB1-1">Beaumont</persName></rdg>
-          </app>
+          <app> 
+            <lem wit="#NY"> monseigneur</lem> 
+            <rdg wit="#Cou" type="orthographic"> monsigneur</rdg> 
+            <rdg wit="#Pa" type="substantive"> de messire <persName ref="#JeanBeaumont" xml:id="JB1-0" next="JB1-1"> Jehan</persName> </rdg> 
+          </app> 
+          <persName xml:id="JB1-1" next="JB1-2-1 JB1-2-2"> de</persName> 
+          <app> 
+            <lem wit="#Cou #NY"> <persName xml:id="JB1-2-1" prev="JB1-1"> Biaumont</persName> ,</lem> 
+            <rdg wit="#Pa" type="orthographic"> <persName xml:id="JB1-2-2" prev="JB1-1"> Beaumont</persName> </rdg> 
+          </app> 
           son frere. Et
-          <app>
-            <lem wit="#Pa #NY">vindrent</lem>
-            <rdg wit="#Cou" type="orthographic">vinrent</rdg>
-          </app>
+          <app> 
+            <lem wit="#Pa #NY"> vindrent</lem> 
+            <rdg wit="#Cou" type="orthographic"> vinrent</rdg> 
+          </app> 
           toutes ces
-          <app>
-            <lem wit="#Pa #NY">trois batailles</lem>
-            <rdg wit="#Cou" type="orthographic">III bataillez</rdg>
-          </app>
+          <app> 
+            <lem wit="#Pa #NY"> trois batailles</lem> 
+            <rdg wit="#Cou" type="orthographic"> III bataillez</rdg> 
+          </app> 
           si paisiblement jusques
-          <app>
-            <lem wit="#Pa #NY">aux</lem>
-            <rdg wit="#Cou" type="substantive">a</rdg>
-          </app>
+          <app> 
+            <lem wit="#Pa #NY"> aux</lem> 
+            <rdg wit="#Cou" type="substantive"> a</rdg> 
+          </app> 
           tentes, que a grant meschief
-          <app>
-            <lem wit="#Cou #NY">furent</lem>
-            <rdg wit="#Pa" type="substantive">peurent</rdg>
-          </app>
-          <app>
-            <lem wit="#Pa #NY">les seigneurs</lem>
-            <rdg wit="#Cou" type="orthographic">li signeur</rdg>
-          </app>
-          <app>
-            <lem wit="#NY #Cou"/>
-            <rdg wit="#Pa" type="substantive">estre</rdg>
-          </app>
-          <app>
-            <lem wit="#NY">arméz</lem>
-            <rdgGrp type="orthographic">
-              <rdg wit="#Cou"> armet,</rdg>
-              <rdg wit="#Pa">armés</rdg>
-            </rdgGrp>
-          </app>
+          <app> 
+            <lem wit="#Cou #NY"> furent</lem> 
+            <rdg wit="#Pa" type="substantive"> peurent</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#Pa #NY"> les seigneurs</lem> 
+            <rdg wit="#Cou" type="orthographic"> li signeur</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY #Cou"/> 
+            <rdg wit="#Pa" type="substantive"> estre</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY"> arméz</lem> 
+            <rdgGrp type="orthographic"> 
+              <rdg wit="#Cou">  armet,</rdg> 
+              <rdg wit="#Pa"> armés</rdg> 
+            </rdgGrp> 
+          </app> 
           ne leurs gens
-          <app>
-            <lem wit="#NY">assembléz</lem>
-            <rdgGrp type="orthographic">
-              <rdg wit="#Cou">assamblés</rdg>
-              <rdg wit="#Pa">assemblés</rdg>
-            </rdgGrp>
-          </app>
-          <app>
-            <lem wit="#Cou #NY">. Et</lem>
-            <rdg wit="#Pa">et</rdg>
-          </app>
-          <app>
-            <lem wit="#NY">en eussent tous les seigneurs</lem>
-            <rdg wit="#Cou" type="orthographic">euissent tout li signeur</rdg>
-            <rdg wit="#Pa" type="substantive"> eussent tous</rdg>
-          </app>
-          <app>
-            <lem wit="#Cou #NY">et leurs gens</lem>
-            <rdg wit="#Pa"/>
-          </app>
+          <app> 
+            <lem wit="#NY"> assembléz</lem> 
+            <rdgGrp type="orthographic"> 
+              <rdg wit="#Cou"> assamblés</rdg> 
+              <rdg wit="#Pa"> assemblés</rdg> 
+            </rdgGrp> 
+          </app> 
+          <app> 
+            <lem wit="#Cou #NY"> . Et</lem> 
+            <rdg wit="#Pa"> et</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY"> en eussent tous les seigneurs</lem> 
+            <rdg wit="#Cou" type="orthographic"> euissent tout li signeur</rdg> 
+            <rdg wit="#Pa" type="substantive">  eussent tous</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#Cou #NY"> et leurs gens</lem> 
+            <rdg wit="#Pa"/> 
+          </app> 
           esté mors, se
-          <app>
-            <lem wit="#NY">Dieux <pb n="16v"/></lem>
-            <rdgGrp type="orthographic">
-              <rdg wit="#Cou">Dieus</rdg>
-              <rdg wit="#Pa">Dieu</rdg>
-            </rdgGrp>
-          </app>
+          <app> 
+            <lem wit="#NY"> Dieux <pb n="16v"/> </lem> 
+            <rdgGrp type="orthographic"> 
+              <rdg wit="#Cou"> Dieus</rdg> 
+              <rdg wit="#Pa"> Dieu</rdg> 
+            </rdgGrp> 
+          </app> 
           ne les
-          <app>
-            <lem wit="#Pa #NY">eust ainsi</lem>
-            <rdg wit="#Cou" type="orthographic">euist, ensi</rdg>
-          </app>
-          <app>
-            <lem wit="#Cou #NY">que</lem>
-            <rdg wit="#Pa" type="substantive">comme</rdg>
-          </app>
+          <app> 
+            <lem wit="#Pa #NY"> eust ainsi</lem> 
+            <rdg wit="#Cou" type="orthographic"> euist, ensi</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#Cou #NY"> que</lem> 
+            <rdg wit="#Pa" type="substantive"> comme</rdg> 
+          </app> 
           par
-          <app>
-            <lem wit="#Cou #NY">droit</lem>
-            <rdg wit="#Pa"/>
-          </app>
+          <app> 
+            <lem wit="#Cou #NY"> droit</lem> 
+            <rdg wit="#Pa"/> 
+          </app> 
           miracle
-          <app>
-            <lem wit="#NY">secouru</lem>
-            <rdgGrp type="orthographic">
-              <rdg wit="#Cou">, secourut</rdg>
-              <rdg wit="#Pa">secouruz</rdg>
-            </rdgGrp>
-          </app>
+          <app> 
+            <lem wit="#NY"> secouru</lem> 
+            <rdgGrp type="orthographic"> 
+              <rdg wit="#Cou"> , secourut</rdg> 
+              <rdg wit="#Pa"> secouruz</rdg> 
+            </rdgGrp> 
+          </app> 
           et
-          <app>
-            <lem wit="#NY">aidié,</lem>
-            <rdgGrp type="orthographic">
-              <rdg wit="#Cou">aidiet</rdg>
-              <rdg wit="#Pa">aidiéz</rdg>
-            </rdgGrp>
-          </app>
-          <app>
-            <lem wit="#NY">mais</lem>
-            <rdgGrp type="orthographic">
-              <rdg wit="#Cou">. Mes,</rdg>
-              <rdg wit="#Pa">. Mais</rdg>
-            </rdgGrp>
-          </app>
+          <app> 
+            <lem wit="#NY"> aidié,</lem> 
+            <rdgGrp type="orthographic"> 
+              <rdg wit="#Cou"> aidiet</rdg> 
+              <rdg wit="#Pa"> aidiéz</rdg> 
+            </rdgGrp> 
+          </app> 
+          <app> 
+            <lem wit="#NY"> mais</lem> 
+            <rdgGrp type="orthographic"> 
+              <rdg wit="#Cou"> . Mes,</rdg> 
+              <rdg wit="#Pa"> . Mais</rdg> 
+            </rdgGrp> 
+          </app> 
           par
-          <app>
-            <lem wit="#Pa #NY">la grace</lem>
-            <rdg wit="#Cou" type="orthographic">le grasce</rdg>
-          </app>
-          <app>
-            <lem wit="#Pa #NY"/>
-            <rdg wit="#Cou" type="substantive"> et le volenté</rdg>
-          </app>
+          <app> 
+            <lem wit="#Pa #NY"> la grace</lem> 
+            <rdg wit="#Cou" type="orthographic"> le grasce</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#Pa #NY"/> 
+            <rdg wit="#Cou" type="substantive">  et le volenté</rdg> 
+          </app> 
           de Dieu
-          <app>
-            <lem wit="#Pa #NY">chascun</lem>
-            <rdg wit="#Cou" type="orthographic">, cascuns</rdg>
-          </app>
-          <app>
-            <lem wit="#Cou #NY">de ces</lem>
-            <rdg wit="#Pa" type="substantive">d’iceulx</rdg>
-          </app>
-          <app>
-            <lem wit="#NY">seigneurs</lem>
-            <rdg wit="#Cou" type="orthographic">signeurs</rdg>
-            <rdg wit="#Pa"/>
-          </app>
-          <app>
-            <lem wit="#NY">desconfist</lem>
-            <rdgGrp type="orthographic">
-              <rdg wit="#Cou">desconfi</rdg>
-              <rdg wit="#Pa">desconfirent</rdg>
-            </rdgGrp>
-          </app>
-          <app>
-            <lem wit="#Pa #NY">sa</lem>
-            <rdg wit="#Cou" type="orthographic">se</rdg>
-          </app>
+          <app> 
+            <lem wit="#Pa #NY"> chascun</lem> 
+            <rdg wit="#Cou" type="orthographic"> , cascuns</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#Cou #NY"> de ces</lem> 
+            <rdg wit="#Pa" type="substantive"> d’iceulx</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY"> seigneurs</lem> 
+            <rdg wit="#Cou" type="orthographic"> signeurs</rdg> 
+            <rdg wit="#Pa"/> 
+          </app> 
+          <app> 
+            <lem wit="#NY"> desconfist</lem> 
+            <rdgGrp type="orthographic"> 
+              <rdg wit="#Cou"> desconfi</rdg> 
+              <rdg wit="#Pa"> desconfirent</rdg> 
+            </rdgGrp> 
+          </app> 
+          <app> 
+            <lem wit="#Pa #NY"> sa</lem> 
+            <rdg wit="#Cou" type="orthographic"> se</rdg> 
+          </app> 
           bataille si entierement, et tous
-          <app>
-            <lem wit="#Cou #NY">a</lem>
-            <rdg wit="#Pa" type="substantive">en</rdg>
-          </app>
+          <app> 
+            <lem wit="#Cou #NY"> a</lem> 
+            <rdg wit="#Pa" type="substantive"> en</rdg> 
+          </app> 
           une heure et en
-          <app>
-            <lem wit="#NY">I</lem>
-            <rdg wit="#Cou"/>
-            <rdg wit="#Pa" type="orthographic">un</rdg>
-          </app>
+          <app> 
+            <lem wit="#NY"> I</lem> 
+            <rdg wit="#Cou"/> 
+            <rdg wit="#Pa" type="orthographic"> un</rdg> 
+          </app> 
           point, que
-          <app>
-            <lem wit="#Cou #NY">onques de tous ces</lem>
-            <rdg wit="#Pa" type="orthographic">oncques de tous les</rdg>
-          </app>
-          <app>
-            <lem wit="#NY">XVIM</lem>
-            <rdg wit="#Cou" type="orthographic">XVI mille</rdg>
-            <rdg wit="#Pa"/>
-          </app>
-          <persName ref="#flamand">Flamens</persName>
-          <app>
-            <lem wit="#Cou #NY"/>
-            <rdg wit="#Pa" type="substantive">il</rdg>
-          </app>
+          <app> 
+            <lem wit="#Cou #NY"> onques de tous ces</lem> 
+            <rdg wit="#Pa" type="orthographic"> oncques de tous les</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY"> XVIM</lem> 
+            <rdg wit="#Cou" type="orthographic"> XVI mille</rdg> 
+            <rdg wit="#Pa"/> 
+          </app> 
+          <persName ref="#flamand"> Flamens</persName> 
+          <app> 
+            <lem wit="#Cou #NY"/> 
+            <rdg wit="#Pa" type="substantive"> il</rdg> 
+          </app> 
           n’en
-          <app>
-            <lem wit="#Pa #NY">eschappa</lem>
-            <rdg wit="#Cou" type="substantive">escapa que</rdg>
-          </app>
-          <app>
-            <lem wit="#NY">M</lem>
-            <rdg wit="#Cou" type="orthographic">mil,</rdg>
-            <rdg wit="#Pa" type="substantive">nul,</rdg>
-          </app>
+          <app> 
+            <lem wit="#Pa #NY"> eschappa</lem> 
+            <rdg wit="#Cou" type="substantive"> escapa que</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY"> M</lem> 
+            <rdg wit="#Cou" type="orthographic"> mil,</rdg> 
+            <rdg wit="#Pa" type="substantive"> nul,</rdg> 
+          </app> 
           et
-          <app>
-            <lem wit="#Cou #NY">fu</lem>
-            <rdg wit="#Pa" type="substantive">y fut</rdg>
-          </app>
+          <app> 
+            <lem wit="#Cou #NY"> fu</lem> 
+            <rdg wit="#Pa" type="substantive"> y fut</rdg> 
+          </app> 
           leur
-          <app>
-            <lem wit="#Pa #NY"><persName ref="#NicolasZannekin">cappitaine</persName> mort</lem>
-            <rdg wit="#Cou" type="orthographic"><persName ref="#NicolasZannekin">capitaine</persName> mors</rdg>
-          </app>
+          <app> 
+            <lem wit="#Pa #NY"> <persName ref="#NicolasZannekin"> cappitaine</persName>  mort</lem> 
+            <rdg wit="#Cou" type="orthographic"> <persName ref="#NicolasZannekin"> capitaine</persName>  mors</rdg> 
+          </app> 
           . Et si ne
-          <app>
-            <lem wit="#Pa #NY">sçot</lem>
-            <rdg wit="#Cou" type="orthographic">sceut</rdg>
-          </app>
-          <app>
-            <lem wit="#Cou #NY">onques</lem>
-            <rdg wit="#Pa" type="orthographic">oncques</rdg>
-          </app>
-          <app>
-            <lem wit="#Pa #NY">nul</lem>
-            <rdg wit="#Cou" type="orthographic">nuls</rdg>
-          </app>
+          <app> 
+            <lem wit="#Pa #NY"> sçot</lem> 
+            <rdg wit="#Cou" type="orthographic"> sceut</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#Cou #NY"> onques</lem> 
+            <rdg wit="#Pa" type="orthographic"> oncques</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#Pa #NY"> nul</lem> 
+            <rdg wit="#Cou" type="orthographic"> nuls</rdg> 
+          </app> 
           de ces
-          <app>
-            <lem wit="#Pa #NY">seigneurs</lem>
-            <rdg wit="#Cou" type="orthographic">signeurs</rdg>
-          </app>
+          <app> 
+            <lem wit="#Pa #NY"> seigneurs</lem> 
+            <rdg wit="#Cou" type="orthographic"> signeurs</rdg> 
+          </app> 
           nouvelles
-          <app>
-            <lem wit="#NY">, l'un</lem>
-            <rdgGrp type="orthographic">
-              <rdg wit="#Cou">li uns</rdg>
-              <rdg wit="#Pa">l'un</rdg>
-            </rdgGrp>
-          </app>
+          <app> 
+            <lem wit="#NY"> , l'un</lem> 
+            <rdgGrp type="orthographic"> 
+              <rdg wit="#Cou"> li uns</rdg> 
+              <rdg wit="#Pa"> l'un</rdg> 
+            </rdgGrp> 
+          </app> 
           de l’autre, jusques
-          <app>
-            <lem wit="#NY">adont qu’ilz orent</lem>
-            <rdgGrp type="orthographic">
-              <rdg wit="#Cou">a dont qu’il eurent</rdg>
-              <rdg wit="#Pa">ad ce que ilz orent</rdg>
-            </rdgGrp>
-          </app>
+          <app> 
+            <lem wit="#NY"> adont qu’ilz orent</lem> 
+            <rdgGrp type="orthographic"> 
+              <rdg wit="#Cou"> a dont qu’il eurent</rdg> 
+              <rdg wit="#Pa"> ad ce que ilz orent</rdg> 
+            </rdgGrp> 
+          </app> 
           tout fait.
-          <app>
-            <lem wit="#Cou #NY">Et onques</lem>
-            <rdg wit="#Pa" type="substantive">Ne oncques</rdg>
-          </app>
-          <app>
-            <lem wit="#Pa #NY">de XVM</lem>
-            <rdg wit="#Cou" type="orthographic">des XV mille</rdg>
-          </app>
-          <persName ref="#flamand">Flamens</persName> qui
-          <app>
-            <lem wit="#Cou #NY">mors y</lem>
-            <rdg wit="#Pa" type="substantive">la furent</rdg>
-          </app>
-          <app>
-            <lem wit="#NY">demourerent,</lem>
-            <rdg wit="#Cou" type="orthographic">demorerent,</rdg>
-            <rdg wit="#Pa"/>
-          </app>
+          <app> 
+            <lem wit="#Cou #NY"> Et onques</lem> 
+            <rdg wit="#Pa" type="substantive"> Ne oncques</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#Pa #NY"> de XVM</lem> 
+            <rdg wit="#Cou" type="orthographic"> des XV mille</rdg> 
+          </app> 
+          <persName ref="#flamand"> Flamens</persName>  qui
+          <app> 
+            <lem wit="#Cou #NY"> mors y</lem> 
+            <rdg wit="#Pa" type="substantive"> la furent</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY"> demourerent,</lem> 
+            <rdg wit="#Cou" type="orthographic"> demorerent,</rdg> 
+            <rdg wit="#Pa"/> 
+          </app> 
           n’en recula
-          <app>
-            <lem wit="#Pa #NY">un seul</lem>
-            <rdg wit="#Cou" type="orthographic">uns seuls,</rdg>
-          </app>
+          <app> 
+            <lem wit="#Pa #NY"> un seul</lem> 
+            <rdg wit="#Cou" type="orthographic"> uns seuls,</rdg> 
+          </app> 
           que
-          <app>
-            <lem wit="#Pa #NY">tous ne</lem>
-            <rdg wit="#Cou" type="orthographic">tout n’i</rdg>
-          </app>
-          <app>
-            <lem wit="#NY">fussent</lem>
-            <rdg wit="#Cou" type="orthographic">fusent</rdg>
-            <rdg wit="#Pa" type="substantive">furent ou</rdg>
-          </app>
-          <app>
-            <lem wit="#Pa #NY">mors</lem>
-            <rdg wit="#Cou" type="orthographic">mort</rdg>
-          </app>
-          <app>
-            <lem wit="#Cou #NY">et</lem>
-            <rdg wit="#Pa" type="substantive">ou pris,</rdg>
-          </app>
-          <app>
-            <lem wit="#NY">tuéz</lem>
-            <rdg wit="#Cou" type="orthographic">tuet</rdg>
-            <rdg wit="#Pa"/>
-          </app>
+          <app> 
+            <lem wit="#Pa #NY"> tous ne</lem> 
+            <rdg wit="#Cou" type="orthographic"> tout n’i</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY"> fussent</lem> 
+            <rdg wit="#Cou" type="orthographic"> fusent</rdg> 
+            <rdg wit="#Pa" type="substantive"> furent ou</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#Pa #NY"> mors</lem> 
+            <rdg wit="#Cou" type="orthographic"> mort</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#Cou #NY"> et</lem> 
+            <rdg wit="#Pa" type="substantive"> ou pris,</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY"> tuéz</lem> 
+            <rdg wit="#Cou" type="orthographic"> tuet</rdg> 
+            <rdg wit="#Pa"/> 
+          </app> 
           en
-          <app>
-            <lem wit="#Pa #NY">trois monciaux</lem>
-            <rdg wit="#Cou" type="orthographic">III monchiaus</rdg>
-          </app>
-          <app>
-            <lem wit="#NY #Cou"/>
-            <rdg wit="#Pa">mortelles batailles</rdg>
-          </app>
-          <app>
-            <lem wit="#Cou #NY">l’un</lem>
-            <rdg wit="#Pa"/>
-          </app>
-          <app>
-            <lem wit="#NY">sur</lem>
-            <rdg wit="#Cou" type="orthographic">sus</rdg>
-            <rdg wit="#Pa"/>
-          </app>
-          <app>
-            <lem wit="#Cou #NY">l’autre</lem>
-            <rdg wit="#Pa"/>
-          </app>
+          <app> 
+            <lem wit="#Pa #NY"> trois monciaux</lem> 
+            <rdg wit="#Cou" type="orthographic"> III monchiaus</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY #Cou"/> 
+            <rdg wit="#Pa"> mortelles batailles</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#Cou #NY"> l’un</lem> 
+            <rdg wit="#Pa"/> 
+          </app> 
+          <app> 
+            <lem wit="#NY"> sur</lem> 
+            <rdg wit="#Cou" type="orthographic"> sus</rdg> 
+            <rdg wit="#Pa"/> 
+          </app> 
+          <app> 
+            <lem wit="#Cou #NY"> l’autre</lem> 
+            <rdg wit="#Pa"/> 
+          </app> 
           , sans
-          <app>
-            <lem wit="#NY">yssir de</lem>
-            <rdg wit="#Cou #Pa" type="orthographic">issir de</rdg>
-          </app>
-          <app>
-            <lem wit="#NY #Pa">la</lem>
-            <rdg wit="#Cou" type="orthographic">le</rdg>
-          </app>
+          <app> 
+            <lem wit="#NY"> yssir de</lem> 
+            <rdg wit="#Cou #Pa" type="orthographic"> issir de</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY #Pa"> la</lem> 
+            <rdg wit="#Cou" type="orthographic"> le</rdg> 
+          </app> 
           place
-          <app>
-            <lem wit="#Cou #NY">la</lem>
-            <rdg wit="#Pa"/>
-          </app>
+          <app> 
+            <lem wit="#Cou #NY"> la</lem> 
+            <rdg wit="#Pa"/> 
+          </app> 
           ou
-          <app>
-            <lem wit="#NY">chascune</lem>
-            <rdgGrp type="orthographic">
-              <rdg wit="#Cou">cascunne</rdg>
-              <rdg wit="#Pa">chascun</rdg>
-            </rdgGrp>
-          </app>
-          <app>
-            <lem wit="#Cou #NY">bataille</lem>
-            <rdg wit="#Pa"/>
-          </app>
-          <app>
-            <lem wit="#Pa #NY">commença</lem>
-            <rdg wit="#Cou" type="orthographic">commencha</rdg>
-          </app>
+          <app> 
+            <lem wit="#NY"> chascune</lem> 
+            <rdgGrp type="orthographic"> 
+              <rdg wit="#Cou"> cascunne</rdg> 
+              <rdg wit="#Pa"> chascun</rdg> 
+            </rdgGrp> 
+          </app> 
+          <app> 
+            <lem wit="#Cou #NY"> bataille</lem> 
+            <rdg wit="#Pa"/> 
+          </app> 
+          <app> 
+            <lem wit="#Pa #NY"> commença</lem> 
+            <rdg wit="#Cou" type="orthographic"> commencha</rdg> 
+          </app> 
           , qui
-          <app>
-            <lem wit="#Cou #NY">fu</lem>
-            <rdg wit="#Pa" type="orthographic">fut</rdg>
-          </app>
+          <app> 
+            <lem wit="#Cou #NY"> fu</lem> 
+            <rdg wit="#Pa" type="orthographic"> fut</rdg> 
+          </app> 
           l’an de
-          <app>
-            <lem wit="#Pa #NY">Grace <date xml:id="date2-0-1" when-iso="1328" next="date2-1">mil</date></lem>
-            <rdg wit="#Cou" type="orthographic">Grasce <date xml:id="date2-0-2" when-iso="1328" next="date2-1">M</date></rdg>
-          </app>
-          <date xml:id="date2-1" prev="date2-0-1 date2-0-2" next="date2-2-1 date2-2-2">CCC</date>
-          <app>
-            <lem wit="#NY"><date xml:id="date2-2-1" prev="date2-1">XXVII</date></lem>
-            <rdg wit="#Cou #Pa" type="substantive"><date xml:id="date2-2-2" prev="date2-1">XXVIII</date></rdg>
-          </app>
+          <app> 
+            <lem wit="#Pa #NY"> Grace <date xml:id="date2-0-1" when-iso="1328" next="date2-1"> mil</date> </lem> 
+            <rdg wit="#Cou" type="orthographic"> Grasce <date xml:id="date2-0-2" when-iso="1328" next="date2-1"> M</date> </rdg> 
+          </app> 
+          <date xml:id="date2-1" prev="date2-0-1 date2-0-2" next="date2-2-1 date2-2-2"> CCC</date> 
+          <app> 
+            <lem wit="#NY"> <date xml:id="date2-2-1" prev="date2-1"> XXVII</date> </lem> 
+            <rdg wit="#Cou #Pa" type="substantive"> <date xml:id="date2-2-2" prev="date2-1"> XXVIII</date> </rdg> 
+          </app> 
           , le jour
-          <app>
-            <lem wit="#NY">de</lem>
-            <rdg wit="#Cou"/>
-            <rdg wit="#Pa" type="substantive">de la</rdg>
-          </app>
-          <app>
-            <lem wit="#Cou #NY">saint</lem>
-            <rdg wit="#Pa" >Saint</rdg>
-          </app>
-          <app>
-            <lem wit="#NY">Bertelemy.</lem>
-            <rdgGrp type="orthographic">
-              <rdg wit="#Cou">Bietremieu.</rdg>
-              <rdg wit="#Pa">Berthelemy.</rdg>
-            </rdgGrp>
-          </app>
-          <app>
-            <lem wit="#Cou #NY">Adont</lem>
-            <rdg wit="#Pa" type="substantive"><lb/> <hi rend="initial">L</hi>ors</rdg>
-          </app>
-          aprés <placeName ref="#Cassel">ceste desconfiture</placeName>
-          <app>
-            <lem wit="#Pa #NY">vindrent les</lem>
-            <rdg wit="#Cou" type="orthographic">vinrent li</rdg>
-          </app>
-          <app>
-            <lem wit="#NY"><persName ref="#flamand">Flamens</persName></lem>
-            <rdg wit="#Cou #Pa" type="substantive"><persName ref="#ArméeFr"></persName>François</rdg>
-          </app>
-          a <placeName ref="#Cassel">Cassel</placeName> et y
-          <app>
-            <lem wit="#Pa #NY">mistrent</lem>
-            <rdg wit="#Cou" type="orthographic">misent</rdg>
-          </app>
+          <app> 
+            <lem wit="#NY"> de</lem> 
+            <rdg wit="#Cou"/> 
+            <rdg wit="#Pa" type="substantive"> de la</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#Cou #NY"> saint</lem> 
+            <rdg wit="#Pa" > Saint</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY"> Bertelemy.</lem> 
+            <rdgGrp type="orthographic"> 
+              <rdg wit="#Cou"> Bietremieu.</rdg> 
+              <rdg wit="#Pa"> Berthelemy.</rdg> 
+            </rdgGrp> 
+          </app> 
+          <app> 
+            <lem wit="#Cou #NY"> Adont</lem> 
+            <rdg wit="#Pa" type="substantive"> <lb/>  <hi rend="initial"> L</hi>ors</rdg> 
+          </app> 
+          aprés <placeName ref="#Cassel"> ceste desconfiture</placeName> 
+          <app> 
+            <lem wit="#Pa #NY"> vindrent les</lem> 
+            <rdg wit="#Cou" type="orthographic"> vinrent li</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY"> <persName ref="#flamand"> Flamens</persName> </lem> 
+            <rdg wit="#Cou #Pa" type="substantive"> <persName ref="#ArméeFr"> </persName> François</rdg> 
+          </app> 
+          a <placeName ref="#Cassel"> Cassel</placeName>  et y
+          <app> 
+            <lem wit="#Pa #NY"> mistrent</lem> 
+            <rdg wit="#Cou" type="orthographic"> misent</rdg> 
+          </app> 
           les
-          <app>
-            <lem wit="#Cou #NY">banieres</lem>
-            <rdg wit="#Pa" type="orthographic">bannieres</rdg>
-          </app>
+          <app> 
+            <lem wit="#Cou #NY"> banieres</lem> 
+            <rdg wit="#Pa" type="orthographic"> bannieres</rdg> 
+          </app> 
           de France
-          <app>
-            <lem wit="#NY">et se</lem>
-            <rdg wit="#Cou #Pa">. Et se</rdg>
-          </app>
-          <app>
-            <lem wit="#NY">rendy</lem>
-            <rdg wit="#Cou #Pa" type="orthographic">rendi</rdg>
-          </app>
-          <app>
-            <lem wit="#Pa #NY">la</lem>
-            <rdg wit="#Cou" type="orthographic">le</rdg>
-          </app>
-          <placeName ref="#Cassel">ville</placeName> au <persName ref="#PhilippeVI">roy</persName>
-          <app>
-            <lem wit="#Cou #NY">, et puis <placeName ref="#Poperinge">Popringhe</placeName></lem>
-            <rdg wit="#Pa"/>
-          </app>
+          <app> 
+            <lem wit="#NY"> et se</lem> 
+            <rdg wit="#Cou #Pa"> . Et se</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY"> rendy</lem> 
+            <rdg wit="#Cou #Pa" type="orthographic"> rendi</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#Pa #NY"> la</lem> 
+            <rdg wit="#Cou" type="orthographic"> le</rdg> 
+          </app> 
+          <placeName ref="#Cassel"> ville</placeName>  au <persName ref="#PhilippeVI"> roy</persName> 
+          <app> 
+            <lem wit="#Cou #NY"> , et puis <placeName ref="#Poperinge"> Popringhe</placeName> </lem> 
+            <rdg wit="#Pa"/> 
+          </app> 
           et puis
-          <app>
-            <lem wit="#NY"><placeName ref="#Ypres">Ypre</placeName></lem>
-            <rdg wit="#Cou #Pa" type="orthographic"><placeName ref="#Ypres">Yppre</placeName></rdg>
-          </app>
-          <app>
-            <lem wit="#Pa #NY">et tous</lem>
-            <rdg wit="#Cou" type="orthographic">. Et tout</rdg>
-          </app>
-          <app>
-            <lem wit="#NY">ceulz</lem>
-            <rdgGrp type="orthographic">
-              <rdg wit="#Cou">chil</rdg>
-              <rdg wit="#Pa">ceulx</rdg>
-            </rdgGrp>
-          </app>
-          <app>
-            <lem wit="#Pa #NY">de la</lem>
-            <rdg wit="#Cou" type="orthographic">de le</rdg>
-          </app>
-          <app>
-            <lem wit="#NY">chastelerie</lem>
-            <rdgGrp type="orthographic">
-              <rdg wit="#Cou">castelerie</rdg>
-              <rdg wit="#Pa">chastellerie</rdg>
-            </rdgGrp>
-          </app>
+          <app> 
+            <lem wit="#NY"> <placeName ref="#Ypres"> Ypre</placeName> </lem> 
+            <rdg wit="#Cou #Pa" type="orthographic"> <placeName ref="#Ypres"> Yppre</placeName> </rdg> 
+          </app> 
+          <app> 
+            <lem wit="#Pa #NY"> et tous</lem> 
+            <rdg wit="#Cou" type="orthographic"> . Et tout</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY"> ceulz</lem> 
+            <rdgGrp type="orthographic"> 
+              <rdg wit="#Cou"> chil</rdg> 
+              <rdg wit="#Pa"> ceulx</rdg> 
+            </rdgGrp> 
+          </app> 
+          <app> 
+            <lem wit="#Pa #NY"> de la</lem> 
+            <rdg wit="#Cou" type="orthographic"> de le</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY"> chastelerie</lem> 
+            <rdgGrp type="orthographic"> 
+              <rdg wit="#Cou"> castelerie</rdg> 
+              <rdg wit="#Pa"> chastellerie</rdg> 
+            </rdgGrp> 
+          </app> 
           de
-          <app>
-            <lem wit="#NY"><placeName ref="#Bergues">Bergues</placeName>,</lem>
-            <rdg wit="#Pa #Cou" type="orthographic"><placeName ref="#Bergues">Berghes</placeName></rdg>
-          </app>
-          <app>
-            <lem wit="#NY">et ceulz</lem>
-            <rdgGrp type="orthographic">
-              <rdg wit="#Cou">, et cil</rdg>
-              <rdg wit="#Pa">et ceulx</rdg>
-            </rdgGrp>
-          </app>
-          de <placeName ref="#Bruges">Bruges</placeName>
-          <app>
-            <lem wit="#NY">ensivant</lem>
-            <rdgGrp type="orthographic">
-              <rdg wit="#Cou">ensievant.</rdg>
-              <rdg wit="#Pa">ensuivant</rdg>
-            </rdgGrp>
-          </app>
-          <app>
-            <lem wit="#Pa #NY">. Et receurent</lem>
-            <rdg wit="#Cou" type="orthographic">Et rechurent</rdg>
-          </app>
-          le <persName ref="#LouisI">conte Loÿs</persName>,leur
-          <app>
-            <lem wit="#Pa #NY">seigneur</lem>
-            <rdg wit="#Cou" type="orthographic">signeur</rdg>
-          </app>
-          <app>
-            <lem wit="#Cou #NY">, adont</lem>
-            <rdg wit="#Pa"/>
-          </app>
+          <app> 
+            <lem wit="#NY"> <placeName ref="#Bergues"> Bergues</placeName> ,</lem> 
+            <rdg wit="#Pa #Cou" type="orthographic"> <placeName ref="#Bergues"> Berghes</placeName> </rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY"> et ceulz</lem> 
+            <rdgGrp type="orthographic"> 
+              <rdg wit="#Cou"> , et cil</rdg> 
+              <rdg wit="#Pa"> et ceulx</rdg> 
+            </rdgGrp> 
+          </app> 
+          de <placeName ref="#Bruges"> Bruges</placeName> 
+          <app> 
+            <lem wit="#NY"> ensivant</lem> 
+            <rdgGrp type="orthographic"> 
+              <rdg wit="#Cou"> ensievant.</rdg> 
+              <rdg wit="#Pa"> ensuivant</rdg> 
+            </rdgGrp> 
+          </app> 
+          <app> 
+            <lem wit="#Pa #NY"> . Et receurent</lem> 
+            <rdg wit="#Cou" type="orthographic"> Et rechurent</rdg> 
+          </app> 
+          le <persName ref="#LouisI"> conte Loÿs</persName> ,leur
+          <app> 
+            <lem wit="#Pa #NY"> seigneur</lem> 
+            <rdg wit="#Cou" type="orthographic"> signeur</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#Cou #NY"> , adont</lem> 
+            <rdg wit="#Pa"/> 
+          </app> 
           amiablement et
-          <app>
-            <lem wit="#Pa #NY">paisiblement et lui</lem>
-            <rdg wit="#Cou" type="orthographic">pasiblement et li</rdg>
-          </app>
+          <app> 
+            <lem wit="#Pa #NY"> paisiblement et lui</lem> 
+            <rdg wit="#Cou" type="orthographic"> pasiblement et li</rdg> 
+          </app> 
           jurerent foy et
-          <app>
-            <lem wit="#NY">loyauté</lem>
-            <rdg wit="#Cou" type="substantive">loiaulté a tenir</rdg>
-            <rdg wit="#Pa" type="orthographic">loyaulté</rdg>
-          </app>
+          <app> 
+            <lem wit="#NY"> loyauté</lem> 
+            <rdg wit="#Cou" type="substantive"> loiaulté a tenir</rdg> 
+            <rdg wit="#Pa" type="orthographic"> loyaulté</rdg> 
+          </app> 
           a tousjours
-          <app>
-            <lem wit="#Pa #NY">mais.</lem>
-            <rdg wit="#Cou" type="orthographic">mes.</rdg>
-          </app>
-        </p> 
-        <p n="3">
-          <app>
-            <lem wit="#NY">Quant</lem>
-            <rdg wit="#Cou"><lb/>Quant</rdg>
-            <rdg wit="#Pa"><lb/><hi rend="initial">Q</hi>uant</rdg>
-          </app>
-          <app>
-            <lem wit="#Pa #NY">le <persName ref="#PhilippeVI">roy Phelippe</persName></lem>
-            <rdg wit="#Cou" type="orthographic">li <persName ref="#PhilippeVI">rois Phelippes</persName></rdg>
-          </app>
+          <app> 
+            <lem wit="#Pa #NY"> mais.</lem> 
+            <rdg wit="#Cou" type="orthographic"> mes.</rdg> 
+          </app> 
+        </p>  
+        <p n="3"> 
+          <app> 
+            <lem wit="#NY"> Quant</lem> 
+            <rdg wit="#Cou"> <lb/> Quant</rdg> 
+            <rdg wit="#Pa"> <lb/> <hi rend="initial"> Q</hi>uant</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#Pa #NY"> le <persName ref="#PhilippeVI"> roy Phelippe</persName> </lem> 
+            <rdg wit="#Cou" type="orthographic"> li <persName ref="#PhilippeVI"> rois Phelippes</persName> </rdg> 
+          </app> 
           de France ot
-          <app>
-            <lem wit="#Cou #NY">remis</lem>
-            <rdg wit="#Pa" type="substantive">mis</rdg>
-          </app>
-          le <persName ref="#LouisI">conte de Flandres</persName> en son
-          <app>
-            <lem wit="#Cou #NY"><placeName ref="#Flandres">paÿs</placeName></lem>
-            <rdg wit="#Pa" type="orthographic"><placeName ref="#Flandres">païs</placeName></rdg>
-          </app>
+          <app> 
+            <lem wit="#Cou #NY"> remis</lem> 
+            <rdg wit="#Pa" type="substantive"> mis</rdg> 
+          </app> 
+          le <persName ref="#LouisI"> conte de Flandres</persName>  en son
+          <app> 
+            <lem wit="#Cou #NY"> <placeName ref="#Flandres"> paÿs</placeName> </lem> 
+            <rdg wit="#Pa" type="orthographic"> <placeName ref="#Flandres"> païs</placeName> </rdg> 
+          </app> 
           et que
-          <app>
-            <lem wit="#Pa #NY">tous lui</lem>
-            <rdg wit="#Cou" type="orthographic">tout li</rdg>
-          </app>
-          <app>
-            <lem wit="#NY">orent</lem>
-            <rdg wit="#Cou #Pa" type="orthographic">eurent</rdg>
-          </app>
-          <app>
-            <lem wit="#Pa #NY">juré</lem>
-            <rdg wit="#Cou" type="orthographic">juret</rdg>
-          </app>
-          <app>
-            <lem wit="#NY">feauté</lem>
-            <rdgGrp type="orthographic">
-              <rdg wit="#Cou">fiableté</rdg>
-              <rdg wit="#Pa">feaulté</rdg>
-            </rdgGrp>
-          </app>
+          <app> 
+            <lem wit="#Pa #NY"> tous lui</lem> 
+            <rdg wit="#Cou" type="orthographic"> tout li</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY"> orent</lem> 
+            <rdg wit="#Cou #Pa" type="orthographic"> eurent</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#Pa #NY"> juré</lem> 
+            <rdg wit="#Cou" type="orthographic"> juret</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY"> feauté</lem> 
+            <rdgGrp type="orthographic"> 
+              <rdg wit="#Cou"> fiableté</rdg> 
+              <rdg wit="#Pa"> feaulté</rdg> 
+            </rdgGrp> 
+          </app> 
           et hommage, il
-          <app>
-            <lem wit="#NY">departy</lem>
-            <rdg wit="#Cou #Pa" type="orthographic">departi</rdg>
-          </app>
+          <app> 
+            <lem wit="#NY"> departy</lem> 
+            <rdg wit="#Cou #Pa" type="orthographic"> departi</rdg> 
+          </app> 
           ses gens et retourna
-          <app>
-            <lem wit="#Pa #NY">chascun</lem>
-            <rdg wit="#Cou" type="orthographic">cascuns</rdg>
-          </app>
+          <app> 
+            <lem wit="#Pa #NY"> chascun</lem> 
+            <rdg wit="#Cou" type="orthographic"> cascuns</rdg> 
+          </app> 
           en son lieu, et il
-          <app>
-            <lem wit="#Cou #NY">meismes</lem>
-            <rdg wit="#Pa"/>
-          </app>
-          s’en vint en <placeName ref="#France">France</placeName>
-          <app>
-            <lem wit="#Cou #NY">et</lem>
-            <rdg wit="#Pa"/>
-          </app>
-          sejourner a <placeName ref="#Paris">Paris</placeName>
-          <app>
-            <lem wit="#NY">et</lem>
-            <rdg wit="#Cou #Pa" type="substantive">ou</rdg>
-          </app>
-          <app>
-            <lem wit="#Cou #NY">la</lem>
-            <rdg wit="#Pa"/>
-          </app>
+          <app> 
+            <lem wit="#Cou #NY"> meismes</lem> 
+            <rdg wit="#Pa"/> 
+          </app> 
+          s’en vint en <placeName ref="#France"> France</placeName> 
+          <app> 
+            <lem wit="#Cou #NY"> et</lem> 
+            <rdg wit="#Pa"/> 
+          </app> 
+          sejourner a <placeName ref="#Paris"> Paris</placeName> 
+          <app> 
+            <lem wit="#NY"> et</lem> 
+            <rdg wit="#Cou #Pa" type="substantive"> ou</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#Cou #NY"> la</lem> 
+            <rdg wit="#Pa"/> 
+          </app> 
           environ. Si
-          <app>
-            <lem wit="#Cou #NY">fu durement</lem>
-            <rdg wit="#Pa" type="substantive">fut moult</rdg>
-          </app>
+          <app> 
+            <lem wit="#Cou #NY"> fu durement</lem> 
+            <rdg wit="#Pa" type="substantive"> fut moult</rdg> 
+          </app> 
           prisiés et
-          <app>
-            <lem wit="#NY">honnoréz</lem>
-            <rdgGrp type="orthographic">
-              <rdg wit="#Cou">honnerés</rdg>
-              <rdg wit="#Pa">honnouréz</rdg>
-            </rdgGrp>
-          </app>
+          <app> 
+            <lem wit="#NY"> honnoréz</lem> 
+            <rdgGrp type="orthographic"> 
+              <rdg wit="#Cou"> honnerés</rdg> 
+              <rdg wit="#Pa"> honnouréz</rdg> 
+            </rdgGrp> 
+          </app> 
           de celle emprise
-          <app>
-            <lem wit="#Cou #NY">qu’il avoit faite</lem>
-            <rdg wit="#Pa"/>
-          </app>
-          <app>
-            <lem wit="#NY">sur</lem>
-            <rdg wit="#Cou" type="orthographic">sus</rdg>
-            <rdg wit="#Pa"/>
-          </app>
-          <app>
-            <lem wit="#Cou #NY">les <persName ref="#flamand">Flamens</persName></lem>
-            <rdg wit="#Pa"/>
-          </app>
+          <app> 
+            <lem wit="#Cou #NY"> qu’il avoit faite</lem> 
+            <rdg wit="#Pa"/> 
+          </app> 
+          <app> 
+            <lem wit="#NY"> sur</lem> 
+            <rdg wit="#Cou" type="orthographic"> sus</rdg> 
+            <rdg wit="#Pa"/> 
+          </app> 
+          <app> 
+            <lem wit="#Cou #NY"> les <persName ref="#flamand"> Flamens</persName> </lem> 
+            <rdg wit="#Pa"/> 
+          </app> 
           et
-          <app>
-            <lem wit="#Pa #NY">du</lem>
-            <rdg wit="#Cou">dou</rdg>
-          </app>
+          <app> 
+            <lem wit="#Pa #NY"> du</lem> 
+            <rdg wit="#Cou"> dou</rdg> 
+          </app> 
           service
-          <app>
-            <lem wit="#Cou #NY">aussi</lem>
-            <rdg wit="#Pa" type="substantive">qu’il avoit fait</rdg>
-          </app>
-          <app>
-            <lem wit="#NY">du</lem>
-            <rdg wit="#Cou #Pa" type="substantive">au</rdg>
-          </app>
-          <persName ref="#LouisI" xml:id="louis1-0" next="louis1-1-1 louis1-1-2">conte</persName>
-          <app>
-            <lem wit="#Pa #NY"><persName xml:id="louis1-1-1" prev="louis1-0">Loÿs</persName></lem>
-            <rdg wit="#Cou" type="orthographic"><persName xml:id="louis1-1-2" prev="louis1-0">Loeis</persName></rdg>
-          </app>
+          <app> 
+            <lem wit="#Cou #NY"> aussi</lem> 
+            <rdg wit="#Pa" type="substantive"> qu’il avoit fait</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#NY"> du</lem> 
+            <rdg wit="#Cou #Pa" type="substantive"> au</rdg> 
+          </app> 
+          <persName ref="#LouisI" xml:id="louis1-0" next="louis1-1-1 louis1-1-2"> conte</persName> 
+          <app> 
+            <lem wit="#Pa #NY"> <persName xml:id="louis1-1-1" prev="louis1-0"> Loÿs</persName> </lem> 
+            <rdg wit="#Cou" type="orthographic"> <persName xml:id="louis1-1-2" prev="louis1-0"> Loeis</persName> </rdg> 
+          </app> 
           , son cousin. Si
-          <app>
-            <lem wit="#Cou #NY">demora</lem>
-            <rdg wit="#Pa" type="orthographic">demoura</rdg>
-          </app>
+          <app> 
+            <lem wit="#Cou #NY"> demora</lem> 
+            <rdg wit="#Pa" type="orthographic"> demoura</rdg> 
+          </app> 
           en grant prosperité et en grant honneur
-          <app>
-            <lem wit="#Pa #NY">et</lem>
-            <rdg wit="#Cou">. Et</rdg>
-          </app>
-          <app>
-            <lem wit="#Cou #NY">acrut</lem>
-            <rdg wit="#Pa"/>
-          </app>
+          <app> 
+            <lem wit="#Pa #NY"> et</lem> 
+            <rdg wit="#Cou"> . Et</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#Cou #NY"> acrut</lem> 
+            <rdg wit="#Pa"/> 
+          </app> 
           grandement
-          <app>
-            <lem wit="#Cou #NY"/>
-            <rdg wit="#Pa">atout</rdg>
-          </app>
+          <app> 
+            <lem wit="#Cou #NY"/> 
+            <rdg wit="#Pa"> atout</rdg> 
+          </app> 
           l’estat royal. Et
-          <app>
-            <lem wit="#Pa #NY">n’y</lem>
-            <rdg wit="#Cou" type="orthographic">n’i</rdg>
-          </app>
+          <app> 
+            <lem wit="#Pa #NY"> n’y</lem> 
+            <rdg wit="#Cou" type="orthographic"> n’i</rdg> 
+          </app> 
           avoit
-          <app>
-            <lem wit="#Cou #NY">onques</lem>
-            <rdg wit="#Pa" type="orthographic">oncques</rdg>
-          </app>
+          <app> 
+            <lem wit="#Cou #NY"> onques</lem> 
+            <rdg wit="#Pa" type="orthographic"> oncques</rdg> 
+          </app> 
           mais
-          <app>
-            <lem wit="#NY">eu</lem>
-            <rdg wit="#Cou" type="orthographic">eut</rdg>
-            <rdg wit="#Pa"/>
-          </app>
-          en <placeName ref="#France">France</placeName>
-          <app>
-            <lem wit="#Cou #NY"/>
-            <rdg wit="#Pa" type="substantive">eu</rdg>
-          </app>
-          <app>
-            <lem wit="#Pa #NY">roy</lem>
-            <rdg wit="#Cou"/>
-          </app>
+          <app> 
+            <lem wit="#NY"> eu</lem> 
+            <rdg wit="#Cou" type="orthographic"> eut</rdg> 
+            <rdg wit="#Pa"/> 
+          </app> 
+          en <placeName ref="#France"> France</placeName> 
+          <app> 
+            <lem wit="#Cou #NY"/> 
+            <rdg wit="#Pa" type="substantive"> eu</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#Pa #NY"> roy</lem> 
+            <rdg wit="#Cou"/> 
+          </app> 
           ,
-          <app>
-            <lem wit="#Cou #NY">si</lem>
-            <rdg wit="#Pa"/>
-          </app>
-          <app>
-            <lem wit="#Pa #NY">comme</lem>
-            <rdg wit="#Cou" type="orthographic">com</rdg>
-          </app>
+          <app> 
+            <lem wit="#Cou #NY"> si</lem> 
+            <rdg wit="#Pa"/> 
+          </app> 
+          <app> 
+            <lem wit="#Pa #NY"> comme</lem> 
+            <rdg wit="#Cou" type="orthographic"> com</rdg> 
+          </app> 
           on disoit,
-          <app>
-            <lem wit="#NY #Pa"/>
-            <rdg wit="#Cou" type="substantive">roy</rdg>
-          </app>
-          <app>
-            <lem wit="#Cou #NY">qui</lem>
-            <rdg wit="#Pa" type="substantive">qu'il</rdg>
-          </app>
-          <app>
-            <lem wit="#Pa #NY">eust</lem>
-            <rdg wit="#Cou" type="orthographic">euist</rdg>
-          </app>
+          <app> 
+            <lem wit="#NY #Pa"/> 
+            <rdg wit="#Cou" type="substantive"> roy</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#Cou #NY"> qui</lem> 
+            <rdg wit="#Pa" type="substantive"> qu'il</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#Pa #NY"> eust</lem> 
+            <rdg wit="#Cou" type="orthographic"> euist</rdg> 
+          </app> 
           tenu
-          <app>
-            <lem wit="#Cou #NY">l’estat</lem>
-            <rdg wit="#Pa"/>
-          </app>
-          <app>
-            <lem wit="#Pa #NY">pareil</lem>
-            <rdg wit="#Cou" type="orthographic">parel</rdg>
-          </app>
-          <app>
-            <lem wit="#Cou #NY"/>
-            <rdg wit="#Pa" type="substantive">estat</rdg>
-          </app>
+          <app> 
+            <lem wit="#Cou #NY"> l’estat</lem> 
+            <rdg wit="#Pa"/> 
+          </app> 
+          <app> 
+            <lem wit="#Pa #NY"> pareil</lem> 
+            <rdg wit="#Cou" type="orthographic"> parel</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#Cou #NY"/> 
+            <rdg wit="#Pa" type="substantive"> estat</rdg> 
+          </app> 
           au roy
-          <app>
-            <lem wit="#Pa #NY"><persName ref="#PhilippeVI">Phelippe</persName></lem>
-            <rdg wit="#Cou" type="orthographic"><persName ref="#PhilippeVI">Phelippre</persName></rdg>
-          </app>
+          <app> 
+            <lem wit="#Pa #NY"> <persName ref="#PhilippeVI"> Phelippe</persName> </lem> 
+            <rdg wit="#Cou" type="orthographic"> <persName ref="#PhilippeVI"> Phelippre</persName> </rdg> 
+          </app> 
           . Et faisoit faire
-          <app>
-            <lem wit="#Cou #NY">tournois,</lem>
-            <rdg wit="#Pa"/>
-          </app>
+          <app> 
+            <lem wit="#Cou #NY"> tournois,</lem> 
+            <rdg wit="#Pa"/> 
+          </app> 
           joustes
-          <app>
-            <lem wit="#Pa #NY"/>
-            <rdg wit="#Cou" type="substantive">, festes</rdg>
-          </app>
+          <app> 
+            <lem wit="#Pa #NY"/> 
+            <rdg wit="#Cou" type="substantive"> , festes</rdg> 
+          </app> 
           et esbatemens
-          <app>
-            <lem wit="#Cou #NY"/>
-            <rdg wit="#Pa" type="substantive">a</rdg>
-          </app>
+          <app> 
+            <lem wit="#Cou #NY"/> 
+            <rdg wit="#Pa" type="substantive"> a</rdg> 
+          </app> 
           moult
-          <app>
-            <lem wit="#Pa #NY"/>
-            <rdg wit="#Cou" type="substantive">souvent</rdg>
-          </app>
-          <app>
-            <lem wit="#Cou #NY">et a</lem>
-            <rdg wit="#Pa"/>
-          </app>
+          <app> 
+            <lem wit="#Pa #NY"/> 
+            <rdg wit="#Cou" type="substantive"> souvent</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#Cou #NY"> et a</lem> 
+            <rdg wit="#Pa"/> 
+          </app> 
           grant
-          <app>
-            <lem wit="#Cou #NY">plenté</lem>
-            <rdg wit="#Pa" type="substantive">planté</rdg>
-          </app>
+          <app> 
+            <lem wit="#Cou #NY"> plenté</lem> 
+            <rdg wit="#Pa" type="substantive"> planté</rdg> 
+          </app> 
           .
-          <app>
-            <lem wit="#Pa #NY"/>
-            <rdg wit="#Cou" type="substantive">Coment le <persName ref="#EdmondWoodstock">conte de Cain</persName> et <persName ref="#RogerMortimer">mesire Roger de Mortemer</persName> furent justiciéz.</rdg>
-          </app>
+          <app> 
+            <lem wit="#Pa #NY"/> 
+            <rdg wit="#Cou" type="substantive"> Coment le <persName ref="#EdmondWoodstock"> conte de Cain</persName>  et <persName ref="#RogerMortimer"> mesire Roger de Mortemer</persName>  furent justiciéz.</rdg> 
+          </app> 
           Or nous tairons
-          <app>
-            <lem wit="#Pa #NY"/>
-            <rdg wit="#Cou" type="substantive">nous</rdg>
-          </app>
-          <app>
-            <lem wit="#Pa #NY">un</lem>
-            <rdg wit="#Cou" type="orthographic">I</rdg>
-          </app>
+          <app> 
+            <lem wit="#Pa #NY"/> 
+            <rdg wit="#Cou" type="substantive"> nous</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#Pa #NY"> un</lem> 
+            <rdg wit="#Cou" type="orthographic"> I</rdg> 
+          </app> 
           petit de lui
           et parlerons
-          <app>
-            <lem wit="#Pa #NY"/>
-            <rdg wit="#Cou" type="substantive">d’aucunes</rdg>
-          </app>
+          <app> 
+            <lem wit="#Pa #NY"/> 
+            <rdg wit="#Cou" type="substantive"> d’aucunes</rdg> 
+          </app> 
           des
-          <app>
-            <lem wit="#Pa #NY">ordonnances</lem>
-            <rdg wit="#Cou" type="orthographic">ordenances</rdg>
-          </app>
-          <app>
-            <lem wit="#Cou #NY"><placeName ref="#Angleterre">d’Engleterre</placeName></lem>
-            <rdg wit="#Pa" type="orthographic"><placeName ref="#Angleterre">d’Angleterre</placeName></rdg>
-          </app>
+          <app> 
+            <lem wit="#Pa #NY"> ordonnances</lem> 
+            <rdg wit="#Cou" type="orthographic"> ordenances</rdg> 
+          </app> 
+          <app> 
+            <lem wit="#Cou #NY"> <placeName ref="#Angleterre"> d’Engleterre</placeName> </lem> 
+            <rdg wit="#Pa" type="orthographic"> <placeName ref="#Angleterre"> d’Angleterre</placeName> </rdg> 
+          </app> 
           et
-          <app>
-            <lem wit="#Pa #NY">du gouvernement</lem>
-            <rdg wit="#Cou" type="orthographic">dou gouvrenement </rdg>
-          </app>
-          <app>
-            <lem wit="#Pa #NY">du</lem>
-            <rdg wit="#Cou" type="substantive">le</rdg>
-          </app>
-          <persName ref="#EdouardIII">roy</persName>.
-        </p>
-      </div>
-    </body>
-  </text>
-</TEI>
+          <app> 
+            <lem wit="#Pa #NY"> du gouvernement</lem> 
+            <rdg wit="#Cou" type="orthographic"> dou gouvrenement </rdg> 
+          </app> 
+          <app> 
+            <lem wit="#Pa #NY"> du</lem> 
+            <rdg wit="#Cou" type="substantive"> le</rdg> 
+          </app> 
+          <persName ref="#EdouardIII"> roy</persName> .
+        </p> 
+      </div> 
+    </body> 
+  </text> 
+</TEI> 

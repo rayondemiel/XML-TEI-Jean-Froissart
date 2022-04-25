@@ -11,7 +11,7 @@
         <!-- récupération du nom et du chemin du fichier courant -->
     </xsl:variable>
 
-    <!-- Page Html -->
+    <!-- Variable Page Html -->
     <xsl:variable name="accueil">
         <xsl:value-of select="concat($witfile, 'HTML/homepage', '.html')"/>
     </xsl:variable>
@@ -33,7 +33,7 @@
     <xsl:variable name="msCou">
         <xsl:value-of select="concat($witfile, 'HTML/ms_cou', '.html')"/>
     </xsl:variable>
-    
+
     <!--  -->
     <xsl:variable name="title">
         <xsl:value-of select="//fileDesc/titleStmt/title"/>
@@ -44,7 +44,7 @@
     ###############################-->
 
     <xsl:template match="/">
-
+        <!-- Page accueil -->
         <xsl:result-document href="{$accueil}" method="html" indent="yes">
             <html>
                 <head>
@@ -225,6 +225,7 @@
                 </body>
             </html>
         </xsl:result-document>
+
         <!-- HTML des différents index -->
         <xsl:result-document href="{$index}" method="html" indent="yes">
             <html>
@@ -270,6 +271,136 @@
                 </body>
             </html>
         </xsl:result-document>
+
+        <!-- Editions des manuscrits -->
+
+        <!-- Manuscrit New York -->
+        <xsl:result-document href="{$msNY}" method="html" indent="yes">
+            <html>
+                <head>
+                    <xsl:call-template name="metadata"/>
+                    <title>
+                        <xsl:value-of select="concat($title, ' | Manuscrit')"/>
+                    </title>
+                    <style>
+                        p {
+                            font-family: 'MedievalSharp', cursive;
+                        }</style>
+                </head>
+                <body>
+                    <xsl:call-template name="navbar"/>
+                    <div class="container">
+                        <h1 class="text-center"> Manuscrit <em>(MS M.804)</em></h1>
+                        <div class="text-center">
+                            <i>
+                                <xsl:value-of
+                                    select="concat(//witness[@xml:id = 'NY']/descendant::msIdentifier/institution, ', ', //witness[@xml:id = 'NY']/descendant::msIdentifier/country, ', ', //witness[@xml:id = 'NY']/descendant::msIdentifier/settlement)"
+                                />
+                            </i>
+                        </div>
+                        <br/>
+                        <xsl:for-each select="//body/div[@type = 'section']">
+                            <div class="block_p">
+                                <xsl:apply-templates select="./head[@type = 'titre']"
+                                    mode="titre_ny"/>
+                                <xsl:apply-templates select="p" mode="text_ny"/>
+                                <xsl:if test="./figure">
+                                    <xsl:variable name="ref" select="./figure/graphic/@url"/>
+                                    <figure>
+                                        <a href="{$ref}">
+                                            <img class="rounded mx-auto d-block"
+                                                src="./img/cassel.jpg"
+                                                style="width: 38rem; height: auto"/>
+                                        </a>
+                                        <figcaption
+                                            style="text-align:center; margin-top: 1em;  font-size: 12px">
+                                            <xsl:value-of select="./figure/head"/>
+                                        </figcaption>
+                                    </figure>
+                                </xsl:if>
+                            </div>
+                        </xsl:for-each>
+                    </div>
+                    <xsl:call-template name="footer"/>
+                </body>
+            </html>
+        </xsl:result-document>
+
+        <!-- Manuscrit BNF -->
+        <xsl:result-document href="{$msPa}" method="html" indent="yes">
+            <html>
+                <head>
+                    <xsl:call-template name="metadata"/>
+                    <title>
+                        <xsl:value-of select="concat($title, ' | Manuscrit')"/>
+                    </title>
+                    <style>
+                        p {
+                            font-family: 'MedievalSharp', cursive;
+                        }</style>
+                </head>
+                <body>
+                    <xsl:call-template name="navbar"/>
+                    <div class="container">
+                        <h1 class="text-center"> Manuscrit <em>(MS Français 2663)</em></h1>
+                        <div class="text-center">
+                            <i>
+                                <xsl:value-of
+                                    select="concat(//witness[@xml:id = 'Pa']/descendant::msIdentifier/institution, ', ', //witness[@xml:id = 'Pa']/descendant::msIdentifier/country, ', ', //witness[@xml:id = 'Pa']/descendant::msIdentifier/settlement)"
+                                />
+                            </i>
+                        </div>
+                        <br/>
+                        <xsl:for-each select="//body/div[@type = 'section']">
+                            <div class="block_p">
+                                <xsl:apply-templates select="./head[@type = 'titre']"
+                                    mode="titre_pa"/>
+                                <xsl:apply-templates select="p" mode="text_pa"/>
+                            </div>
+                        </xsl:for-each>
+                    </div>
+                    <xsl:call-template name="footer"/>
+                </body>
+            </html>
+        </xsl:result-document>
+
+        <!-- Manuscrit Coutrai -->
+        <xsl:result-document href="{$msCou}" method="html" indent="yes">
+            <html>
+                <head>
+                    <xsl:call-template name="metadata"/>
+                    <title>
+                        <xsl:value-of select="concat($title, ' | Manuscrit')"/>
+                    </title>
+                    <style>
+                        p {
+                            font-family: 'MedievalSharp', cursive;
+                        }</style>
+                </head>
+                <body>
+                    <xsl:call-template name="navbar"/>
+                    <div class="container">
+                        <h1 class="text-center"> Manuscrit <em>(MS Cod. 329))</em></h1>
+                        <div class="text-center">
+                            <i>
+                                <xsl:value-of
+                                    select="concat(//witness[@xml:id = 'Cou']/descendant::msIdentifier/institution, ', ', //witness[@xml:id = 'Cou']/descendant::msIdentifier/country, ', ', //witness[@xml:id = 'Cou']/descendant::msIdentifier/settlement)"
+                                />
+                            </i>
+                        </div>
+                        <br/>
+                        <xsl:for-each select="//body/div[@type = 'section']">
+                            <div class="block_p">
+                                <xsl:apply-templates select="./head[@type = 'titre']"
+                                    mode="titre_cou"/>
+                                <xsl:apply-templates select="p" mode="text_cou"/>
+                            </div>
+                        </xsl:for-each>
+                    </div>
+                    <xsl:call-template name="footer"/>
+                </body>
+            </html>
+        </xsl:result-document>
     </xsl:template>
 
 
@@ -304,6 +435,7 @@
                 margin: 1em;
                 margin-right: 3em;
                 background-color: #F0EFF0;
+                color: #000000;
             }
             div.entity_block {
                 margin-top: 1em;
@@ -313,8 +445,10 @@
             }
             span.colonne {
                 text-align: center;
-                }
-        </style>
+            }
+            p.titre {
+                color: #EF0107;
+            }</style>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
             rel="stylesheet"
             integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
@@ -464,6 +598,10 @@
                                         <xsl:apply-templates
                                             select="//witness[@xml:id = $id]/descendant::author"/>
                                     </div>
+                                    <br/>
+                                    <p>Manuscrit associé : <xsl:value-of
+                                            select="count(//witness[@xml:id = $id]/descendant::filiation/descendant::bibl)"
+                                        /></p>
                                 </div>
                                 <hr/>
                                 <div id="physDesc" class="p-1">
@@ -614,6 +752,10 @@
                                         <xsl:apply-templates
                                             select="//witness[@xml:id = $id]/descendant::author"/>
                                     </div>
+                                    <br/>
+                                    <p>Manuscrit associé : <xsl:value-of
+                                            select="count(//witness[@xml:id = $id]/descendant::filiation/descendant::bibl)"
+                                        /></p>
                                 </div>
                                 <hr/>
                                 <div id="physDesc" class="p-1">
@@ -687,6 +829,7 @@
         <xsl:value-of select="concat(./surname, ', ', ./forename)"/>
     </xsl:template>
 
+    <!-- Block localisation -->
     <xsl:template match="msIdentifier">
         <p>
             <dl>
@@ -706,6 +849,7 @@
         </p>
     </xsl:template>
 
+    <!-- block identifiant -->
     <xsl:template match="altIdentifier">
         <p> Ancien(s) identifiant(s) : <ul>
                 <xsl:apply-templates select=".//idno"/>
@@ -718,6 +862,8 @@
             <xsl:value-of select="."/>
         </li>
     </xsl:template>
+
+    <!-- Block descriptio -->
 
     <xsl:template match="msItemStruct">
         <p>"<i style="color: #EF0107;"><xsl:value-of select="./title"/></i>" - <xsl:value-of
@@ -865,26 +1011,26 @@
                 <p>
                     <i>Nombres de mentions : </i>
                     <xsl:value-of
-                        select="count(ancestor::TEI//body//place[replace(@ref, '#', '') = $id] | ancestor::TEI//body/div//placeName[replace(@ref, '#', '') = $id])"
+                        select="count(ancestor::TEI//body/div//placeName[replace(@ref, '#', '') = $id])"
                     />
                 </p>
             </div>
         </xsl:for-each>
     </xsl:template>
 
+    <!-- Index des personnages -->
     <xsl:template name="listName">
         <xsl:for-each select="//particDesc/listPerson">
             <h2>
-                <xsl:number count="//listPerson" format="I" level="multiple"/> - 
-                <xsl:value-of select="./head"/> (<xsl:value-of select="./@type"/>) 
-            </h2>
+                <xsl:number count="//listPerson" format="I" level="multiple"/> - <xsl:value-of
+                    select="./head"/> (<xsl:value-of select="./@type"/>) </h2>
             <xsl:apply-templates select="./person"/>
             <xsl:apply-templates select="./personGrp"/>
             <xsl:if test="./descendant::listPerson">
                 <xsl:for-each select="./descendant::listPerson">
                     <h4 class="text-muted">
-                        <xsl:number count="//listPerson" format="I" level="multiple"/> - 
-                        <xsl:value-of select="./head"/> (<xsl:value-of select="./@type"/>) </h4>
+                        <xsl:number count="//listPerson" format="I" level="multiple"/> -
+                            <xsl:value-of select="./head"/> (<xsl:value-of select="./@type"/>) </h4>
                     <xsl:apply-templates select="./person"/>
                     <xsl:apply-templates select="./personGrp"/>
                 </xsl:for-each>
@@ -892,12 +1038,15 @@
         </xsl:for-each>
     </xsl:template>
 
+    <!-- Block par personnage identifié -->
     <xsl:template match="person">
         <xsl:variable name="id" select="./@xml:id"/>
         <div class="entity_block" id="{$id}">
             <!-- Titre block -->
             <h2>
-                <xsl:apply-templates select="persName[@type = 'contemporary-name']"/> <span style="font-size: large;">(<xsl:value-of select="birth"/> - <xsl:value-of select="death"/>)</span>
+                <xsl:apply-templates select="persName[@type = 'contemporary-name']"/>
+                <span style="font-size: large;">(<xsl:value-of select="birth"/> - <xsl:value-of
+                        select="death"/>)</span>
             </h2>
             <!-- Nature du lieu -->
             <p class="text-muted">
@@ -905,16 +1054,7 @@
             </p>
             <h4>Dénomination selon apparat critique</h4>
             <div class="row">
-                <ul class="col"><span class="colonne"><i>Titre</i></span>
-                    <xsl:for-each select="persName[@type = 'text-name']/roleName/app/node()">
-                        <li><xsl:value-of select="."/> (<xsl:value-of select="replace(./@wit, '#', '@')"/>)</li>
-                    </xsl:for-each>
-                </ul>
-                <ul class="col"><span class="colonne"><i>Prénom</i></span>
-                    <xsl:for-each select="persName[@type = 'text-name']/forename/app/node()">
-                        <li><xsl:value-of select="."/> (<xsl:value-of select="replace(./@wit, '#', '@')"/>)</li>
-                    </xsl:for-each>
-                </ul>
+                <xsl:apply-templates select="persName[@type = 'text-name']"/>
             </div>
             <!-- Note -->
             <xsl:if test="./note">
@@ -924,9 +1064,15 @@
                     <xsl:apply-templates select="./note"/>
                 </div>
             </xsl:if>
+            <p>
+                <i>Nombres de mentions : </i>
+                <xsl:value-of
+                    select="count(ancestor::TEI//body/div//persName[replace(@ref, '#', '') = $id])"
+                />
+            </p>
         </div>
     </xsl:template>
-    
+
     <xsl:template match="personGrp">
         <xsl:variable name="id" select="./@xml:id"/>
         <div class="entity_block" id="{$id}">
@@ -945,16 +1091,126 @@
         </div>
     </xsl:template>
 
+    <!-- Template pour les dénominations contemporaines -->
     <xsl:template match="persName[@type = 'contemporary-name']">
         <!-- Normalisation des noms selon la présence d'un genName pour éviter les espaces -->
         <xsl:choose>
             <xsl:when test="./descendant::genName">
-                <xsl:value-of select="concat(./forename, ' ', ./genName, ' ', ./surname, ' ', ./addName)"/>
+                <xsl:value-of
+                    select="concat(./forename, ' ', ./genName, ' ', ./surname, ' ', ./addName)"/>
             </xsl:when>
             <xsl:otherwise>
                 <xsl:value-of select="(./forename, ' ', ./surname, ' ', ./addName)"/>
             </xsl:otherwise>
         </xsl:choose>
+    </xsl:template>
+
+    <!-- Template pour les dénominations au sien des témoins -->
+    <xsl:template match="persName[@type = 'text-name']">
+        <xsl:if test="roleName">
+            <ul class="col">
+                <span class="colonne">
+                    <i>Titre</i>
+                </span>
+                <xsl:for-each select="./roleName">
+                    <xsl:choose>
+                        <xsl:when test="./descendant::app">
+                            <xsl:for-each select="app/node()">
+                                <li><xsl:value-of select="."/> (<xsl:value-of
+                                        select="replace(./@wit, '#', '@')"/>)</li>
+                            </xsl:for-each>
+                        </xsl:when>
+                        <!-- Si utilisation similaire -->
+                        <xsl:otherwise>
+                            <li><xsl:value-of select="."/> (@Cou @NY @Pa)</li>
+                        </xsl:otherwise>
+                    </xsl:choose>
+                </xsl:for-each>
+            </ul>
+        </xsl:if>
+        <xsl:if test="forename">
+            <ul class="col">
+                <span class="colonne">
+                    <i>Prénom</i>
+                </span>
+                <xsl:for-each select="./forename">
+                    <xsl:choose>
+                        <xsl:when test="./descendant::app">
+                            <xsl:for-each select="app/node()">
+                                <li><xsl:value-of select="."/> (<xsl:value-of
+                                        select="replace(./@wit, '#', '@')"/>)</li>
+                            </xsl:for-each>
+                        </xsl:when>
+                        <!-- Si utilisation similaire -->
+                        <xsl:otherwise>
+                            <li><xsl:value-of select="."/> (@Cou @NY @Pa)</li>
+                        </xsl:otherwise>
+                    </xsl:choose>
+                </xsl:for-each>
+            </ul>
+        </xsl:if>
+        <xsl:if test="genName">
+            <ul class="col">
+                <span class="colonne">
+                    <i>Nom de génération</i>
+                </span>
+                <xsl:for-each select="./genName">
+                    <xsl:choose>
+                        <xsl:when test="./descendant::app">
+                            <xsl:for-each select="app/node()">
+                                <li><xsl:value-of select="."/> (<xsl:value-of
+                                        select="replace(./@wit, '#', '@')"/>)</li>
+                            </xsl:for-each>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <li><xsl:value-of select="."/> (@Cou @NY @Pa)</li>
+                        </xsl:otherwise>
+                    </xsl:choose>
+                </xsl:for-each>
+            </ul>
+        </xsl:if>
+        <xsl:if test="surname">
+            <ul class="col">
+                <span class="colonne">
+                    <i>Nom</i>
+                </span>
+                <xsl:for-each select="./surname">
+                    <xsl:choose>
+                        <xsl:when test="./descendant::app">
+                            <xsl:for-each select="app/node()">
+                                <li><xsl:value-of select="."/> (<xsl:value-of
+                                        select="replace(./@wit, '#', '@')"/>)</li>
+                            </xsl:for-each>
+                        </xsl:when>
+                        <!-- Si utilisation similaire -->
+                        <xsl:otherwise>
+                            <li><xsl:value-of select="."/> (@Cou @NY @Pa)</li>
+                        </xsl:otherwise>
+                    </xsl:choose>
+                </xsl:for-each>
+            </ul>
+        </xsl:if>
+        <xsl:if test="addName">
+            <ul class="col">
+                <span class="colonne">
+                    <i>Surnom</i>
+                </span>
+                <xsl:for-each select="./addName">
+                    <xsl:choose>
+                        <xsl:when test="./descendant::app">
+                            <xsl:for-each select="app/node()">
+                                <li><xsl:value-of select="."/> (<xsl:value-of
+                                        select="replace(./@wit, '#', '@')"/>)</li>
+                            </xsl:for-each>
+                        </xsl:when>
+                        <!-- Si utilisation similaire -->
+                        <xsl:otherwise>
+                            <li><xsl:value-of select="."/> (@Cou @NY @Pa)</li>
+                        </xsl:otherwise>
+                    </xsl:choose>
+                </xsl:for-each>
+            </ul>
+        </xsl:if>
     </xsl:template>
 
     <!-- Template note selon la structure du conteneur-->
@@ -969,12 +1225,127 @@
                     <xsl:value-of select="./bibl"/>
                 </p>
             </xsl:when>
+            <xsl:when test="./listBibl">
+                <p>
+                    <xsl:value-of select="./p"/>
+                </p>
+                <p>
+                    <b>Références : </b>
+                    <xsl:value-of select="./listBibl"/>
+                </p>
+            </xsl:when>
             <xsl:otherwise>
                 <p>
                     <xsl:value-of select="."/>
                 </p>
             </xsl:otherwise>
         </xsl:choose>
+    </xsl:template>
+
+    <!--###############################
+    ############# TEXTE #############
+    ###############################-->
+
+    <!-- Template titre selon version -->
+    <!-- NY -->
+    <xsl:template match="head[@type = 'titre']" mode="titre_ny">
+        <p class="titre">
+            <span class="subtitle">shp :<xsl:value-of select="ancestor::div[@type = 'section']/@n"
+                /></span>
+            <xsl:apply-templates select="descendant::lem | persName | date | placeName"/>
+        </p>
+    </xsl:template>
+    <!-- Pa -->
+    <xsl:template match="head[@type = 'titre']" mode="titre_pa">
+        <p class="titre">
+            <span class="subtitle">shp :<xsl:value-of select="ancestor::div[@type = 'section']/@n"
+                /></span>
+            <xsl:apply-templates
+                select="text() | descendant::hi | persName | date | placeName | descendant::lem[contains(@wit, 'Pa')] | descendant::rdg[contains(@wit, 'Pa')]"
+            />
+        </p>
+    </xsl:template>
+    <!-- Cou -->
+    <xsl:template match="head[@type = 'titre']" mode="titre_cou">
+        <p class="titre">
+            <span class="subtitle">shp :<xsl:value-of select="ancestor::div[@type = 'section']/@n"
+                /></span>
+            <xsl:apply-templates
+                select="text() | descendant::hi | persName | date | placeName | descendant::lem[contains(@wit, 'Cou')] | descendant::rdg[contains(@wit, 'Cou')]"
+            />
+        </p>
+    </xsl:template>
+
+    <!-- Template texte selon version -->
+    <!-- NY -->
+    <xsl:template match="//div[@type = 'section']/p" mode="text_ny">
+        <p class="para"> [<xsl:value-of select="@n"/>] <xsl:apply-templates
+                select="text() | persName | date | placeName | descendant::lem"/>
+        </p>
+    </xsl:template>
+    <!-- Pa -->
+    <xsl:template match="//div[@type = 'section']/p" mode="text_pa">
+        <p class="para"> [<xsl:value-of select="@n"/>] <xsl:apply-templates
+                select="text() | rdg[@wit = 'Pa']/descendant::lb | persName | date | placeName | descendant::lem[contains(@wit, 'Pa')] | descendant::rdg[contains(@wit, 'Pa')] | descendant::rdg[contains(@wit, 'Pa')]"
+            />
+        </p>
+    </xsl:template>
+    <!-- Cou -->
+    <xsl:template match="//div[@type = 'section']/p" mode="text_cou">
+        <p class="para"> [<xsl:value-of select="@n"/>] <xsl:apply-templates
+                select="text() | rdg[@wit = 'Cou']/descendant::lb | persName | date | placeName | descendant::lem[contains(@wit, 'Cou')] | descendant::rdg[contains(@wit, 'Cou')]"
+            />
+        </p>
+    </xsl:template>
+
+    <!--Tooltip notice Index dans texte édité-->
+    <!-- notice persname -->
+    <xsl:template match="body/descendant::persName">
+        <xsl:variable name="idwit" select="replace(@ref, '#', '')"/>
+        <xsl:choose>
+            <xsl:when test="@ref">
+                <xsl:variable name="id" select="replace(@ref, '#', '')"/>
+                <xsl:variable name="note" select="concat(//person[@xml:id=$id]/persName[@type='contemporary-name']/forename, ', ', //person[@xml:id=$id]/persName[@type='contemporary-name']/genName, ', ', //person[@xml:id=$id]/persName[@type='contemporary-name']/surname, ', ', //person[@xml:id=$id]/persName[@type='contemporary-name']/addName, ' | role : ', replace(//person[@xml:id=$id]/@role, '_', ' '))"/>
+                <xsl:choose>
+                    <xsl:when test="choice">
+                        <del><xsl:value-of select="choice/orig"/></del>
+                        <a href="./index.html" title="{$note}"><xsl:value-of select="choice/reg"/></a>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <a href="./index.html" title="{$note}"><xsl:value-of select="."/></a>
+                    </xsl:otherwise>
+                </xsl:choose>
+            </xsl:when>
+            <xsl:otherwise>
+                <span>
+                    <xsl:value-of select="node()[contains(@wit, $idwit)]"/>
+                </span>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>
+    <!-- notice placename -->
+    <xsl:template match="body/descendant::placeName">
+        
+    </xsl:template>
+
+    <!-- Colorisation des Lettrines -->
+    <xsl:template match="hi">
+        <span style="color: #EF0107;">
+            <xsl:value-of select="."/>
+        </span>
+    </xsl:template>
+
+    <!-- Saut de ligne -->
+    <xsl:template match="lb">
+        <br/>
+        <br/>
+    </xsl:template>
+
+    <xsl:template match="choice">
+        <del>
+            <xsl:value-of select="orig"/>
+        </del>
+        <span> [<xsl:value-of select="reg"/>]</span>
     </xsl:template>
 
 </xsl:stylesheet>
