@@ -407,7 +407,7 @@
             </note>
           </person>
           <person xml:id="Mahaut" role="Comtesse_d'Artois" sex="2">
-            <persName type="contemporary-name">Mahaut d'Artois</persName>
+            <persName type="contemporary-name"><forename>Mahaut</forename><surname> d'Artois</surname></persName>
             <persName type="text-name">
               <roleName>
                 <app>
@@ -425,7 +425,7 @@
             </note>
           </person>
           <person xml:id="LouisdeFrance" role="Prince_de_France" sex="1">
-            <persName type="contemporary-name">Louis de France</persName>
+            <persName type="contemporary-name"><forename>Louis</forename><surname>de France</surname></persName>
             <persName type="text-name">
               <roleName>
                 <app>
@@ -459,7 +459,7 @@
             </note>
           </person>
           <person xml:id="BlancheFrance" role="Princesse_de_France_et_duchesse_d'Orléans" sex="2">
-            <persName type="contemporary-name">Blanche de France, duchesse d'Orléans</persName>
+            <persName type="contemporary-name"><forename>Blanche</forename><surname>de France</surname></persName>
             <persName type="text-name">
               <roleName>Fille</roleName>
             </persName>
@@ -485,7 +485,7 @@
         <listPerson type="dynastie" xml:id="Valois">
           <head>Maison des Valois</head>
           <person xml:id="PhilippeVI" role="Roi_de_France" sex="1">
-            <persName type="contemporary-name"><persName>Philippe</persName><genName>VI</genName><surname>de Valois</surname></persName>
+            <persName type="contemporary-name"><forename>Philippe</forename><genName>VI</genName><surname>de Valois</surname></persName>
             <persName type="text-name">
               <roleName>
                 <app>
@@ -523,7 +523,7 @@
           <head>Maison d'Évreux-Navarre</head>
           <person xml:id="JeanneEvreux" role="Reine_de_France" sex="2">
             <persName type="contemporary-name">
-              <persName>Jeanne</persName>
+              <forename>Jeanne</forename>
               <surname>d'Évreux</surname>
             </persName>
             <persName type="text-name">
@@ -546,7 +546,7 @@
           </person>
           <person xml:id="LouisEvreux" role="Conte_d'Evreux" sex="1">
             <persName type="contemporary-name">
-              <persName>Louis</persName>
+              <forename>Louis</forename>
               <surname>d'Evreux</surname>
             </persName>
             <persName type="text-name">
@@ -571,7 +571,7 @@
           </person>
           <person xml:id="PhilippeIII" role="Roi_de_Navarre" sex="1">
             <persName type="contemporary-name">
-              <persName>Philippe</persName>
+              <forename>Philippe</forename>
               <genName>III</genName>
               <surname>de Navarre</surname>
             </persName>
@@ -598,7 +598,7 @@
         <listPerson type="dynastie" xml:id="Plantagenêt">
           <head>Maison des Plantagenêt</head>
           <person xml:id="EdouardIII" role="Roi_d'Angleterre" sex="1">
-            <persName type="contemporary-name"><persName>Édouard</persName><genName>III</genName></persName>
+            <persName type="contemporary-name"><forename>Édouard</forename><genName>III</genName></persName>
             <persName type="text-name">
               <roleName>
                 <app>
@@ -735,7 +735,7 @@
           <listPerson type="dynastie" xml:id="Dampierre">
             <head>Maison de Dampierre</head>
             <person xml:id="LouisI" role="Comte_de_Flandre" sex="1">
-              <persName type="contemporary-name"><persName>Louis</persName><genName>Ier</genName><surname>de Flandre</surname></persName>
+              <persName type="contemporary-name"><forename>Louis</forename><genName>Ier</genName><surname>de Flandre</surname></persName>
               <persName type="text-name">
                 <roleName>conte de Flandres</roleName>
                 <persName>
@@ -756,7 +756,7 @@
           <listPerson type="dynastie" xml:id="Avesnes">
             <head>Maison d'Avesnes</head>
             <person xml:id="GuillaumeI" role="Comte_de_Hainaut_et_de_Hollande" sex="1">
-              <persName type="contemporary-name"><persName>Guillaume</persName><genName>I</genName><surname>de Hainaut</surname></persName>
+              <persName type="contemporary-name"><forename>Guillaume</forename><genName>I</genName><surname>de Hainaut</surname></persName>
               <persName type="text-name">
                 <roleName>
                   <app>
@@ -773,7 +773,7 @@
               </note>
             </person>
             <person xml:id="JeanBeaumont" role="Comte" sex="1">
-              <persName type="contemporary-name"><persName>Jean</persName><surname>de Beaumont</surname></persName>
+              <persName type="contemporary-name"><forename>Jean</forename><surname>de Beaumont</surname></persName>
               <persName type="text-name">
                 <app>
                   <lem wit="#NY #Cou"><roleName>monseigneur de Biaumont, son frere</roleName></lem>
@@ -791,7 +791,7 @@
           <listPerson type="vassalique" xml:id="NoblesseAng">
             <head>Seigneuries anglaises</head>
             <person xml:id="RogerMortimer" role="Comte_de_March" sex="1">
-              <persName type="contemporary-name"><persName>Roger</persName><surname>Mortimer</surname></persName>
+              <persName type="contemporary-name"><forename>Roger</forename><surname>Mortimer</surname></persName>
               <persName type="text-name">
                 <forename>
                   <app>
@@ -814,7 +814,7 @@
               </note>
             </person>
             <person xml:id="EdmondWoodstock" role="Comte_de_Kient" sex="1">
-              <persName type="contemporary-name">Edmond de Woodstock</persName>
+              <persName type="contemporary-name"><forename>Edmond</forename><surname>de Woodstock</surname></persName>
               <persName type="text-name">
                 <roleName>
                   <app>
@@ -903,7 +903,7 @@
         <listPerson type="papauté" xml:id="papauté">
           <head>Papauté d'Avignon</head>
           <person xml:id="JeanXXII" role="Pape_d'Avignon" sex="1">
-            <persName type="contemporary-name"><forename>Jacques</forename><surname>Duèze</surname><addName>Jean<genName>XXII</genName></addName></persName>
+            <persName type="contemporary-name"><forename>Jacques</forename><surname>Duèze</surname><addName>dit Jean <genName>XXII</genName></addName></persName>
             <persName type="text-name">
               <roleName>
                 <app>
@@ -928,7 +928,7 @@
             <placeName type="contemporary-name">Royaume de France</placeName>
             <placeName type="text-name">
               <app>
-                <lem wit="Cou NY Pa">royaume</lem>
+                <lem wit="#Cou #NY #Pa">royaume</lem>
                 <rdgGrp type="orthographic">
                   <rdg wit="#Pa">roaylme</rdg>
                   <rdg wit="#Cou">royalmes</rdg>

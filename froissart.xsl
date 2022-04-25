@@ -24,7 +24,16 @@
     <xsl:variable name="index">
         <xsl:value-of select="concat($witfile, 'HTML/index', '.html')"/>
     </xsl:variable>
-
+    <xsl:variable name="msNY">
+        <xsl:value-of select="concat($witfile, 'HTML/ms_ny', '.html')"/>
+    </xsl:variable>
+    <xsl:variable name="msPa">
+        <xsl:value-of select="concat($witfile, 'HTML/ms_pa', '.html')"/>
+    </xsl:variable>
+    <xsl:variable name="msCou">
+        <xsl:value-of select="concat($witfile, 'HTML/ms_cou', '.html')"/>
+    </xsl:variable>
+    
     <!--  -->
     <xsl:variable name="title">
         <xsl:value-of select="//fileDesc/titleStmt/title"/>
@@ -197,15 +206,15 @@
                         <ul class="nav nav-tabs" id="myTab" role="tablist">
                             <li class="nav-item">
                                 <a class="nav-link active" data-toggle="tab" href="#Cou" role="tab"
-                                    aria-controls="home" aria-selected="true">Cod. 329</a>
+                                    >Cod. 329</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" data-toggle="tab" href="#NY" role="tab"
-                                    aria-controls="profile" aria-selected="false">MS M.804</a>
+                                <a class="nav-link" data-toggle="tab" href="#NY" role="tab">MS
+                                    M.804</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" data-toggle="tab" href="#Pa" role="tab"
-                                    aria-controls="contact" aria-selected="false">Français 2663</a>
+                                <a class="nav-link" data-toggle="tab" href="#Pa" role="tab">Français
+                                    2663</a>
                             </li>
                         </ul>
                         <div class="tab-content" id="myTabContent">
@@ -227,8 +236,35 @@
                 </head>
                 <body>
                     <xsl:call-template name="navbar"/>
-                    <div type="container">
-                        <h1 class="text-center"> Index des lieux </h1>
+                    <div class="container">
+                        <ul class="nav nav-tabs" id="myTab" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" data-toggle="tab" href="#indPers"
+                                    role="tab">Personnages</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#indLieux" role="tab"
+                                    >Lieux</a>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active" id="indPers" role="tabpanel">
+                                <h1 class="text-center"> Index des personnages </h1>
+                                <div class="text-center">
+                                    <i>@Cou : Manuscrit (Cod. 329); @Pa : Manuscrit (Français 2663);
+                                        @NY : Manuscrit (MS M.804) </i>
+                                </div>
+                                <xsl:call-template name="listName"/>
+                            </div>
+                            <div class="tab-pane fade" id="indLieux" role="tabpanel">
+                                <h1 class="text-center"> Index des lieux </h1>
+                                <div class="text-center">
+                                    <i>@Cou : Manuscrit (Cod. 329); @Pa : Manuscrit (Français 2663);
+                                        @NY : Manuscrit (MS M.804) </i>
+                                </div>
+                                <xsl:call-template name="listPlace"/>
+                            </div>
+                        </div>
                     </div>
                     <xsl:call-template name="footer"/>
                 </body>
@@ -257,7 +293,7 @@
             .h3,
             .h4,
             .h5 {
-                margin: 10px;
+                margin: 2em;
             }
             div.button {
                 display: flex;
@@ -268,7 +304,17 @@
                 margin: 1em;
                 margin-right: 3em;
                 background-color: #F0EFF0;
-            }</style>
+            }
+            div.entity_block {
+                margin-top: 1em;
+                border: 1px solid blue;
+                padding: 1em;
+                border-radius: 10px;
+            }
+            span.colonne {
+                text-align: center;
+                }
+        </style>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
             rel="stylesheet"
             integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
@@ -291,16 +337,15 @@
                     <li class="nav-item dropdown nav-item">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
                             role="button" data-toggle="dropdown" aria-haspopup="true"
-                            aria-expanded="false"> Base de données </a>
+                            aria-expanded="false">Editions</a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="{{url_for('index_militant')}}">Index des
-                                militants écologistes</a>
-                            <a class="dropdown-item" href="{{url_for('index_objContest')}}">Index
-                                des projets contestés</a>
-                            <div class="dropdown-divider"/>
-                            <a class="dropdown-item" href="{{url_for('index_organisation')}}">Index
-                                des Organisations</a>
+                            <a class="dropdown-item" href="./ms_ny.html">MS M.804</a>
+                            <a class="dropdown-item" href="./ms_pa.html">Français 2663</a>
+                            <a class="dropdown-item" href="./ms_cou.html">Cod. 329</a>
                         </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">Index</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="./manifeste.html">Notices</a>
@@ -468,11 +513,16 @@
                                         <br/>
                                         <xsl:apply-templates
                                             select="//witness[@xml:id = $id]/descendant::bindingDesc//p"/>
-                                        <hr/>
-                                        <b>Historique :</b>
-                                        <br/>
-                                        <xsl:apply-templates
-                                            select="//witness[@xml:id = $id]/descendant::history"/>
+
+                                    </div>
+                                    <hr/>
+                                    <div id="physDesc" class="p-1">
+                                        <h3>Historique</h3>
+                                        <div class="container">
+                                            <xsl:apply-templates
+                                                select="//witness[@xml:id = $id]/descendant::history"
+                                            />
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -613,11 +663,16 @@
                                         <br/>
                                         <xsl:apply-templates
                                             select="//witness[@xml:id = $id]/descendant::bindingDesc//p"/>
-                                        <hr/>
-                                        <b>Historique :</b>
-                                        <br/>
-                                        <xsl:apply-templates
-                                            select="//witness[@xml:id = $id]/descendant::history"/>
+
+                                    </div>
+                                    <hr/>
+                                    <div id="physDesc" class="p-1">
+                                        <h3>Historique</h3>
+                                        <div class="container">
+                                            <xsl:apply-templates
+                                                select="//witness[@xml:id = $id]/descendant::history"
+                                            />
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -653,11 +708,15 @@
 
     <xsl:template match="altIdentifier">
         <p> Ancien(s) identifiant(s) : <ul>
-                <xsl:for-each select="idno">
-                    <li><xsl:value-of select="idno"/></li>
-                </xsl:for-each>
+                <xsl:apply-templates select=".//idno"/>
             </ul>
         </p>
+    </xsl:template>
+
+    <xsl:template match="/altIdentifier//idno">
+        <li>
+            <xsl:value-of select="."/>
+        </li>
     </xsl:template>
 
     <xsl:template match="msItemStruct">
@@ -713,7 +772,12 @@
     <xsl:template match="history">
         <p>
             <xsl:value-of select="concat(./origin, ' ', ./provenance/p)"/>
-            <xsl:apply-templates select=".//stamp"/>
+            <xsl:if test=".//stamp">
+                <br/>
+                <br/>
+                <b>Liste des estampilles</b>
+                <xsl:apply-templates select=".//stamp"/>
+            </xsl:if>
         </p>
     </xsl:template>
 
@@ -751,16 +815,166 @@
     ############# INDEX #############
     ###############################-->
 
-    <xsl:template match="listPlace">
-        <xsl:for-each select="//listPlace/Place">
-            <xsl:sort select="./placeName/name[1]" order="ascending"/>
-            <div class="entity_block" id="./@xml:id">
-                <h4 class="block_title">
-                    <xsl:value-of select="./placeName[@type = 'contemporary-name']"/>
-                </h4>
-                <p class="text-muted"/>
+    <xsl:template name="listPlace">
+        <xsl:for-each select="//listPlace/place">
+            <xsl:sort select="./placeName[@type = 'contemporary-name']" order="ascending"/>
+            <xsl:variable name="id" select="./@xml:id"/>
+            <div class="entity_block" id="{$id}">
+                <!-- Titre block -->
+                <h2>
+                    <xsl:value-of select="placeName[@type = 'contemporary-name']"/>
+                </h2>
+                <!-- Nature du lieu -->
+                <p class="text-muted">
+                    <xsl:value-of select="./@type"/>
+                </p>
+                <xsl:choose>
+                    <!-- Liste des dénominations selon apparat critique -->
+                    <xsl:when test="placeName[@type = 'text-name']/descendant::app">
+                        <h4>Dénomination selon les témoins</h4>
+                        <p>
+                            <b>Témoin principal : </b>
+                            <xsl:value-of select="./descendant::lem"/>
+                        </p>
+                        <p>
+                            <b>Autres versions:</b>
+                            <ul>
+                                <xsl:for-each select="./descendant::rdg">
+                                    <li><xsl:value-of select="."/> (<xsl:value-of
+                                            select="replace(./@wit, '#', '@')"/>)</li>
+                                </xsl:for-each>
+                            </ul>
+                        </p>
+                    </xsl:when>
+                    <!-- Dénomination simple -->
+                    <xsl:otherwise>
+                        <p>
+                            <b>Dénomination : </b>
+                            <xsl:value-of select="placeName[@type = 'text-name']"/>
+                        </p>
+                    </xsl:otherwise>
+                </xsl:choose>
+                <!-- Note -->
+                <xsl:if test="./note">
+                    <hr/>
+                    <div>
+                        <h4>Note</h4>
+                        <xsl:apply-templates select="./note"/>
+                    </div>
+                </xsl:if>
+                <p>
+                    <i>Nombres de mentions : </i>
+                    <xsl:value-of
+                        select="count(ancestor::TEI//body//place[replace(@ref, '#', '') = $id] | ancestor::TEI//body/div//placeName[replace(@ref, '#', '') = $id])"
+                    />
+                </p>
             </div>
         </xsl:for-each>
+    </xsl:template>
+
+    <xsl:template name="listName">
+        <xsl:for-each select="//particDesc/listPerson">
+            <h2>
+                <xsl:number count="//listPerson" format="I" level="multiple"/> - 
+                <xsl:value-of select="./head"/> (<xsl:value-of select="./@type"/>) 
+            </h2>
+            <xsl:apply-templates select="./person"/>
+            <xsl:apply-templates select="./personGrp"/>
+            <xsl:if test="./descendant::listPerson">
+                <xsl:for-each select="./descendant::listPerson">
+                    <h4 class="text-muted">
+                        <xsl:number count="//listPerson" format="I" level="multiple"/> - 
+                        <xsl:value-of select="./head"/> (<xsl:value-of select="./@type"/>) </h4>
+                    <xsl:apply-templates select="./person"/>
+                    <xsl:apply-templates select="./personGrp"/>
+                </xsl:for-each>
+            </xsl:if>
+        </xsl:for-each>
+    </xsl:template>
+
+    <xsl:template match="person">
+        <xsl:variable name="id" select="./@xml:id"/>
+        <div class="entity_block" id="{$id}">
+            <!-- Titre block -->
+            <h2>
+                <xsl:apply-templates select="persName[@type = 'contemporary-name']"/> <span style="font-size: large;">(<xsl:value-of select="birth"/> - <xsl:value-of select="death"/>)</span>
+            </h2>
+            <!-- Nature du lieu -->
+            <p class="text-muted">
+                <xsl:value-of select="replace(./@role, '_', ' ')"/>
+            </p>
+            <h4>Dénomination selon apparat critique</h4>
+            <div class="row">
+                <ul class="col"><span class="colonne"><i>Titre</i></span>
+                    <xsl:for-each select="persName[@type = 'text-name']/roleName/app/node()">
+                        <li><xsl:value-of select="."/> (<xsl:value-of select="replace(./@wit, '#', '@')"/>)</li>
+                    </xsl:for-each>
+                </ul>
+                <ul class="col"><span class="colonne"><i>Prénom</i></span>
+                    <xsl:for-each select="persName[@type = 'text-name']/forename/app/node()">
+                        <li><xsl:value-of select="."/> (<xsl:value-of select="replace(./@wit, '#', '@')"/>)</li>
+                    </xsl:for-each>
+                </ul>
+            </div>
+            <!-- Note -->
+            <xsl:if test="./note">
+                <hr/>
+                <div>
+                    <h4>Note</h4>
+                    <xsl:apply-templates select="./note"/>
+                </div>
+            </xsl:if>
+        </div>
+    </xsl:template>
+    
+    <xsl:template match="personGrp">
+        <xsl:variable name="id" select="./@xml:id"/>
+        <div class="entity_block" id="{$id}">
+            <!-- Titre block -->
+            <h2>
+                <xsl:value-of select="./name"/>
+            </h2>
+            <!-- Note -->
+            <xsl:if test="./note">
+                <hr/>
+                <div>
+                    <h4>Note</h4>
+                    <xsl:apply-templates select="./note"/>
+                </div>
+            </xsl:if>
+        </div>
+    </xsl:template>
+
+    <xsl:template match="persName[@type = 'contemporary-name']">
+        <!-- Normalisation des noms selon la présence d'un genName pour éviter les espaces -->
+        <xsl:choose>
+            <xsl:when test="./descendant::genName">
+                <xsl:value-of select="concat(./forename, ' ', ./genName, ' ', ./surname, ' ', ./addName)"/>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:value-of select="(./forename, ' ', ./surname, ' ', ./addName)"/>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>
+
+    <!-- Template note selon la structure du conteneur-->
+    <xsl:template match="note">
+        <xsl:choose>
+            <xsl:when test="./bibl">
+                <p>
+                    <xsl:value-of select="./p"/>
+                </p>
+                <p>
+                    <b>Références : </b>
+                    <xsl:value-of select="./bibl"/>
+                </p>
+            </xsl:when>
+            <xsl:otherwise>
+                <p>
+                    <xsl:value-of select="."/>
+                </p>
+            </xsl:otherwise>
+        </xsl:choose>
     </xsl:template>
 
 </xsl:stylesheet>

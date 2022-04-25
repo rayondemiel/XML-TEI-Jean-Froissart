@@ -26,7 +26,17 @@
                 margin: 1em;
                 margin-right: 3em;
                 background-color: #F0EFF0;
-            }</style>
+            }
+            div.entity_block {
+                margin-top: 1em;
+                border: 1px solid blue;
+                padding: 1em;
+                border-radius: 10px;
+            }
+            span.colonne {
+                text-align: center;
+                }
+        </style>
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"><script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script><title>Chroniques | Accueil</title>
       <style>
                         p.h1 {
@@ -41,10 +51,7 @@
    <body>
       <nav class="navbar navbar-expand-lg navbar-dark sticky-top" style="background-color: #4169E1;"><a class="navbar-brand" href="./homepage.html" style="margin-left: 1em;"><img class="d-inline-block" src="./img/brand.png" width="60" height="60" alt="">Accueil</a><div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-               <li class="nav-item dropdown nav-item"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Base de données </a><div class="dropdown-menu" aria-labelledby="navbarDropdown"><a class="dropdown-item" href="{url_for('index_militant')}">Index des
-                        militants écologistes</a><a class="dropdown-item" href="{url_for('index_objContest')}">Index
-                        des projets contestés</a><a class="dropdown-item" href="{url_for('index_organisation')}">Index
-                        des Organisations</a></div>
+               <li class="nav-item dropdown nav-item"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Editions</a><div class="dropdown-menu" aria-labelledby="navbarDropdown"><a class="dropdown-item" href="./ms_ny.html">MS M.804</a><a class="dropdown-item" href="./ms_pa.html">Français 2663</a><a class="dropdown-item" href="./ms_cou.html">Cod. 329</a></div>
                </li>
                <li class="nav-item"><a class="nav-link" href="./index.html">Index</a></li>
                <li class="nav-item"><a class="nav-link" href="./manifeste.html">Notices</a></li>

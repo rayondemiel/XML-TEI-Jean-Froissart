@@ -26,16 +26,23 @@
                 margin: 1em;
                 margin-right: 3em;
                 background-color: #F0EFF0;
-            }</style>
+            }
+            div.entity_block {
+                margin-top: 1em;
+                border: 1px solid blue;
+                padding: 1em;
+                border-radius: 10px;
+            }
+            span.colonne {
+                text-align: center;
+                }
+        </style>
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"><script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script><title>Chroniques | Index des Lieux</title>
    </head>
    <body>
       <nav class="navbar navbar-expand-lg navbar-dark sticky-top" style="background-color: #4169E1;"><a class="navbar-brand" href="./homepage.html" style="margin-left: 1em;"><img class="d-inline-block" src="./img/brand.png" width="60" height="60" alt="">Accueil</a><div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-               <li class="nav-item dropdown nav-item"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Base de données </a><div class="dropdown-menu" aria-labelledby="navbarDropdown"><a class="dropdown-item" href="{url_for('index_militant')}">Index des
-                        militants écologistes</a><a class="dropdown-item" href="{url_for('index_objContest')}">Index
-                        des projets contestés</a><a class="dropdown-item" href="{url_for('index_organisation')}">Index
-                        des Organisations</a></div>
+               <li class="nav-item dropdown nav-item"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Editions</a><div class="dropdown-menu" aria-labelledby="navbarDropdown"><a class="dropdown-item" href="./ms_ny.html">MS M.804</a><a class="dropdown-item" href="./ms_pa.html">Français 2663</a><a class="dropdown-item" href="./ms_cou.html">Cod. 329</a></div>
                </li>
                <li class="nav-item"><a class="nav-link" href="./index.html">Index</a></li>
                <li class="nav-item"><a class="nav-link" href="./manifeste.html">Notices</a></li>
@@ -43,8 +50,781 @@
             </ul>
          </div>
       </nav>
-      <div type="container">
-         <h1 class="text-center"> Index des lieux </h1>
+      <div class="container">
+         <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#indPers" role="tab">Personnages</a></li>
+            <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#indLieux" role="tab">Lieux</a></li>
+         </ul>
+         <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="indPers" role="tabpanel">
+               <h1 class="text-center"> Index des personnages </h1>
+               <div class="text-center"><i>@Cou : Manuscrit (Cod. 329); @Pa : Manuscrit (Français 2663);
+                     @NY : Manuscrit (MS M.804) </i></div>
+               <h2>I - 
+                  Maison des Capétiens (dynastie) 
+                  </h2>
+               <div class="entity_block" id="PhilippeV">
+                  <h2>Philippe V le Bel <span style="font-size: large;">(18 janvier 1294 - 1er février 1328)</span></h2>
+                  <p class="text-muted">Roi de France</p>
+                  <h4>Dénomination selon apparat critique</h4>
+                  <div class="row">
+                     <ul class="col"><span class="colonne"><i>Titre</i></span></ul>
+                     <ul class="col"><span class="colonne"><i>Prénom</i></span><li>Charles (@NY @Pa @Cou)</li>
+                        <li>Charle (@Cou)</li>
+                     </ul>
+                  </div>
+                  <hr>
+                  <div>
+                     <h4>Note</h4>
+                     <p>Charles est né à Creil le 18 juin 1294, troisième fils du roi Philippe IV de France
+                        et de Jeanne de Navarre. En janvier 1308, il a épousé Blanche de Bourgogne. Il a été
+                        fait comte de La Marche en 1314. Il succède comme roi de France et roi de Navarre
+                        le 3 janvier 1322, après la mort de son frère aîné, Philippe V, et est couronné le
+                        11 février à Reims. En mai de la même année, son mariage est annulé et il épouse alors
+                        Marie de Luxembourg le 21 septembre 1322. Elle donne naissance à un fils en mars 1324,
+                        mais le nourrisson meurt peu après, et Marie ne lui survit que de quelques jours.
+                        Charles se marie une troisième fois, avec Jeanne d'Évreux, le 5 juillet 1324. À sa
+                        mort, le 1er février 1328, il n'avait qu'un seul enfant vivant, une fille Marie issue
+                        de son troisième mariage. Les enfants nés de ses deux premiers mariages étaient morts
+                        en bas âge, de même que la première fille de son troisième mariage. La reine, Jeanne
+                        d'Évreux, était cependant enceinte lorsque son mari est mort, et elle a donné naissance
+                        à une fille posthume, appelée Blanche. Il fut le dernier roi de France de la lignée
+                        directe des Capétiens. Charles étant mort sans descendance mâle, Philippe VI de Valois,
+                        le fils de son oncle maternel Charles de Valois, lui succède sur le trône de France.Jules
+                        Viard, ‘Le titre de roi de France et de Navarre au XIVe siècle’, Bibliothèque de l’École
+                        des Chartes, 61 (1900), 447–49Thierry Stasser, ‘The third marriage of king Charles
+                        IV of France and his offspring’, Medieval prosopography, 14 (1993), 1–26</p>
+                  </div>
+               </div>
+               <div class="entity_block" id="CharlesIV">
+                  <h2>Charles IV le Bel <span style="font-size: large;">(18 janvier 1294 - 1er février 1328)</span></h2>
+                  <p class="text-muted">Roi de France</p>
+                  <h4>Dénomination selon apparat critique</h4>
+                  <div class="row">
+                     <ul class="col"><span class="colonne"><i>Titre</i></span><li>roy (@Cou @NY @Pa)</li>
+                        <li>rois (@Cou)</li>
+                     </ul>
+                     <ul class="col"><span class="colonne"><i>Prénom</i></span><li>Charles (@NY @Pa @Cou)</li>
+                        <li>Charle (@Cou)</li>
+                     </ul>
+                  </div>
+                  <hr>
+                  <div>
+                     <h4>Note</h4>
+                     <p>Charles est né à Creil le 18 juin 1294, troisième fils du roi Philippe IV de France
+                        et de Jeanne de Navarre. En janvier 1308, il a épousé Blanche de Bourgogne. Il a été
+                        fait comte de La Marche en 1314. Il succède comme roi de France et roi de Navarre
+                        le 3 janvier 1322, après la mort de son frère aîné, Philippe V, et est couronné le
+                        11 février à Reims. En mai de la même année, son mariage est annulé et il épouse alors
+                        Marie de Luxembourg le 21 septembre 1322. Elle donne naissance à un fils en mars 1324,
+                        mais le nourrisson meurt peu après, et Marie ne lui survit que de quelques jours.
+                        Charles se marie une troisième fois, avec Jeanne d'Évreux, le 5 juillet 1324. À sa
+                        mort, le 1er février 1328, il n'avait qu'un seul enfant vivant, une fille Marie issue
+                        de son troisième mariage. Les enfants nés de ses deux premiers mariages étaient morts
+                        en bas âge, de même que la première fille de son troisième mariage. La reine, Jeanne
+                        d'Évreux, était cependant enceinte lorsque son mari est mort, et elle a donné naissance
+                        à une fille posthume, appelée Blanche. Il fut le dernier roi de France de la lignée
+                        directe des Capétiens. Charles étant mort sans descendance mâle, Philippe VI de Valois,
+                        le fils de son oncle maternel Charles de Valois, lui succède sur le trône de France.Jules
+                        Viard, ‘Le titre de roi de France et de Navarre au XIVe siècle’, Bibliothèque de l’École
+                        des Chartes, 61 (1900), 447–49Thierry Stasser, ‘The third marriage of king Charles
+                        IV of France and his offspring’, Medieval prosopography, 14 (1993), 1–26</p>
+                  </div>
+               </div>
+               <div class="entity_block" id="Mahaut">
+                  <h2>Mahaut    d'Artois  <span style="font-size: large;">(Vers 1269/1270 - 27 novembre 1329)</span></h2>
+                  <p class="text-muted">Comtesse d'Artois</p>
+                  <h4>Dénomination selon apparat critique</h4>
+                  <div class="row">
+                     <ul class="col"><span class="colonne"><i>Titre</i></span><li>conte d'Artois (@NY)</li>
+                        <li>contesse d'Artois (@Cou)</li>
+                        <li>conte d'Artoys (@Pa)</li>
+                     </ul>
+                     <ul class="col"><span class="colonne"><i>Prénom</i></span></ul>
+                  </div>
+                  <hr>
+                  <div>
+                     <h4>Note</h4>
+                     <p>Fille du comte Robert II d'Artois. Elle est mariée à Otto, comte de Bourgogne, en
+                        1285.</p>
+                     <p><b>Références : </b>Jules-Marie Richard, Une petite nièce de Saint Louis. Mahaut, comtesse d’Artois et
+                        de Bourgogne (1302–1329). Étude sur la vie privée, les arts et l’industrie, en Artois
+                        et à Paris au commencement du XIVe siècle (Paris: H. Champion, 1887) (in particular
+                        p. 1–81).</p>
+                  </div>
+               </div>
+               <div class="entity_block" id="LouisdeFrance">
+                  <h2>Louis   de France  <span style="font-size: large;">(1324 - 1324)</span></h2>
+                  <p class="text-muted">Prince de France</p>
+                  <h4>Dénomination selon apparat critique</h4>
+                  <div class="row">
+                     <ul class="col"><span class="colonne"><i>Titre</i></span><li>filz (@NY @Pa)</li>
+                        <li>fil (@Cou)</li>
+                     </ul>
+                     <ul class="col"><span class="colonne"><i>Prénom</i></span></ul>
+                  </div>
+                  <hr>
+                  <div>
+                     <h4>Note</h4>
+                     <p>Fils du roi Charles IV de France et de sa seconde épouse, Marie de Luxembourg. Il
+                        est né au début du mois de mars 1324 mais est mort peu après son baptême.</p>
+                     <p><b>Références : </b>Thierry Stasser, ‘The third marriage of king Charles IV of France and his offspring’,
+                        Medieval prosopography, 14 (1993), 1–26 (p. 7).</p>
+                  </div>
+               </div>
+               <div class="entity_block" id="Isabelle">
+                  <h2>Isabelle   de France  <span style="font-size: large;">(1295 - 22 août 1358)</span></h2>
+                  <p class="text-muted">Reine de France</p>
+                  <h4>Dénomination selon apparat critique</h4>
+                  <div class="row">
+                     <ul class="col"><span class="colonne"><i>Titre</i></span><li>royne d'Engleterre (@NY)</li>
+                        <li>roine d'Engleterre (@Cou)</li>
+                        <li>royne d'Angleterre (@Pa)</li>
+                     </ul>
+                     <ul class="col"><span class="colonne"><i>Prénom</i></span></ul>
+                  </div>
+                  <hr>
+                  <div>
+                     <h4>Note</h4>
+                     <p>Isabelle de France (1295 - 1358), reine d'Angleterre, épouse du roi Édouard II ; fille
+                        de Philippe IV, roi de France, et de Jeanne de Champagne, reine de Navarre.</p>
+                  </div>
+               </div>
+               <div class="entity_block" id="BlancheFrance">
+                  <h2>Blanche   de France  <span style="font-size: large;">(1 avril 1328 - )</span></h2>
+                  <p class="text-muted">Princesse de France et duchesse d'Orléans</p>
+                  <h4>Dénomination selon apparat critique</h4>
+                  <div class="row">
+                     <ul class="col"><span class="colonne"><i>Titre</i></span></ul>
+                     <ul class="col"><span class="colonne"><i>Prénom</i></span></ul>
+                  </div>
+                  <hr>
+                  <div>
+                     <h4>Note</h4>
+                     <p>Fille du roi Charles IV de France et de sa troisième épouse, Jeanne d'Évreux. Elle
+                        est née le 1er avril 1328, deux mois après la mort de son père. Elle épouse Philippe,
+                        duc d'Orléans, en 1344.</p>
+                     <p><b>Références : </b>Thierry Stasser, ‘The third marriage of king Charles IV of France and his offspring’,
+                        Medieval prosopography, 14 (1993), 1–26 (p. 7).</p>
+                  </div>
+               </div>
+               <h2>II - 
+                  Maison des Valois (dynastie) 
+                  </h2>
+               <div class="entity_block" id="PhilippeVI">
+                  <h2>Philippe VI de Valois <span style="font-size: large;">(1293 -  22 août 1350)</span></h2>
+                  <p class="text-muted">Roi de France</p>
+                  <h4>Dénomination selon apparat critique</h4>
+                  <div class="row">
+                     <ul class="col"><span class="colonne"><i>Titre</i></span><li>roy (@NY @Cou)</li>
+                        <li>roi (@Cou)</li>
+                        <li>rois (@Cou)</li>
+                     </ul>
+                     <ul class="col"><span class="colonne"><i>Prénom</i></span><li>Phelippe (@NY @Pa @Cou)</li>
+                        <li>Philippe (@Cou)</li>
+                        <li>Phelippes (@Cou)</li>
+                     </ul>
+                  </div>
+                  <hr>
+                  <div>
+                     <h4>Note</h4>
+                     <p>Philippe est né en 1293, fils aîné de Charles Ier, comte de Valois et d'Anjou, et
+                        de Marguerite d'Anjou. Il est fiancé à Jeanne de Bourgogne, fille du Duc Robert II
+                        de Bourgogne en 1303 et l'épouse en juillet 1313. Cette année-là, il devient comte
+                        du Maine. Après la mort de son père en 1325, il devient également comte de Valois
+                        et d'Anjou. Il épouse en secondes noces Blanche d'Évreux, princesse de Navarre, en
+                        1350.</p>
+                     <p><b>Références : </b>Jules Viard, ‘Philippe de Valois avant son avènement au trône’, Bibliothèque de l’École
+                        des Chartes, 91 (1930), 307–25</p>
+                  </div>
+               </div>
+               <div class="entity_block" id="ArméeFr">
+                  <h2>Armées françaises</h2>
+               </div>
+               <h2>III - 
+                  Maison d'Évreux-Navarre (dynastie) 
+                  </h2>
+               <div class="entity_block" id="JeanneEvreux">
+                  <h2>Jeanne   d'Évreux  <span style="font-size: large;">(Entre 1304 et 1309 - 4 mars 1371)</span></h2>
+                  <p class="text-muted">Reine de France</p>
+                  <h4>Dénomination selon apparat critique</h4>
+                  <div class="row">
+                     <ul class="col"><span class="colonne"><i>Titre</i></span></ul>
+                     <ul class="col"><span class="colonne"><i>Prénom</i></span><li>Jehanne (@NY @Pa)</li>
+                        <li>Jehane (@Cou)</li>
+                        <li>Jehenne (@Cou)</li>
+                     </ul>
+                  </div>
+                  <hr>
+                  <div>
+                     <h4>Note</h4>
+                     <p>Probablement née entre 1304 et 1309 comme fille de Louis, comte d'Évreux, et de Marguerite
+                        d'Artois. Louis d'Évreux était le demi-frère de Philippe IV de France et de Charles
+                        de Valois. Jeanne elle-même était la sœur de Philippe III d'Évreux, roi de Navarre.
+                        Elle fut mariée au roi Charles IV de France le 5 juillet 1324 et fut sa troisième
+                        épouse.</p>
+                     <p><b>Références : </b>Thierry Stasser, ‘The third marriage of king Charles IV of France and his offspring’,
+                        Medieval prosopography, 14 (1993), 1–26 (p. 8–22).</p>
+                  </div>
+               </div>
+               <div class="entity_block" id="LouisEvreux">
+                  <h2>Louis   d'Evreux  <span style="font-size: large;">(3 mai 1276 - 19 mai 1319)</span></h2>
+                  <p class="text-muted">Conte d'Evreux</p>
+                  <h4>Dénomination selon apparat critique</h4>
+                  <div class="row">
+                     <ul class="col"><span class="colonne"><i>Titre</i></span><li>conte d'Evreux (@NY @Pa)</li>
+                        <li>conte de Wines (@Cou)</li>
+                     </ul>
+                     <ul class="col"><span class="colonne"><i>Prénom</i></span><li>Loÿs (@NY @Pa)</li>
+                        <li>Loeis (@Cou)</li>
+                     </ul>
+                  </div>
+                  <hr>
+                  <div>
+                     <h4>Note</h4>
+                     <p>Père du roi de Navarre Philippe III et de la reine de France Jeanne d'Evreux</p>
+                  </div>
+               </div>
+               <div class="entity_block" id="PhilippeIII">
+                  <h2>Philippe III de Navarre <span style="font-size: large;">(27 mars 1306 - 16 septembre 1343)</span></h2>
+                  <p class="text-muted">Roi de Navarre</p>
+                  <h4>Dénomination selon apparat critique</h4>
+                  <div class="row">
+                     <ul class="col"><span class="colonne"><i>Titre</i></span><li>roy de Navarre (@NY @Pa)</li>
+                        <li>roy de Navare (@Cou)</li>
+                     </ul>
+                     <ul class="col"><span class="colonne"><i>Prénom</i></span></ul>
+                  </div>
+                  <hr>
+                  <div>
+                     <h4>Note</h4>
+                     <p>Philippe III (1306 - 1343), comte d'Évreux, roi de Navarre jure uxoris ; fils aîné
+                        de Louis, comte d'Évreux, et de Marguerite d'Artois. Il épouse Jeanne II de Navarre.
+                        Froissart l'appelle par erreur "Louis" dans le livre I (§ 44), peut-être en le confondant
+                        avec son fils cadet. Certaines lectures manuscrites le désignent également comme "Charles".</p>
+                  </div>
+               </div>
+               <h2>IV - 
+                  Maison des Plantagenêt (dynastie) 
+                  </h2>
+               <div class="entity_block" id="EdouardIII">
+                  <h2>Édouard III  <span style="font-size: large;">(13 novembre 1312 - 21 juin 1377)</span></h2>
+                  <p class="text-muted">Roi d'Angleterre</p>
+                  <h4>Dénomination selon apparat critique</h4>
+                  <div class="row">
+                     <ul class="col"><span class="colonne"><i>Titre</i></span><li>roy son filz (@NY @Pa)</li>
+                        <li>roi son fil (@Cou)</li>
+                     </ul>
+                     <ul class="col"><span class="colonne"><i>Prénom</i></span></ul>
+                  </div>
+                  <hr>
+                  <div>
+                     <h4>Note</h4>
+                     <p>Édouard III (1312 - 1377), roi d'Angleterre ; fils du roi Édouard II d'Angleterre
+                        et d'Isabelle de France.W. M. Ormrod, 'Edward III (1312-1377)', in Oxford Dictionary
+                        of National Biography, ed. H. C. G. Matthew and Brian Harrison (Oxford: OUP, 2004)online
+                        ed., ed. Lawrence Goldman, January 2008, http://www.oxforddnb.com/view/article/8519</p>
+                  </div>
+               </div>
+               <h2>V - 
+                  Maison d'Ivrée (dynastie) 
+                  </h2>
+               <div class="entity_block" id="OthonIV">
+                  <h2>Othon IV de Bourgogne <span style="font-size: large;">(1248 - 17 mars 1303)</span></h2>
+                  <p class="text-muted">comte palatin de Bourgogne</p>
+                  <h4>Dénomination selon apparat critique</h4>
+                  <div class="row">
+                     <ul class="col"><span class="colonne"><i>Titre</i></span></ul>
+                     <ul class="col"><span class="colonne"><i>Prénom</i></span></ul>
+                  </div>
+                  <hr>
+                  <div>
+                     <h4>Note</h4>
+                     <p>Il épousa en secondes noces Mahaut d'Artois en 1285 et eut quatre enfants d'elle,
+                        dont deux filles qui survécurent jusqu'à l'âge adulte, Jeanne et Blanche. Il meurt
+                        le 17 mars 1303 lors de la guerre contre les Flandres.</p>
+                     <p><b>Références : </b>Jules-Marie Richard, Une petite nièce de Saint Louis. Mahaut, comtesse d’Artois et
+                        de Bourgogne (1302–1329). Étude sur la vie privée, les arts et l’industrie, en Artois
+                        et à Paris au commencement du XIVe siècle (Paris: H. Champion, 1887)</p>
+                  </div>
+               </div>
+               <div class="entity_block" id="Blanche">
+                  <h2>Blanche   de Bourgogne  <span style="font-size: large;">(Vers 1296 - )</span></h2>
+                  <p class="text-muted">Reine de France</p>
+                  <h4>Dénomination selon apparat critique</h4>
+                  <div class="row">
+                     <ul class="col"><span class="colonne"><i>Titre</i></span></ul>
+                     <ul class="col"><span class="colonne"><i>Prénom</i></span></ul>
+                  </div>
+                  <hr>
+                  <div>
+                     <h4>Note</h4>
+                     <p>Fille d'Odo V, comte de Bourgogne, et de Mahaut, comtesse d'Artois. Première épouse
+                        du roi Charles IV de France, auquel elle fut mariée en 1308. Certaines versions manuscrites
+                        des Chroniques de Froissart la décrivent par erreur comme la fille du comte d'Artois,
+                        alors qu'elle était en fait la fille de la comtesse d'Artois, fille et héritière de
+                        Robert II, comte d'Artois.Jules-Marie Richard, Une petite nièce de Saint Louis. Mahaut,
+                        comtesse d’Artois et de Bourgogne (1302–1329). Étude sur la vie privée, les arts et
+                        l’industrie, en Artois et à Paris au commencement du XIVe siècle (Paris: H. Champion,
+                        1887) (in particular p. 5–***)Thierry Stasser, ‘The third marriage of king Charles
+                        IV of France and his offspring’, Medieval prosopography, 14 (1993), 1–26 (p. 3–7)</p>
+                  </div>
+               </div>
+               <h2>VI - 
+                  Maison de Luxembourg (dynastie) 
+                  </h2>
+               <div class="entity_block" id="HenryVII">
+                  <h2>Henri VII de Luxembourg <span style="font-size: large;">(10 août 1296 - 26 août 1346)</span></h2>
+                  <p class="text-muted">Empereur du Saint-Empire, roi des Romains et comte de Luxembourg</p>
+                  <h4>Dénomination selon apparat critique</h4>
+                  <div class="row">
+                     <ul class="col"><span class="colonne"><i>Titre</i></span></ul>
+                     <ul class="col"><span class="colonne"><i>Prénom</i></span><li>Henry (@NY)</li>
+                        <li>Henri (@Cou @Pa)</li>
+                     </ul>
+                  </div>
+                  <hr>
+                  <div>
+                     <h4>Note</h4>
+                     <p>Jean est né le 10 août 1296. Il est l'aîné des enfants d'Henri VII, comte de Luxembourg,
+                        qui deviendra plus tard roi des Romains et empereur du Saint-Empire, et de Marguerite
+                        de Brabant. Il porte le nom de son grand-père maternel, Jean Ier, duc de Brabant.
+                        Il épouse en premières noces Elisabeth de Bohème, le 31 août 1310. Elle était l'héritière
+                        du royaume de Bohême, qui passa d'abord à Jean, puis à son fils aîné, Charles. Elisabeth
+                        meurt en 1330 après avoir donné plusieurs enfants à son mari. En 1334, Jean se remaria
+                        avec une princesse capétienne, Béatrix de Bourbon, fille du duc Louis Ier de Bourbon,
+                        dont il eut un autre fils, Wenceslas. Jean était considéré comme un paladin de la
+                        chevalerie à son époque et sa mort à la bataille de Crécy est légendaire.</p>
+                     <p><b>Références : </b>Andrew Ayton and Philip Preston, ed., The Battle of Crécy 1346 (Woodbridge: Boydell,
+                        2005), pp. 24-5</p>
+                  </div>
+               </div>
+               <div class="entity_block" id="JeanI">
+                  <h2>Jean Ier de Bohême  dit l'Aveugle<span style="font-size: large;">(10 août 1296 - 26 août 1346)</span></h2>
+                  <p class="text-muted">Roi de Bohême</p>
+                  <h4>Dénomination selon apparat critique</h4>
+                  <div class="row">
+                     <ul class="col"><span class="colonne"><i>Titre</i></span><li>gentil roy de Behaingne (@NY @Pa)</li>
+                        <li>gentil roy de Behaigne (@Cou)</li>
+                     </ul>
+                     <ul class="col"><span class="colonne"><i>Prénom</i></span></ul>
+                  </div>
+                  <hr>
+                  <div>
+                     <h4>Note</h4>
+                     <p>Jean est né le 10 août 1296. Il est l'aîné des enfants d'Henri VII, comte de Luxembourg,
+                        qui deviendra plus tard roi des Romains et empereur du Saint-Empire, et de Marguerite
+                        de Brabant. Il porte le nom de son grand-père maternel, Jean Ier, duc de Brabant.
+                        Il épouse en premières noces Elisabeth de Bohème, le 31 août 1310. Elle était l'héritière
+                        du royaume de Bohême, qui passa d'abord à Jean, puis à son fils aîné, Charles. Elisabeth
+                        meurt en 1330 après avoir donné plusieurs enfants à son mari. En 1334, Jean se remaria
+                        avec une princesse capétienne, Béatrix de Bourbon, fille du duc Louis Ier de Bourbon,
+                        dont il eut un autre fils, Wenceslas. Jean était considéré comme un paladin de la
+                        chevalerie à son époque et sa mort à la bataille de Crécy est légendaire.</p>
+                     <p><b>Références : </b>Andrew Ayton and Philip Preston, ed., The Battle of Crécy 1346 (Woodbridge: Boydell,
+                        2005), pp. 24-5</p>
+                  </div>
+               </div>
+               <div class="entity_block" id="Marielux">
+                  <h2>Marie   de Luxembourg  <span style="font-size: large;">(Vers 1305 - 26 mars 1324)</span></h2>
+                  <p class="text-muted">Reine de France</p>
+                  <h4>Dénomination selon apparat critique</h4>
+                  <div class="row">
+                     <ul class="col"><span class="colonne"><i>Titre</i></span><li>seconde dame de Lucembourc (@NY @Pa)</li>
+                        <li>seconde femme de Luxembourc (@Cou)</li>
+                        <li>mere (NY Pa Cou)</li>
+                     </ul>
+                     <ul class="col"><span class="colonne"><i>Prénom</i></span></ul>
+                  </div>
+                  <hr>
+                  <div>
+                     <h4>Note</h4>
+                     <p>Deuxième épouse et reine consort du roi Charles IV de France, qu'elle épouse en 1322.
+                        Elle est née en 1304 de l'empereur Henri VII et de Marguerite de Brabant. Elle était
+                        une sœur cadette de Jean l'Aveugle, comte de Luxembourg et roi de Bohême. Elle meurt
+                        en 1324 après avoir donné naissance à un fils, qui meurt quelques jours avant sa mère.</p>
+                     <p><b>Références : </b>Thierry Stasser, ‘The third marriage of king Charles IV of France and his offspring’,
+                        Medieval prosopography, 14 (1993), 1–26 (p. 7).</p>
+                  </div>
+               </div>
+               <h2>VII - 
+                  Listes des seigneuries (vassalique) 
+                  </h2>
+               <h4 class="text-muted">VII.I - 
+                  Maison de Dampierre (dynastie) </h4>
+               <div class="entity_block" id="LouisI">
+                  <h2>Louis Ier de Flandre <span style="font-size: large;">(Vers 1304 - 26 août 1346)</span></h2>
+                  <p class="text-muted">Comte de Flandre</p>
+                  <h4>Dénomination selon apparat critique</h4>
+                  <div class="row">
+                     <ul class="col"><span class="colonne"><i>Titre</i></span></ul>
+                     <ul class="col"><span class="colonne"><i>Prénom</i></span></ul>
+                  </div>
+                  <hr>
+                  <div>
+                     <h4>Note</h4>
+                     <p>Louis Ier (1304 - 1346 à la bataille de Crécy), comte de Flandre, Nevers et Rethel
+                        ; fils de Louis de Flandre, comte de Nevers et Rethel, et de Marguerite de France.</p>
+                  </div>
+               </div>
+               <h4 class="text-muted">VII.II - 
+                  Maison d'Avesnes (dynastie) </h4>
+               <div class="entity_block" id="GuillaumeI">
+                  <h2>Guillaume I de Hainaut <span style="font-size: large;">(Vers 1286 - 7 juin 1337)</span></h2>
+                  <p class="text-muted">Comte de Hainaut et de Hollande</p>
+                  <h4>Dénomination selon apparat critique</h4>
+                  <div class="row">
+                     <ul class="col"><span class="colonne"><i>Titre</i></span><li> conte de Hainau (@NY)</li>
+                        <li>conte de hainnau (@Cou)</li>
+                        <li>conte de Haynault (@Pa)</li>
+                     </ul>
+                     <ul class="col"><span class="colonne"><i>Prénom</i></span></ul>
+                  </div>
+                  <hr>
+                  <div>
+                     <h4>Note</h4>
+                     <p>Guillaume I (III) (né en 1286, mort en 1337), fils de Jean II, comte de Hainaut, et
+                        de Philippine de Luxembourg. Il a épousé Jeanne de Valois. Philippa de Hainault, l'épouse
+                        du roi Édouard III d'Angleterre, était l'une de leurs filles.</p>
+                  </div>
+               </div>
+               <div class="entity_block" id="JeanBeaumont">
+                  <h2>Jean   de Beaumont  <span style="font-size: large;">(Vers 1288 - 11 mars 1356)</span></h2>
+                  <p class="text-muted">Comte</p>
+                  <h4>Dénomination selon apparat critique</h4>
+                  <div class="row">
+                     <ul class="col"><span class="colonne"><i>Titre</i></span></ul>
+                     <ul class="col"><span class="colonne"><i>Prénom</i></span></ul>
+                  </div>
+                  <hr>
+                  <div>
+                     <h4>Note</h4>
+                     <p>Jean de Hainault (c. 1288 - 1356), seigneur de Beaumont. Il était le deuxième fils
+                        de Jean II d'Avesnes, comte de Hainault et de Hollande, et de Philippine de Luxembourg.
+                        Il épousa Marguerite de Nesle, comtesse de Soissons. Ils n'eurent qu'une fille, Jeanne,
+                        qui fut mariée à Louis Ier de Châtillon, comte de Blois. Jeanne meurt avant son père
+                        et ce sont ses fils qui héritent des différentes seigneuries détenues par Jean de
+                        Hainault.</p>
+                  </div>
+               </div>
+               <h4 class="text-muted">VII.III - 
+                  Seigneuries anglaises (vassalique) </h4>
+               <div class="entity_block" id="RogerMortimer">
+                  <h2>Roger   Mortimer  <span style="font-size: large;">(25 avril 1287 - 29 novembre 1330)</span></h2>
+                  <p class="text-muted">Comte de March</p>
+                  <h4>Dénomination selon apparat critique</h4>
+                  <div class="row">
+                     <ul class="col"><span class="colonne"><i>Titre</i></span></ul>
+                     <ul class="col"><span class="colonne"><i>Prénom</i></span><li> (@NY @Pa)</li>
+                        <li>Roger (@Cou)</li>
+                     </ul>
+                  </div>
+                  <hr>
+                  <div>
+                     <h4>Note</h4>
+                     <p>Roger V Mortimer (1287 - 1330), premier comte de March ; fils et héritier d'Edmund
+                        de Mortimer, seigneur de Wigmore, et de Margaret de Fiennes.</p>
+                     <p><b>Références : </b>R. R. Davies, 'Mortimer, Roger (V), first earl of March (1287-1330)', in Oxford Dictionary
+                        of National Biography, ed. H. C. G. Matthew and Brian Harrison (Oxford: OUP, 2004)</p>
+                  </div>
+               </div>
+               <div class="entity_block" id="EdmondWoodstock">
+                  <h2>Edmond   de Woodstock  <span style="font-size: large;">(5 août 1301 - 19 mars 1330)</span></h2>
+                  <p class="text-muted">Comte de Kient</p>
+                  <h4>Dénomination selon apparat critique</h4>
+                  <div class="row">
+                     <ul class="col"><span class="colonne"><i>Titre</i></span><li> (@NY @Pa)</li>
+                        <li>conte de Cain (@Cou)</li>
+                     </ul>
+                     <ul class="col"><span class="colonne"><i>Prénom</i></span></ul>
+                  </div>
+                  <hr>
+                  <div>
+                     <h4>Note</h4>
+                     <p>Edmond de Woodstock (1301 - 1330), premier comte du Kent, fils du roi Édouard Ier
+                        et de sa seconde épouse Marguerite de France. Il était le plus jeune des deux demi-frères
+                        du roi Edouard II.</p>
+                     <p><b>Références : </b>Oxford Dictionary of National Biography, ed. H. C. G. Matthew and Brian Harrison (Oxford:
+                        OUP, 2004), http://www.oxforddnb.com/view/article/8506</p>
+                  </div>
+               </div>
+               <h4 class="text-muted">VII.IV - 
+                  Cour du roi (cour) </h4>
+               <div class="entity_block" id="Pairs">
+                  <h2>Les 12 pairs de France</h2>
+                  <hr>
+                  <div>
+                     <h4>Note</h4>
+                     <p>La pairie de France est composée des grands officiers, vassaux directs de la couronne
+                        de France, ayant le titre de pair de France. Ils représentent les électeurs primitifs
+                        à la royauté à l'époque où la primogéniture n'est pas de règle, et assurent la dévolution
+                        de la couronne selon les lois fondamentales du royaume, ainsi que le choix de la régence
+                        en cas de minorité. Le nombre de pairs de France est un temps fixé à douze : six pairs
+                        ecclésiastiques et six pairs laïcs. Depuis 1180, on les voit chargés d'assurer la
+                        succession et être associés à la cérémonie du sacre où ils représentent chacun une
+                        fonction symbolique de l'investiture.</p>
+                  </div>
+               </div>
+               <div class="entity_block" id="Barons">
+                  <h2>Barons de France</h2>
+               </div>
+               <h2>VIII - 
+                  La révolte flamande (révolte) 
+                  </h2>
+               <div class="entity_block" id="NicolasZannekin">
+                  <h2>Nicolaas   Zannekin  <span style="font-size: large;">(Inconnue - 23 août 1328)</span></h2>
+                  <p class="text-muted">Capitaine de la revolte</p>
+                  <h4>Dénomination selon apparat critique</h4>
+                  <div class="row">
+                     <ul class="col"><span class="colonne"><i>Titre</i></span><li>cappitaine (@NY @Pa)</li>
+                        <li>capitaine (@Cou)</li>
+                     </ul>
+                     <ul class="col"><span class="colonne"><i>Prénom</i></span><li>Colin (@NY @Pa)</li>
+                        <li>Colins (@Cou)</li>
+                     </ul>
+                  </div>
+                  <hr>
+                  <div>
+                     <h4>Note</h4>
+                     <p>Nicolas Zannequin, bourgeois de Furnes, capitaine rebelle flamand.</p>
+                  </div>
+               </div>
+               <h4 class="text-muted">VIII.I - 
+                  Région Flamande (region) </h4>
+               <div class="entity_block" id="flamand">
+                  <h2>Habitants de Flandres</h2>
+               </div>
+               <h4 class="text-muted">VIII.I.I - 
+                  Gentilé (citadins) </h4>
+               <div class="entity_block" id="brugeois">
+                  <h2>Habitants de Bruges</h2>
+               </div>
+               <div class="entity_block" id="yprois">
+                  <h2>Habitants d'Ypres</h2>
+               </div>
+               <div class="entity_block" id="brugeoisfranc">
+                  <h2>Habitants de Franc de Bruges</h2>
+               </div>
+               <h2>IX - 
+                  Papauté d'Avignon (papauté) 
+                  </h2>
+               <div class="entity_block" id="JeanXXII">
+                  <h2>Jacques  Duèze dit Jean XXII<span style="font-size: large;">(1244 - 4 décembre 1334)</span></h2>
+                  <p class="text-muted">Pape d'Avignon</p>
+                  <h4>Dénomination selon apparat critique</h4>
+                  <div class="row">
+                     <ul class="col"><span class="colonne"><i>Titre</i></span><li>pappe, nostre Saint Pere (@NY)</li>
+                        <li>pape, nostre Saint Pere (@Cou)</li>
+                        <li>nostre Saint Pere le pape (@Pa)</li>
+                     </ul>
+                     <ul class="col"><span class="colonne"><i>Prénom</i></span></ul>
+                  </div>
+                  <hr>
+                  <div>
+                     <h4>Note</h4>
+                     <p>Il est le deuxième pape à régner depuis Avignon.</p>
+                  </div>
+               </div>
+            </div>
+            <div class="tab-pane fade" id="indLieux" role="tabpanel">
+               <h1 class="text-center"> Index des lieux </h1>
+               <div class="text-center"><i>@Cou : Manuscrit (Cod. 329); @Pa : Manuscrit (Français 2663);
+                     @NY : Manuscrit (MS M.804) </i></div>
+               <div class="entity_block" id="Angleterre">
+                  <h2>Angleterre</h2>
+                  <p class="text-muted">Royaume</p>
+                  <h4>Dénomination selon les témoins</h4>
+                  <p><b>Témoin principal : </b>Engleterre</p>
+                  <p><b>Autres versions:</b><ul>
+                        <li>Angleterre (@Pa)</li>
+                     </ul>
+                  </p>
+                  <p><i>Nombres de mentions : </i>2</p>
+               </div>
+               <div class="entity_block" id="Bergues">
+                  <h2>Bergues</h2>
+                  <p class="text-muted">Chatellerie</p>
+                  <h4>Dénomination selon les témoins</h4>
+                  <p><b>Témoin principal : </b>chastelerie de la Bergues</p>
+                  <p><b>Autres versions:</b><ul>
+                        <li>castelerie (@Cou)</li>
+                        <li>chastellerie (@Pa)</li>
+                        <li>de (@Cou @Pa)</li>
+                        <li>Berghes (@Cou @Pa)</li>
+                     </ul>
+                  </p>
+                  <p><i>Nombres de mentions : </i>2</p>
+               </div>
+               <div class="entity_block" id="Bruges">
+                  <h2>Bruges</h2>
+                  <p class="text-muted">Ville</p>
+                  <p><b>Dénomination : </b>Bruges</p>
+                  <hr>
+                  <div>
+                     <h4>Note</h4>
+                     <p>Ville de Belgique, chef-lieu de la Flandre-Occidentale</p>
+                  </div>
+                  <p><i>Nombres de mentions : </i>1</p>
+               </div>
+               <div class="entity_block" id="Cassel">
+                  <h2>Cassel</h2>
+                  <p class="text-muted">Ville</p>
+                  <p><b>Dénomination : </b>Cassel</p>
+                  <hr>
+                  <div>
+                     <h4>Note</h4>
+                     <p>Ville du Nord de la  France. Une bataille s'y déroule en 1328 dans le cadre de la
+                        Guerre des Flandres, aussi nommé la Révolte des Karls (1323-1328).</p>
+                     <p><b>Références : </b>Jules Viard, ‘La Guerre de Flandre (1328)’, Bibliothèque de l’École des Chartes, 83
+                        (1922), 362–82 (p. 367–76)</p>
+                  </div>
+                  <p><i>Nombres de mentions : </i>9</p>
+               </div>
+               <div class="entity_block" id="Gaillart">
+                  <h2>Château de Château-Gaillard</h2>
+                  <p class="text-muted">Chateau</p>
+                  <h4>Dénomination selon les témoins</h4>
+                  <p><b>Témoin principal : </b>Chastel</p>
+                  <p><b>Autres versions:</b><ul>
+                        <li>Castiel (@Cou)</li>
+                     </ul>
+                  </p>
+                  <hr>
+                  <div>
+                     <h4>Note</h4>
+                     <p>Le château de la ville de Château-Gaillard(Eure), France</p>
+                  </div>
+                  <p><i>Nombres de mentions : </i>2</p>
+               </div>
+               <div class="entity_block" id="Flandres">
+                  <h2>Flandres</h2>
+                  <p class="text-muted">Region</p>
+                  <h4>Dénomination selon les témoins</h4>
+                  <p><b>Témoin principal : </b>paÿs</p>
+                  <p><b>Autres versions:</b><ul>
+                        <li>païs (@Cou @Pa)</li>
+                     </ul>
+                  </p>
+                  <hr>
+                  <div>
+                     <h4>Note</h4>
+                     <p>Comté de Flandre, une région historique des Pays-Bas. Certaines villes font l'objet
+                        d'une juridiction spécifique avec l'obtention du charte. Certaines de ces villes ont
+                        participés à la révolte flamande.</p>
+                  </div>
+                  <p><i>Nombres de mentions : </i>5</p>
+               </div>
+               <div class="entity_block" id="Gand">
+                  <h2>Gand</h2>
+                  <p class="text-muted">Ville</p>
+                  <p><b>Dénomination : </b>Gand</p>
+                  <hr>
+                  <div>
+                     <h4>Note</h4>
+                     <p>Villes des Flandres de l'Est, Belgique.</p>
+                  </div>
+                  <p><i>Nombres de mentions : </i>1</p>
+               </div>
+               <div class="entity_block" id="Issoudun">
+                  <h2>Issoudun</h2>
+                  <p class="text-muted">Ville</p>
+                  <h4>Dénomination selon les témoins</h4>
+                  <p><b>Témoin principal : </b>Ysodon</p>
+                  <p><b>Autres versions:</b><ul>
+                        <li>Ysodoy (@Cou)</li>
+                        <li>Yssoudun (@Pa)</li>
+                     </ul>
+                  </p>
+                  <p><i>Nombres de mentions : </i>3</p>
+               </div>
+               <div class="entity_block" id="Paris">
+                  <h2>Paris</h2>
+                  <p class="text-muted">Ville</p>
+                  <p><b>Dénomination : </b>Paris</p>
+                  <p><i>Nombres de mentions : </i>2</p>
+               </div>
+               <div class="entity_block" id="Poperinge">
+                  <h2>Poperinge</h2>
+                  <p class="text-muted">Ville</p>
+                  <p><b>Dénomination : </b>Popringhe</p>
+                  <hr>
+                  <div>
+                     <h4>Note</h4>
+                     <p>Poperinge, une ancienne ville belge située dans la province de Flandre occidentale,
+                        en Belgique. À environ 10 km à l'ouest d'Ypres.</p>
+                  </div>
+                  <p><i>Nombres de mentions : </i>1</p>
+               </div>
+               <div class="entity_block" id="Reims">
+                  <h2>Reims</h2>
+                  <p class="text-muted">Ville</p>
+                  <p><b>Dénomination : </b>Rains</p>
+                  <hr>
+                  <div>
+                     <h4>Note</h4>
+                     <p>Reims, sur la Vesle, en France, chef-lieu du canton de la Marne, a été assiégée sans
+                        succès par Édouard III pendant un mois à la fin de l'année 1359, comme le décrit le
+                        livre I des Chroniques.</p>
+                  </div>
+                  <p><i>Nombres de mentions : </i>3</p>
+               </div>
+               <div class="entity_block" id="France">
+                  <h2>Royaume de France</h2>
+                  <p class="text-muted">Royaume</p>
+                  <h4>Dénomination selon les témoins</h4>
+                  <p><b>Témoin principal : </b>royaume</p>
+                  <p><b>Autres versions:</b><ul>
+                        <li>roaylme (@Pa)</li>
+                        <li>royalmes (@Cou)</li>
+                        <li>roiaume (@Cou)</li>
+                        <li>roiaumes (@Cou)</li>
+                        <li>royalme (@Cou)</li>
+                        <li>royaulme (@Pa)</li>
+                        <li>roiaulme (@Cou)</li>
+                     </ul>
+                  </p>
+                  <hr>
+                  <div>
+                     <h4>Note</h4>
+                     <p>Le royaume de France, peuplé jusqu'à la peste noire de 1348-9 de 12-16 millions d'âmes
+                        et comprenant jusqu'au traité de Brétigny (1360) l'Ile-de-France ainsi que les apanages
+                        de Normandie, Anjou, Bourbon, Champagne, Valois, Auvergne et Languedoc, plus un certain
+                        nombre de fiefs importants tels que les comtés de Blois, Nevers et Foix, et (à partir
+                        de 1349) Montpellier et le Dauphiné ; diminuée à partir de 1354 par l'activité et
+                        l'influence croissantes du roi de Navarre, Charles d'Évreux, dans le Cotentin et dans
+                        d'autres parties de la Normandie, et par les conquêtes anglaises qui donnent naissance
+                        à un duché de Guyenne élargi (essentiellement la Gascogne) ; deviendra la principauté
+                        d'Aquitaine) qui s'étend des frontières du grand duché de Bretagne, parfois pro-anglais,
+                        jusqu'aux Pyrénées (à l'exception du comté neutre de Béarn) et, à l'est, englobe le
+                        Poitou, le Limousin et le Rouergue (à la frontière du Languedoc) ; Ponthieu et Guines
+                        sont également aux mains des Anglais. La reconquête française sous Charles V et Du
+                        Guesclin chasse progressivement les Anglais du royaume, leur laissant (en 1370-80)
+                        les ports de Calais, Cherbourg, Brest, Bordeaux et Bayonne, et une Aquitaine très
+                        réduite. La Bretagne revient dans le giron français à partir de 1365 (traité de Guérande).</p>
+                     <p><b>Références : </b>Atlas historique Duby (Paris: Larousse, 2007), pp. 128-9; G. Minois, La Guerre de
+                        Cent Ans (Paris: Perrin, 2008).</p>
+                  </div>
+                  <p><i>Nombres de mentions : </i>20</p>
+               </div>
+               <div class="entity_block" id="Ypres">
+                  <h2>Ypres</h2>
+                  <p class="text-muted">Ville</p>
+                  <h4>Dénomination selon les témoins</h4>
+                  <p><b>Témoin principal : </b>Yppre</p>
+                  <p><b>Autres versions:</b><ul>
+                        <li>Yppre (@Cou @Pa)</li>
+                     </ul>
+                  </p>
+                  <hr>
+                  <div>
+                     <h4>Note</h4>
+                     <p>Ypres, centre administratif de la Flandre occidentale (Belgique moderne) ; assiégé
+                        de juin à août 1383.</p>
+                  </div>
+                  <p><i>Nombres de mentions : </i>2</p>
+               </div>
+            </div>
+         </div>
       </div><br><br><br><footer class="text-center text-dark fixed-bottom footer-transparent">
          <div class="text-center p-1" style="background-color: #4169E1;">
             <p class="text-light">© MIT Licence | Humeau Maxime - 2022 : <a class="text-light" href="https://github.com/rayondemiel" target="_blank">Github</a></p>
